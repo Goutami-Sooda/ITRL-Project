@@ -1,0 +1,1582 @@
+text,code,,
+Assign number two to variable A.,A = 2,,
+Assign number two to variable A.,A = 2,,
+Store number two in variable A,A = 2,,
+Declare the variable A and store the number two in it,A = 2,,
+Assign number five to variable B.,B = 5,,
+Assign number  five to variable B.,B = 5,,
+Store number five in variable B,B = 5,,
+Declare the variable B and store the number  five in it,B = 5,,
+Now add A and B and assign it to a variable called result.,result = A + B,,
+Add A and B and collect their sum in a variable called result,result = A + B,,
+Add A and B and assign their sum to a variable called result,result = A + B,,
+Add A and B and assign their sum to the result variable,result = A + B,,
+Add A and B and accumulate their sum in a variable called result,result = A + B,,
+Add A and B and assign it to a variable result,result = A + B,,
+Declare a variable result called result and collect the sum of A and B in it,result = A + B,,
+Collect the sum of A and B in a variable called result,result = A + B,,
+Assign the sum of A and B to a variable called result,result = A + B,,
+Print Result Now,print(result),,
+Print Result,print(result),,
+Print Result,print(result),,
+Declare variable A and assign user input numeric value,"A = int(input(""Enter A : ""))",,
+Declare variable A and assign user input numeric value,"A = int(input(""Enter A : ""))",,
+Create a variable A and assign the numeric value provided by the user.,"A = int(input(""Enter A : ""))",,
+Assign user input number to variable A,"A = int(input(""Enter A : ""))",,
+Assign user input number to variable A,"A = int(input(""Enter A : ""))",,
+Declare variable B and assign user input numeric value,"B = int(input(""Enter B : ""))",,
+Declare variable B and assign user input numeric value,"B = int(input(""Enter B : ""))",,
+Create a variable B and assign the numeric value provided by the user.,"B = int(input(""Enter B : ""))",,
+Assign user input number to variable B,"B = int(input(""Enter B : ""))",,
+Assign user input number to variable B,"B = int(input(""Enter B : ""))",,
+Now add A and B and assign it to a variable called result.,result = A + B,,
+Add A and B and assign it to a variable result,result = A + B,,
+Declare a variable result called result and collect the sum of A and B in it,result = A + B,,
+Collect the sum of A and B in a variable called result,result = A + B,,
+Assign the sum of A and B to a variable called result,result = A + B,,
+Print Result Now,print(result),,
+Print Result,print(result),,
+Print Result,print(result),,
+Assign number ten to variable A,A=10,,
+Assign number ten to variable A,A=10,,
+Put number ten to variable A,A=10,,
+Store number ten in variable A,A=10,,
+Assign number ten to variable A,A=10,,
+Assign number ten to variable A,A=10,,
+Put number ten to variable A,A=10,,
+Assign number twelve to variable B,B=12,,
+Assign number 12 to variable B,B=12,,
+Assign the number twelve to the variable B.,B=12,,
+Store number 12 in variable B,B=12,,
+Put number 12 to variable B.,B=12,,
+Assign number 12 to variable B,B=12,,
+Put number 12 to variable B,B=12,,
+Assign number 14 to variable C,C=14,,
+Assign number 14 to variable C,C=14,,
+Put number 14 to variable C,C=14,,
+Assign number fourteen to variable C,C=14,,
+Put number fourteen to variable C,C=14,,
+Assign number 14 to variable C,C=14,,
+"If variable A is equal to variable B or greater
+ than B and variable A is equal to variable C or
+ greater than C then variable A is greater than 
+all. Assign A variable to the largest variable","if (A >= B) and (A >= C):
+   largest = A",,
+"If variable A is greater than or equal to variable B and variable A 
+is greater than or equal to C then A variable is greater than all","if (A >= B) and (A >= C):
+ ",,
+ Assign A variable to the largest variable,  largest = A,,
+"If otherwise variable B is equal to variable A
+ or greater than A and variable B is equal to
+ variable C or greater than C then variable B is 
+greater than all. Assign the B variable to the 
+largest variable","elif (B >= A) and (B >= C):
+   largest = B",,
+"Otherwise the variable C is the largest of all. 
+Assign C variable to the largest variable","else:
+   largest = C",,
+"If variable B is equal to variable A or greater than A and variable B 
+is equal to variable C or greater than C then variable B is greater
+ than all. Assign B to the largest variable","if(B >=A) and (B >=C) :
+   largest = B",,
+"If otherwise variable C is equal to variable A or greater than A and 
+variable C is equal to variable B or greater than B then variable C 
+is greater than all. Assign C variable to the largest variable","elif (C >= A) and (C>= B):
+   largest = C",,
+"If otherwise variable A is equal to variable B or greater than B and 
+variable A is equal to variable C or greater than C then variable A 
+is greater than all. Assign A variable to the largest variable","elif (A >= B) and (A>= C):
+   largest = A",,
+"Otherwise variable A is the largest of all. Assign A variable to the
+ largest variable","else:
+   largest = A",,
+"Otherwise variable B is the largest of all. Assign B variable to the
+ largest variable","else:
+   largest = B",,
+"If variable C is equal to variable A or greater than A and variable C
+ is equal to variable B or greater than B then variable C is greater
+ than all. Assign C to the largest variable","if(C >= A) and (C >= B) :
+   largest = C",,
+"If otherwise variable B is equal to variable A or greater than A and 
+variable B is equal to variable C or greater than C then variable B
+ is greater than all. Assign the B variable to the largest variable","elif (B >= A) and (B >= C):
+   largest = B",,
+If A >= B and A >= C A variable is the largest of all,"if (A >= B) and (A >= C):
+    largest = A",,
+If not then b >= a and b >= c . B variable is the largest of all,"elif (B >= A) and (B >= C):
+   largest = B",,
+If b >= a and b >= c . B variable is the largest of all,"if(B >=A) and (B >=C) :
+   largest = B",,
+If otherwise c >= a and c >= b . C variable is the largest of all,"elif (C >= A) and (C>= B):
+ largest = C",,
+If C >= A and C >= b . C variable is the largest of all,"if(C >= A) and (C >= B) : 
+  largest = C",,
+"If variable A is greater than or equal to variable B and variable A is 
+greater than or equal to variable C. Variable A is the largest of all","if (A >= B) and (A >= C): 
+   largest = A",,
+"If otherwise the variable B is greater than or equal to variable A 
+and the variable B is greater than or equal to C then C is greater 
+than all","elif (B >= A) and (B >= C): 
+   largest = B",,
+"If variable B is greater than or equal to variable A and variable B
+ is greater than or equal to variable C. Variable B is bigger than all","if (B >= A) and (B >= C):
+  largest = B",,
+"If otherwise the variable C is greater than or equal to variable A 
+and the variable C is greater than or equal to variable B then C is 
+greater than all","elif (C >= A) and (C>= B): 
+  largest = C",,
+"If otherwise the variable A is greater than or equal to variable B and the 
+variable A is greater than or equal to variable C then A is greater than all","elif (A >= B) and (A>= C): 
+  largest = A",,
+Print Largest,print(largest),,
+Print Largest,print(largest),,
+Print the largest variable now,print(largest),,
+Print the largest variable,print(largest),,
+Print the largest variable,print(largest),,
+Print the word 'hello world',"print(""hello world"")",,
+Print 'hello world',"print(""hello world"")",,
+Hello World' Print,"print(""Hello World"")",,
+Print 'hello world',"print(""hello world"")",,
+Print 'hello world',"print(""hello world"")",,
+Show 'Hello World',"print(""hello world"")",,
+Show the word 'hello world' on the screen,"print(""Hello World"")",,
+Show the word 'hello world',"print(""hello world"")",,
+Put 'Hello World',"print(""Hello World"")",,
+Declare float variable radius and store user input value in it,"radius= float(input(""Enter  radius : "")",,
+Declare the float variable radius and store the user input value in it,"radius= float(input(""Enter radius : "")",,
+Assign 3.14 to Pi,pi=3.14,,
+3.14 Assign to Pi,pi=3.14,,
+3.14 Put to Pie,pi = 3.14,,
+Store 3.14 in pi,pi = 3.14,,
+"Multiply the pie multiplier radius twice and assign the answer to the
+ variable area",area = pi* radius * radius,,
+Pi int radius int radius and assign the answer to the variable area,area = pi* radius * radius,,
+Area = Pi*radius*radius,area = pi* radius * radius,,
+Area = Pi * square of radius,"area= pi* pow(radius,2)",,
+Assign the value of pi*radius *radius to the variable Area,area = pi* radius * radius,,
+Print Area,print(area),,
+Show area,print(area),,
+Print Area,print(area),,
+Declare variable N and assign user input numeric value,"N = int(input(""Enter  N : ""))",,
+Declare variable N and store user input number in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number value in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user input numeric value to N,"N = int(input(""Enter N : ""))",,
+Declare the variable N and collect the user-given number in it,"N = int(input(""Enter N : ""))",,
+Assign user input number to variable N,"N = int(input(""Enter N : ""))",,
+If N>0 is true print 'positive number'," if N > 0:
+       print(""positive number"")",,
+If N>0 is true print 'positive number'," if N > 0:
+       print(""positive number"")",,
+If N>0 print 'positive number'," if N > 0:
+       print(""positive number"")",,
+If N>0 print 'positive number'," if N > 0:
+       print(""positive number"")",,
+"If variable N is greater than zero, print it as 'positive number'"," if N > 0:
+       print(""positive number"")",,
+Print 'positive number' if variable N is greater than zero," if N > 0:
+       print(""positive number"")",,
+Print 'positive number' if variable N is greater than zero," if N > 0:
+       print(""positive number"")",,
+"If variable N is greater than zero, print it as 'positive number'"," if N > 0:
+       print(""positive number"")",,
+Print 'positive number' if variable N is greater than zero," if N > 0:
+       print(""positive number"")",,
+Print 'positive number' if variable N is greater than zero," if N > 0:
+       print(""positive number"")",,
+"If variable N is greater than zero, print it as 'positive number'"," if N > 0:
+       print(""positive number"")",,
+"If variable N is greater than zero, print 'positive number'"," if N > 0:
+       print(""positive number"")",,
+"If variable N is greater than zero, print 'positive number'"," if N > 0:
+       print(""positive number"")",,
+"If variable N is greater than zero, print it as 'positive number'"," if N > 0:
+       print(""positive number"")",,
+Print 'positive number' if variable N is greater than zero," if N > 0:
+       print(""positive number"")",,
+Print 'positive number' if variable N is greater than zero," if N > 0:
+       print(""positive number"")",,
+If not then print 'negative number' if N<0 is true," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0 is true," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0 is true," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0 is true," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0," elif N < 0:
+       print(""negative number"")",,
+If not then print 'negative number' if N<0," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"Otherwise, if variable N is less than zero, print it as 'negative number' if not"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print it as a 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+"If not, print 'negative number' if variable N is less than zero"," elif N < 0:
+       print(""negative number"")",,
+Print zero if variable N is zero otherwise," else:
+       print(""zero"")",,
+Print zero otherwise," else:
+       print(""zero"")",,
+Print zero otherwise," else:
+       print(""zero"")",,
+Print number zero if not," else:
+       print(""zero"")",,
+Print zero otherwise," else:
+       print(""zero"")",,
+Print zero if not," else:
+       print(""zero"")",,
+Print zero if variable N is zero," if N == 0:
+       print(""zero"")",,
+Print zero if variable N is zero," if N == 0:
+       print(""zero"")",,
+Print zero if variable N is zero," if N == 0:
+       print(""zero"")",,
+Print zero if variable N is zero," if N == 0:
+       print(""zero"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print it as 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'Positive' if Variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print it as 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print 'positive' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If otherwise the variable N is greater than zero, print it as a 'positive number'"," elif N > 0:
+       print(""positive number"")",,
+"If not, print 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+"If not, print 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+"If not, print it as a 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+"If not, print as 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+Otherwise print as 'positive number' if variable N is greater than zero," elif N > 0:
+       print(""positive number"")",,
+"If not, print it as a 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+"If not, print 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+"If not, print 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print it as a 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive"")",,
+"If not, print as 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+"If not, print as 'positive number' if variable N is greater than zero"," elif N > 0:
+       print(""positive number"")",,
+Print 'negative number' if not," else:
+       print(""negative number"")",,
+Print 'negative' if not," else:
+       print(""negative"")",,
+"If not, print as 'negative number'"," else:
+       print(""negative number"")",,
+Print 'negative' if not," else:
+       print(""negative"")",,
+"If not, print as 'negative number'"," else:
+       print(""negative number"")",,
+Print 'negative number' if not," else:
+       print(""negative number"")",,
+If n<0 is true print 'negative number'," if N < 0:
+       print(""negative number"")",,
+"If n<0 is true, print 'negative number'"," if N < 0:
+       print(""negative number"")",,
+If n<0 print 'negative number'," if N < 0:
+       print(""negative number"")",,
+If n<0 print 'negative number'," if N < 0:
+       print(""negative number"")",,
+If n<0 is true print 'negative number'," if N < 0:
+       print(""negative number"")",,
+"If n<0 is true, print 'negative number'"," if N < 0:
+       print(""negative number"")",,
+If n<0 print 'negative number'," if N < 0:
+       print(""negative number"")",,
+If n<0 print 'negative number'," if N < 0:
+       print(""negative number"")",,
+"If variable N is less than zero, print 'negative number'"," if N < 0:
+       print(""negative number"")",,
+Print 'negative number' if variable N is less than zero," if N < 0:
+       print(""negative number"")",,
+"If variable N is less than zero, print 'negative number'"," if N < 0:
+       print(""negative number"")",,
+"If variable N is less than zero, print it as 'negative number' if not"," if N < 0:
+       print(""negative number"")",,
+Print 'negative number' if variable N is less than zero," if N < 0:
+       print(""negative number"")",,
+"If variable N is less than zero, print it as 'negative number'"," if N < 0:
+       print(""negative number"")",,
+Print 'negative number' if variable N is less than zero," if N < 0:
+       print(""negative number"")",,
+"If variable N is less than zero, print 'negative number'"," if N < 0:
+       print(""negative number"")",,
+"If variable N is smaller than zero, print it as a 'negative number'"," if N < 0:
+       print(""negative number"")",,
+Print 'negative number' if variable N is less than zero," if N < 0:
+       print(""negative number"")",,
+"If not, print 'zero' if variable N is zero"," elif N == 0:
+       print(""zero"")",,
+Print 'null' if otherwise variable n is null," elif N == 0:
+       print(""zero"")",,
+Print 'null' if otherwise variable n is null," elif N == 0:
+       print(""zero"")",,
+"If not, print 'zero' if variable N is zero"," elif N == 0:
+       print(""zero"")",,
+"If not, print as Positive Number"," else:
+       print(""positive number"")",,
+"If not, print positive number"," else:
+       print(""positive number"")",,
+"If not, print as Positive Number"," else:
+       print(""positive number"")",,
+"If not, print positive number"," else:
+       print(""positive number"")",,
+"If not, print as a positive number"," else:
+       print(""positive number"")",,
+"If not, print as a positive number"," else:
+       print(""positive number"")",,
+Assign number thirteen to variable X,x=13,,
+Assign number thirteen to variable X,x=13,,
+Store number thirteen in variable X,x=13,,
+Assign number one to variable factorial,factorial =1,,
+Assign number one to variable factorial,factorial =1,,
+Print 'error' if less than X zero,"if x <0:
+     print(""error"")",,
+"If the value of X is less than zero, print ""Error""","if x <0:
+     print(""Error"")",,
+Or assign one to the factorial if the X value is zero,"elif x==0:
+      factorial =1",,
+Or assign one to the factorial if the X value is zero,"elif x==0:
+      factorial =1",,
+"Or enforce a for loop,from one  to fourteen","for i in range(1,14):",,
+"Or enforce a for loop,from one  to fourteen","for i in range(1,14):",,
+"Or enforce a for loop, from one  to fourteen","for i in range(1,14):",,
+Update factorial as factorial *i,factorial*=i,,
+Update factorial as factorial *i,factorial*=i,,
+Print Factorial,print(factorial),,
+Print Factorial,print(factorial),,
+Declare variable N and assign user input numeric value,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number value in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user input numeric value to N,"N = int(input(""Enter N : ""))",,
+Declare the variable N and collect the user-given number in it,"N = int(input(""Enter N : ""))",,
+Assign user input number to variable N,"N = int(input(""Enter N : ""))",,
+If Variable N is more than one,if N > 1:,,
+If variable N is greater than 1,if N > 1:,,
+Start for loop with i from 2 to n/2+1 if variable n is greater than one,"if N > 1: 
+   for i in range(2, N//2 + 1):",,
+Start for loop with i from 2 to n/2+1 if variable n is more than one,"if N > 1: 
+   for i in range(2, N//2 + 1):",,
+Start for loop with i from 2 to n/2+1 if variable n is greater than one,"if N > 1: 
+   for i in range(2, N//2 + 1):",,
+Start for loop with i from 2 to n/2+1 if variable n is more than one,"if N > 1: 
+   for i in range(2, N//2 + 1):",,
+"Inside the loop, print the 'N is not a prime number' if variable N can be divided by i","      if (N % i) == 0:
+         print(""N is not a prime number"")
+         break",,
+Otherwise print as 'N is a prime number',"   else:
+      print(""N is a prime number"")",,
+"If not, then print 'N is not a prime number' if N is less than or equal to one","else:
+   print(""N is not a prime number"")",,
+Declare variable N and assign user input numeric value,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number value in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user input numeric value to N,"N = int(input(""Enter N : ""))",,
+Declare the variable N and collect the user-given number in it,"N = int(input(""Enter N : ""))",,
+Assign user input number to variable N,"N = int(input(""Enter N : ""))",,
+For i in range of 0 to 11,"for i in range(1, 11):",,
+Multiply N with i and print the result,"print(f""{N} x {i} = {N*i}"")",,
+Multiply N with i and print the result,"print(f""{N} x {i} = {N*i}"")",,
+Declare variable N and assign user input numeric value,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number value in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user input numeric value to N,"N = int(input(""Enter N : ""))",,
+Declare the variable N and collect the user-given number in it,"N = int(input(""Enter N : ""))",,
+Assign user input number to variable N,"N = int(input(""Enter N : ""))",,
+Now declare the result variable and set it to zero,result = 0,,
+Declare the result variable and store zero in it,result = 0,,
+Assign zero to the result variable,result = 0,,
+Declare the result variable and set it to zero,result = 0,,
+Assign zero to the result variable,result = 0,,
+Assign zero to the result variable,result = 0,,
+Now enforce while Loop with a condition that Variable N should be greater than zero,while(N > 0):,,
+Now start the while Loop with a condition that Variable N should be greater than zero,while(N > 0):,,
+Start while Loop now with a condition that Variable N should be greater than zero,while(N > 0):,,
+Now execute the while Loop with the condition that the variable should be greater than N zero,while(N > 0):,,
+Add N to the result variable until the condition is true and store it in the result,     result += N,,
+Subtract one from N until the condition is true,     N -= 1,,
+Print the result variable if the condition is false,print(result),,
+Execute the while Loop with the condition that now the variable N must be greater than zero,while(N > 0):,,
+Now add the result and variable N inside the loop and collect their sum in the result,     result += N,,
+Now add the result and variable N within the loop and accumulate their sum in the result,     result += N,,
+Now add the result and variable N within the width loop and collect their sum in the result,     result += N,,
+Now add the result and variable N within the width loop and collect their sum in the result,     result += N,,
+Now add the variable N and the result inside the loop and accumulate their sum in the result,     result += N,,
+Now add the variable N and the result inside the loop and assign their sum to a variable called the result,     result += N,,
+Now add the variable N and the result inside the loop and assign their sum to the result variable,     result += N,,
+Now add the variable N and the result to the inside of the loop and store their amount in a variable called result,     result += N,,
+Upgrade result to result += N until condition is true,     result += N,,
+Update result as result += N until condition is true,     result += N,,
+Subtract one from N inside the loop,     N -= 1,,
+Now subtract one from N inside the loop,     N -= 1,,
+Print result on conditional false,print(result),,
+Print the variable force result when the condition is false,print(result),,
+Print result on conditional false,print(result),,
+Print result on conditional false,print(result),,
+Assign number twenty-four to variable a,a=24,,
+Assign number twenty-four to variable a,a=24,,
+Print 'Result:',"print(""result:"")",,
+" enforce a for loop,from one to twentyfour","for i in range(1,24):",,
+"start a for loop,from one to twenty-four","for i in range(1,24):",,
+"enforce a for loop, from one to twenty-four","for i in range(1,24):",,
+If a divisible by i,if a%i==0:,,
+If a divisible by i,if a%i==0:,,
+Print i,print(i),,
+Print i,print(i),,
+"Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'","print(""a, a, e, e, u, u, r, a, a, io, o, au "")",,
+"Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'","print(""a, a, e, e, u, u, r, a, a, io, o, au "")",,
+"Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'","print(""a, a, e, e, u, u, r, a, a, io, o, au "")",,
+"Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'","print(""a, a, e, e, u, u, r, a, a, io, o, au "")",,
+"Exhibit 'A', 'A', 'E', 'E', 'U', 'U', 'R', 'A', 'A', 'I', 'O', 'O', 'A'","print(""A, A, E, E, U, U, R, A, A, I,O,O, A "")",,
+"Show 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'","print(""a, a, e, e, u, u, r, a, a, io, o, au "")",,
+Store 'Python' in a variable called Language,"language = ""Python""",,
+Collect the value of a string called 'Python' in a variable called Language,"language = ""Python""",,
+Collect the value of a string called 'Python' in a variable called Language,"language = ""Python""",,
+Store 'Python' in a variable called Language,"language = ""Python""",,
+Collect the word 'Python' where the language is variable ,"language = ""Python""",,
+Put 'Python' in a variable called Language,"language = ""Python""",,
+Put 'Python' in a variable called Language,"language = ""Python""",,
+Put the string value 'Python' in the variable Language,"language = ""Python""",,
+Assign string value 'Python' in a variable called Language,"language = ""Python""",,
+Assign string value 'Python' in a variable called Language,"language = ""Python""",,
+Assign User Input Value in Variable name,"name = input(""Enter name : "")
+",,
+Now print the value in the variable 'My Name is ' name,"print(""My Name is "", name)",,
+Collect the value given by the user in the variable name,"name = input(""Enter name : "")
+",,
+Now print the value in the variable 'My Name is ' Name,"print(""My Name is "", Name)",,
+Print variable name,print(name),,
+Print variable name,print(name),,
+Print name,print(name),,
+Print name,print(name),,
+Set the value given by the user in the variable name,"name = input(""Enter name : "")",,
+Print 1\n2\ n3\ n4\n5,"print(""1\n2\n3\n4\n5"")",,
+Print 1\n2\n3\n4\n5,"print(""1\n2\n3\n4\n5"")",,
+Print One New Line Character Two New Line Character Three New Line Character Four New Line Character Five,"print(""1\n2\n3\n4\n5"")",,
+Print One New Line Character Two New Line Character Three New Line Character Four New Line Character Five,"print(""1\n2\n3\n4\n5"")",,
+Print one new line character two new line character three new line character four new line character five numbers,"print(""1\n2\n3\n4\n5"")",,
+"Print five numbers of a new line character, two new line character, three new line character, four new line character.","print(""1\n2\n3\n4\n5"")",,
+Print 'one\ntwo\ntwo\nthree\nfour\nfive',"print(""one\ntwo\nthree\nfour\nfive"")",,
+Print 'one\ntwo\nthree\nfour\nfive',"print(""one\ntwo\nthree\nfour\nfive"")",,
+Print 'my age' as 15 years,"print(""my age is 15 years"")",,
+Print 'I am 15 years old',"print(""I am 15 years old"")",,
+Print 'my age' as 15 years,"print(""my age is 15 years"")",,
+Print 'I am 15 years old',"print(""I am 15 years old"")",,
+Declare integer variable age and collect user input in it,"age = int(input(""Enter age : ""))",,
+Declare the integer variable age and add user input to it,"age = int(input(""Enter age :""))",,
+Schedule user input for integer variable age,"age = int(input(""Enter age : ""))",,
+Assign user input for integer variable age,"age = int(input(""Enter age : ""))",,
+Schedule user input for integer variable age,"age = int(input(""Enter age : ""))",,
+Schedule user input for integer variable age,"age = int(input(""Enter age : ""))",,
+Assign user input to integer variable age,"age = int(input(""Enter age : ""))",,
+Print age,print(age),,
+Print age,print(age),,
+Print age variable,print(age),,
+Print age variable,print(age),,
+Assign number seven to variable A.,A = 7,,
+Assign number seven to variable A.,A = 7,,
+Store number seven in variable A,A = 7,,
+Declare variable A and store user input in it,A = 7,,
+Declare the variable A and store the number seven in it,A = 7,,
+Print Variable A,print(A),,
+Print Variable A,print(A),,
+Print A,print(A),,
+Print A,print(A),,
+Declare variable string and store user input in it,"string = input(""Enter string : "")",,
+Declare variable string and assign user input,"string = input(""Enter string : "")",,
+Declare variable string and add user input to it,"string = input(""Enter string : "")",,
+Declare variable string and schedule user input,"string = input(""Enter string : "")",,
+Declare variable string and assign user input,"string = input(""Enter string : "")",,
+Declare variable string and assign user input,"string = input(""Enter string : "")",,
+Print variable string,print(string),,
+Print variable string,print(string),,
+Print string,print(string),,
+Print string,print(string),,
+Print variable string,print(string),,
+Print variable string,print(string),,
+Print variable string,print(string),,
+Print variable string,print(string),,
+Assign decimal value 3.14 to variable No.1.,No.1. = 3.14,,
+Set the decimal value 3.14 for variable No.1.,No.1. = 3.14,,
+Collect decimal value 3.14 in variable no.1,No.1. = 3.14,,
+Declare the variable No.1 and store the decimal value 3.14 in it,No.1. = 3.14,,
+Print No.1,print(No.1.),,
+Print No.1,print(No.1.),,
+Assign user input number as sentence to variable A.,"A = input("" Enter A : "")",,
+Set the number user input number as a sentence for variable A.,"A = input("" Enter A : "")",,
+Store in Variable A as User Input Number Sentence,"A = input("" Enter A : "")",,
+Declare the variable A and store in it as user input number sentence,"A = input("" Enter A : "")",,
+Assign user input number as string to variable A.,"A = input("" Enter A : "")",,
+Assign number user input number as string to variable A.,"A = input("" Enter A : "")",,
+Store user input number as string in variable A,"A = input("" Enter A : "")",,
+Declare the variable A and store the user input number as string in it,"A = input("" Enter A : "")",,
+Print A,print(A),,
+Print A,print(A),,
+Print '1\t 2\t 3\t 4\t 5\t',"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Print '1\t 2\t 3\t 4\t 5\t',"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Print this '1\t 2\t 3\t 4\t 5\t',"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Print one two three four five with tab space,"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Print one two three four five with tab space,"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Print this '1\t 2\t 3\t 4\t 5\t',"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Show one two three four five with tab space,"print("" 1\t 2\t 3\t 4\t 5\t "")",,
+Declare an integer variable and store the user base in it," A= int(input( ""Enter A :  "")
+",,
+Announce an integer variable a and store what the user offers to it," a= int(input( ""Enter a : "")
+",,
+Declare an integer variable a and store the user for it," a= int(input(""Enter a : "")
+",,
+Take an integer input,"A= int(input(""Enter A : "")",,
+Declare the Integer Variable a and assign the value given by the user to it,"a= int(input(""Enter a : "")",,
+Assign user input to the variable a to intizer variable,"a= int(input(""Enter a : "")",,
+Print variable a,print(a),,
+Print number,print(number),,
+Print number,print(number),,
+Print a,print(a),,
+Print a,print(a),,
+Declare integer variable N and assign user input numeric value,"N = int(input(""Enter N : ""))",,
+Declare integer variable N and store user input number in it,"N = int(input(""Enter N : ""))",,
+Declare integer variable N and store user input number value in it,"N = int(input(""Enter N : ""))",,
+Declare integer variable N and assign user input numeric value to N,"N = int(input(""Enter N : ""))",,
+Declare the integer variable N and collect the user-given number in it,"N = int(input(""Enter N : ""))",,
+Assign user input number to integer variable N,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user input numeric value to it,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user string input,"N = str(input(""Enter N : ""))",,
+Declare variable N and store user input string in it,"N = str(input(""Enter N : ""))",,
+Declare variable N and store user input string in it,"N = str(input(""Enter N : ""))",,
+"""Declare variable N and assign user input string to N""","N = str(input(""Enter N : ""))",,
+Declare variable N and collect user-given string in it,"N = str(input(""Enter N : ""))",,
+Assign user input string to variable N,"N = str(input(""Enter N : ""))",,
+Declare variable N and assign user input string value to it,"N = str(input(""Enter N : ""))",,
+Declare variable N and assign user input float value,"N = float(input(""Enter N : ""))",,
+Declare variable N and store user input float in it,"N = float(input(""Enter N : ""))",,
+Declare the variable N and store the user's input float value in it,"N = float(input(""Enter N : ""))",,
+Declare variable N and assign user input float value to N,"N = float(input(""Enter N : ""))",,
+Declare the variable N and collect the user-given float in it,"N = float(input(""Enter N : ""))",,
+Assign user input float to variable N,"N = float(input(""Enter N : ""))",,
+Declare variable N and assign user input float value to it,"N = float(input(""Enter N : ""))",,
+Print data type of N,print(type(N)),,
+Print data type of N,print(type(N)),,
+Assign 90  to Variable A,a=90,,
+Assign 90 to variable A,a=90,,
+Collect 90 for variable A.,a=90,,
+Store for variable  B (A- 32).,b=a-32,,
+"Assign to variable  B, (A- 32)",b=a-32,,
+"Assign to variable B ,(A-32)",b=a-32,,
+Assign B*(5/9) to Variable Celsius,celsius=b*5/9,,
+Assign B*(5/9) to variable Celsius.,celsius=b*5/9,,
+Collect B*(5/9) for variable Celsius,celsius=b*5/9,,
+print celsius,print(celsius),,
+print celsius,print(celsius),,
+print celsius,print(celsius),,
+print celsius Variable,print(celsius),,
+Assign 13 to Variable A,A = 13,,
+Assign 13 to variable A.,A = 13,,
+Store 13 to Variable A,A = 13,,
+Collect 25 for variable  B.,B = 25,,
+Assign 25 to Variable  B,B = 25,,
+Assign 25 to variable B.,B = 25,,
+Store 67 for variable C.,C = 67,,
+Assign 67 to variable C.,C = 67,,
+Assign 67 to variable C.,C = 67,,
+Collect A*B* C for variable  product.,product= a*b*c,,
+Collect A*B* C for variable  product.,product= A*B*C,,
+Collect A*B* C for variable  product.,product= A*B*C,,
+Print product,print(product),,
+Print product,print(product),,
+Print product variable,print(product),,
+"Assign ""hello"" to variable A","A=""hello""",,
+"Assign ""hello"" to variable A.","A=""hello""",,
+"Store ""hello"" to variable A.","A=""hello""",,
+Store len(a) to variable  B.,B=len(a),,
+Assign len(a) to variable  B,B=len(a),,
+Assign Len(A) to Variable  B,B=len(A),,
+Print Variable  B,print(B),,
+Print B,print(B),,
+Print B,print(B),,
+Assign 19235 to Variable A,A=19235,,
+Assign 19235 to variable A,A=19235,,
+Collect 19235 for variable A.,A=19235,,
+Collect for variable  B (A**0.5),B=A**0.5,,
+Assign to variable  B (A**0.5).,B=A**0.5,,
+Assign to variable  B (A**0.5),B=A**0.5,,
+Print Variable  B,print(B),,
+Print B,print(B),,
+Print B,print(B),,
+Declare a float variable F and store the user base  in it,"F = float(input(""Enter F : ""))",,
+Declare a float variable F and store what the user offers  to it,"F = float(input(""Enter F : ""))",,
+Declare a float variable F and store the user for it,"F = float(input(""Enter F : ""))",,
+Win one flow input  in F,"F = float(input(""Enter F : ""))",,
+Declare the float variable F and assign the value given by the user to it,"F = float(input(""Enter F : ""))",,
+Assign user input to the float variable F,"F = float(input(""Enter F : ""))",,
+Schedule user input for the float variable F,"F = float(input(""Enter F : ""))",,
+Declare the float variable F and assign the value given by the user to it,"F = float(input(""Enter F : ""))",,
+Collect what the user gives to Float variable,"F = float(input(""Enter F : ""))",,
+Declare a float variable F and assign a user base  to it,"F = float(input(""Enter F : ""))",,
+Declare Variable A that is an integer and store user input for it,"A = int(input(""Enter A : ""))",,
+Assign integer user preference to variable A,"A = int(input(""Enter A : ""))",,
+Assign integer user input to variable A,"A = int(input(""Enter A : ""))",,
+Set the value given by the user to variable A where A is an integer,"A = int(input(""Enter A : ""))",,
+Assign User Giving Value to integer Variable A,"A = int(input(""Enter A : ""))",,
+Enter the number given by the user to variable  A,"A = int(input(""Enter A : ""))",,
+Assign User Giving Number to Variable A,"A = int(input(""Enter A : ""))",,
+Set the number given by the user to variable A,"A = int(input(""Enter A : ""))",,
+Declare integer Variable B and store user input for it,"B = int(input(""Enter B : ""))",,
+Assign user preference to variable B that is an integer,"B = int(input(""Enter B : ""))",,
+Assign integer user input to variable B,"B = int(input(""Enter B : ""))",,
+Set the integer value given by the user to variable B,"B = int(input(""Enter B : ""))",,
+Assign the value given by the user to integer variable B,"B = int(input(""Enter B : ""))",,
+Enter the number given by the user to the variable B,"B = int(input(""Enter B : ""))",,
+Collect the number given by the user in variable B,"B = int(input(""Enter B : ""))",,
+Assign User Giving Number to Variable B,"B = int(input(""Enter B : ""))",,
+Add sum of A and B to the variable sum,sum = A + B,,
+Assign sum of A and B to the variable sum,sum = A + B,,
+Set the sum of A and B for the variable sum,sum = A + B,,
+Add A and B to the variable sum,sum = A + B,,
+Assign A and B to a variable called sum,sum = A + B,,
+Add A and B and store them in a variable called sum,sum = A + B,,
+Add A and B and put it in a variable called sum,sum = A + B,,
+Print sum now,print(sum),,
+Show sum Now,print(sum),,
+Show a variable called sum,print(sum),,
+Print variable sum,print(sum),,
+Print Sum,print(sum),,
+Print Sum,print(sum),,
+Declare float Variable A and store user input for it,"A = float(input(""Enter A : ""))",,
+Assign user input to variable A that is float,"A = float(input(""Enter A : ""))",,
+Assign user input to floating variable A,"A = float(input(""Enter A : ""))",,
+Set the value given by the user to variable A where A is a float,"A = float(input(""Enter A : ""))",,
+Assign User Giving Value to floating point Variable A,"A = float(input(""Enter A : ""))",,
+Enter the float number given by the user to variable A,"A = float(input(""Enter A : ""))",,
+Assign User Giving float Number to Variable A,"A = float(input(""Enter A : ""))",,
+Set the float number given by the user to variable A,"A = float(input(""Enter A : ""))",,
+Assign floating user preference to variable B,"B = float(input(""Enter B : ""))",,
+Assign float user input to variable B,"B = float(input(""Enter B : ""))",,
+Set the value given by the user to floating variable B,"B = float(input(""Enter B : ""))",,
+Assign the value given by the user to float variable B,"B = float(input(""Enter B : ""))",,
+Enter the number given by the user to the variable B where B is a floating point number,"B = float(input(""Enter B : ""))",,
+Collect the float number given by the user in variable B,"B = float(input(""Enter B : ""))",,
+Assign User Giving Number to Variable B that is float,"B = float(input(""Enter B : ""))",,
+Add sum of A and B to the variable sum,sum = A + B,,
+Assign sum of A and B to the variable sum,sum = A + B,,
+Set the sum of A and B for the variable sum,sum = A + B,,
+Add A and B to the variable sum,sum = A + B,,
+Assign A and B to a variable called sum,sum = A + B,,
+Add A and B and store them in a variable called sum,sum = A + B,,
+Add A and B and put it in a variable called sum,sum = A + B,,
+Print Sam now,print(sum),,
+Show Sam Now,print(sum),,
+Show a variable called sum,print(sum),,
+Print variable Sam,print(sum),,
+Print Sum,print(sum),,
+Print Sum,print(sum),,
+Miss A and B and assign what is the difference to the variable,difference = A - B,,
+Lose A and B and accumulate to what variable is the difference,difference = A - B,,
+Miss A and B and put what is the difference to the variable,difference = A - B,,
+Assign the sum past A and B to the variable difference,difference = A - B,,
+Assign the missing answer A and B to the variable variable Variance,difference = A - B,,
+Add the sum past A and B to the variable difference,difference = A - B,,
+Assign the difference of A and B to the variable Difference,difference = A - B,,
+Differentiate between A and B for variable Variable Variance,difference = A - B,,
+Show variable difference,print(difference),,
+Print variable difference,print(difference),,
+Show difference now,print(difference),,
+Print Difference,print(difference),,
+Print the difference now,print(difference),,
+Print variable difference,print(difference),,
+multiply a and b and store it in a variable called product,Product = A * B,,
+Multiply A and B in the variable Product,Product = A * B,,
+Multiply A and B and assign the variable Product,Product = A * B,,
+Multiply A and B and assign the variable Product,Product = A * B,,
+Collect the multiplied value of A and B in the variable Product,Product = A * B,,
+Collect the user input for the variable Celsius where Celsius is float,"Celsius = float(input(""Enter Celsius : ""))",,
+Collect user input for a float variable called Celsius,"Celsius = float(input(""Enter Celsius : ""))",,
+Collect Celsius user input,"Celsius = float(input(""Enter Celsius : ""))",,
+Assign Celsius user input,"Celsius = float(input(""Enter Celsius : ""))",,
+Assign user input to a float variable called Celsius,"Celsius = float(input(""Enter Celsius : ""))",,
+Collect the value that the user tells the float variable Celsius,"Celsius = float(input(""Enter Celsius : ""))",,
+Give the user the value for the float variable Celsius,"Celsius = float(input(""Enter Celsius : ""))",,
+Declare Kelvin variable and add 273 to Fahrenheit and assign it to Kelvin variable,Kelvin = Celsius + 273,,
+Kelvin =  Celsius + 273,Kelvin = Celsius + 273,,
+Kelvin= Celsius + 273.15,Kelvin = Celsius + 273.15,,
+Declare the Kelvin variable and add two hundred seventy-three to the Fahrenheit and assign it to the Kelvin variable,Kelvin = Celsius + 273,,
+Add 273 to Fahrenheit and assign it to Kelvin variable,Kelvin = Celsius + 273,,
+Add two hundred seventy-three to the Fahrenheit and assign it to the Kelvin variable,Kelvin = Celsius + 273,,
+Print Kelvin,print(Kelvin),,
+Show variable Kelvin,print(Kelvin),,
+Show Kelvin's,print(Kelvin),,
+Print Kelvin,print(Kelvin),,
+Print Kelvin,print(Kelvin),,
+Announce integer Variable Year and Assign User Input,"Year = int(input(""Enter Year : ""))",,
+Declare a variable year and store user input in it where year is integer,"year = int(input(""Enter year : ""))",,
+Declare a integer variable year and store user input in it,"year = int(input(""Enter year : ""))",,
+Declare integer Variable Year and Assign User Input to Year,"Year = int(input(""Enter Year : ""))",,
+Announce a integer variable year and collect user input on it,"year = int(input(""Enter year : ""))",,
+Assign user input for int variable year,"year = int(input(""Enter year : ""))",,
+Declare a variable year and assign user input to it where year is int,"year = int(input(""Enter year : ""))",,
+If either year%4=0 and year %100!=0 or year%400==0 print this as 'leap year',"if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(""leap year"")",,
+If either year%4=0 and year %100!=0 or year%400==0 then print this as 'leap year',"if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(""leap year"")",,
+Print year%4=0 and year%100!=0 or year%400==0 if 'there is a leap year',"if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(""there is a leap year"")",,
+Print year%4=0 and year%100!=0 or year%400==0 if 'there is a leap year',"if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(""there is a leap year"")",,
+Print otherwise 'this is not a leap year',"else: print(""this is not a leap year"")",,
+If not print 'this is not a leap year',"else: print(""this is not a leap year"")",,
+Print otherwise 'it will not be a leap year',"else: print(""it will not be a leap year"")",,
+"If not, print this as 'no leap year'","else: print(""no leap year"")",,
+Print 'my name is - ' followed by the variable name,"print(""my name is - "",name)",,
+Print 'The sum is equal to ' followed by the variable result,"print(""The sum is equal to "",result)",,
+Print 'my age is ' followed by the variable age,"print(""my age is "",age)",,
+Set the  value given by the user to variable A with decimal point,"A=float(input(""Enter A : ""))",,
+Assign User Giving Value to Variable A,"A=int(input(""Enter A : ""))",,
+Enter the  number with decimal point given by the user to variable A,"A=float(input(""Enter A : ""))",,
+Assign User Giving Number to Variable A ,"A=int(input(""Enter A : ""))",,
+Set the value given by the user to variable B with decimal point,"B=float(input(""Enter B : ""))",,
+Assign the value given by the user to variable B,"B=int(input(""Enter B : ""))",,
+Enter the number given by the user to the variable B with decimal point,"B=float(input(""Enter B : ""))",,
+Collect the number given by the user in variable B,"B=int(input(""Enter B : ""))",,
+Assign User Giving Number to Variable B with decimal point,"B=float(input(""Enter B : ""))",,
+Set the value given by the user to variable C,"C=int(input(""Enter C : ""))",,
+Assign User Giving Value to Variable C with decimal point,"C=float(input(""Enter C : ""))",,
+Enter the number given by the user to the variable C,"C=int(input(""Enter C : ""))",,
+Collect the number given by the user in variable C with decimal point,"C=float(input(""Enter C : ""))",,
+Assign User Giving Number to Variable C,"C=int(input(""Enter C : ""))",,
+Add ABC accumulated amount to the variable sum,sum=A+B+C,,
+Assign sum of A B and C to the variable sum,sum=A+B+C,,
+Set the sum of A C and B for the variable sum,sum=A+B+C,,
+Add A B and C to the variable sum,sum=A+B+C,,
+Assign A B and C to a variable called sum,sum=A+B+C,,
+Collect A B and C in a variable called sum,sum=A+B+C,,
+Print variable sum,print(sum),,
+Print sum,print(sum),,
+Print sum,print(sum),,
+Set the value given by the user to variable A,"A=int(input(""Enter A : ""))",,
+Assign User Giving Value to Variable A,"A=int(input(""Enter A : ""))",,
+Enter the number given by the user to variable A,"A=int(input(""Enter A : ""))",,
+Assign User Giving Number to Variable A,"A=int(input(""Enter A : ""))",,
+Add three to variable A and print,print(A+3),,
+Add three to variable A,A=A+3,,
+Add three to A,A+=3,,
+Add three to A Print,print(A+3),,
+Add three to variable A and print,print(A+3),,
+Add three to A and print,A=A+3,,
+Add three to A,A=A+3,,
+Add three to variable A,A+=3,,
+Print Variable A,print(A),,
+Print Variable A,print(A),,
+Print variable A,print(A),,
+Assign User Giving Number to Variable S,"S=int(input(""Enter S : ""))",,
+Enter the number given by the user to the variable S,"S=int(input(""Enter S : ""))",,
+Set the value given by the user to variable S,"S=int(input(""Enter S : ""))",,
+Collect the number given by the user in variable S,"S=int(input(""Enter S : ""))",,
+Variable A is equivalent to S*S,A=S*S,,
+Variable A is equal to S*S,A=S*S,,
+A=S *S,A=S*S,,
+A=S **2,A=S**2,,
+Variable A equals S **2,A=S**2,,
+Variable A is equal to S **2,A=S**2,,
+Add a value of S **2 to the variable A,A=S**2,,
+Assign the value S**2 to the variable A,A=S**2,,
+Assign a value of S **2 to the variable A,A=S**2,,
+Add S *S value to variable A,A=S*S,,
+Assign S *S value to variable A,A=S*S,,
+Set S *S value for variable A,A=S*S,,
+Put the value of S *S to the variable A,A=S*S,,
+Assign S *S value to variable A,A=S*S,,
+Store S *S value in variable A,A=S*S,,
+Put the value of S **2 to the variable A,A=S**2,,
+Assign the value of S **2 to the variable A,A=S**2,,
+Store the value of S **2 in the variable A,A=S**2,,
+Print variable A,print(A),,
+Print A,print(A),,
+Print A,print(A),,
+Assign User Given Character to Variable A,"A=input(""Enter A : "")",,
+Enter the user-generated character for variable A,"A=input(""Enter A : "")",,
+Assign User to Variable A Character,"A=input(""Enter A : "")",,
+Collect the user-generated character for variable A,"A=input(""Enter A : "")",,
+"If the value of A is equal to a or e or i or o or u then print ""the given character is vowel""","if (A == 'a' or A == 'e' or A == 'i' or A== 'o' or A== 'u' or A== 'A' or A == 'E' or A== 'I' or A== 'O' or A== 'U'): 
+print(""the given character is a vowel"")
+",,
+"If the value of variable A is equal to a or e or i or o or u then print ""the given character is vowel""","if (A == 'a' or A == 'e' or A == 'i' or A== 'o' or A== 'u' or A== 'A' or A == 'E' or A== 'I' or A== 'O' or A== 'U'): 
+print(""the given character is a vowel"")
+",,
+"Otherwise print ""The given character is not a vowel""","else:
+print(""The given character is not a vowel"")",,
+"Print otherwise ""The given character is not a vowel""","else:
+print(""The given character is not a vowel"")",,
+Assign User Given Sentence to Variable Name,"name=input(""Enter name : "")",,
+Enter the user input sentence for the variable name,"name=input(""Enter name : "")",,
+Specify the sentence to be given by the user to the variable name,"name=input(""Enter name : "")",,
+Collect the sentence given by the user to the variable name,"name=input(""Enter name : "")",,
+"Print ""Hi, My Name is "",name","print(""Hi,My Name is "",name)",,
+"Print Hi, My Name is,name","print(""Hi,My Name is "",name)",,
+"Print ""Hi, My Name is""+name","print(""Hi,My Name is ""+name)",,
+"Print ""Hi, My Name is""+name","print(""Hi,My Name is ""+name)",,
+Put ten to variable A,A=10,,
+Assign value ten to variable A,A=10,,
+Collect ten for Variable A,A=10,,
+Schedule Twenty for Variable B,B=20,,
+Put twenty to variable B,B=20,,
+Set Value Twenty for Variable B,B=20,,
+Collect twenty for variable B,B=20,,
+Schedule ten for variable A,A=10,,
+Declare the variable P and assign the number given by the user,"P=int(input(""Enter P : ""))",,
+Declare variable P and assign user input numeric value,"P=int(input(""Enter P : ""))",,
+Set the value given by the user to the variable P,"P=int(input(""Enter P : ""))",,
+Assign User Giving Number to Variable P,"P=int(input(""Enter P : ""))",,
+Declare Variable T and assign the number given by the user,"T=int(input(""Enter T : ""))",,
+Declare variable T and assign user input numeric value,"T=int(input(""Enter T : ""))",,
+Set the value given by the user to variable T,"T=int(input(""Enter T : ""))",,
+Assign User Giving Number to Variable T,"T=int(input(""Enter T : ""))",,
+Create a variable P and assign the numeric value provided by the user.,"P=int(input(""Enter P :""))",,
+Create a variable called T and assign the numeric value provided by the user.,"T=int(input(""Enter T : ""))",,
+Print value of variable P is less than T,print(P<T),,
+Print that the value of variable P is less than or equal to T,print(P<=T),,
+Print that the value of variable P is greater than or equal to T,print(P>=T),,
+Print value of variable P is greater than T,print(P>T),,
+Print value of variable P is not equal to T,print(P!=T),,
+Print value of variable P is equal to T,print(P==T),,
+Declare variable X and assign user input numeric value,"X = int(input(""Enter X : ""))",,
+Announce Variable X and store user input number in it,"X = int(input(""Enter X : ""))",,
+Declare variable X and store user input number value in it,"X = int(input(""Enter X : ""))",,
+Declare variable X and assign user input numeric value to X,"X = int(input(""Enter X : ""))",,
+Declare Variable X and collect the user-given number in it,"X = int(input(""Enter X : ""))",,
+Assign user input number to variable X,"X = int(input(""Enter X : ""))",,
+"If X % 13 is zero, print ""X divided by 13""","if X % 13 == 0: 
+print(""X divided by 13"")",,
+"If X % 13 is zero, print ""X divided by 13""","if X % 13 == 0: 
+print(""X divided by 13"")",,
+"If X % 13 is zero, print ""X divided by 13""","if X % 13 == 0: 
+print(""X divided by 13"")",,
+"If X % 13 is zero, print ""X divided by 13""","if X % 13 == 0: 
+print(""X divided by 13"")",,
+"Print otherwise ""X cannot be divided by 13""","else: 
+print(""X cannot be divided by 13"")",,
+"Print otherwise ""X cannot be divided by 13""","else: 
+print(""X cannot be divided by 13"")",,
+Assign input number to variable N,"N = int(input(""Enter N : ""))",,
+"If N is greater than ninety or ninety, print ""You have received A grade""","if N>= 90:
+print(""You have received A grade"")",,
+"If N is greater than ninety or ninety print that ""you have received A grade""","if N>= 90:
+print(""you have received A grade"")",,
+"If N is greater than ninety or ninety, print ""You have received A grade""","if N>= 90:
+print(""You have received A grade"")",,
+"If N is greater than ninety or ninety print that ""you have received A grade""","if N>= 90:
+print(""you have received A grade"")",,
+"If N >= 90 true print ""You have received A grade""","if N>= 90:
+print(""You have received A grade"")",,
+"If N >= 90 true print that ""you have received A grade""","if N>= 90:
+print(""you have received A grade"")",,
+"If N >= 90 true print ""You have received A grade""","if N>= 90:
+print(""You have received A grade"")",,
+"If N >= 90 true print that ""you have received A grade""","if N>= 90:
+print(""you have received A grade"")",,
+"If not, print ""You have received B grade"" if N is greater than eighty or eighty","elif N>= 80:
+print(""You have received B grade"")",,
+"If not then print that ""you have obtained B grade"" if N is more than eighty or eighty","elif N>= 80:
+print(""you have obtained B grade"")",,
+"If not then print ""You have received B grade"" if N is greater than eighty or eighty","elif N>= 80:
+print(""You have received B grade"")",,
+"If not then print that ""you have received B grade"" if N is more than eighty or eighty","elif N>= 80:
+print(""you have received B grade"")",,
+"If not then print ""you have received B grade"" if N >= 80 is true","elif N>= 80:
+print(""you have received B grade"")",,
+"If not then print that ""you have received B grade"" if N >= 80 is true","elif N>= 80:
+print(""you have received B grade"")",,
+"If not then print ""You have received B grade"" if N >= 80 is true","elif N>= 80:
+print(""You have received B grade"")",,
+"If not then print that ""you have received B grade"" if N >= 80 is true","elif N>= 80:
+print(""you have received B grade"")",,
+"If not, print ""You have received C grade"" if N is seventy or more than seventy","elif N>= 70:
+print(""You have received C grade"")",,
+"If not then print that ""you have obtained C grade"" if N is seventy or more than seventy","elif N>= 70:
+print(""you have obtained C grade"")",,
+"If not, print ""You have received C grade"" if N is greater than seventy or seventy","elif N>= 70:
+print(""You have received C grade"")",,
+"If not then print that ""you have received C grade"" if N is seventy or more than seventy","elif N>= 70:
+print(""you have received C grade"")",,
+"If not then print ""You have received C grade"" if N >= 70 true","elif N>= 70:
+print(""You have received C grade"")",,
+"If not then print that ""you have obtained"" C grade if N >= 70 is true","elif N>= 70:
+print(""you have obtained C grade"")",,
+"If not then print ""You have received C grade"" if N >= 70 true","elif N>= 70:
+print(""You have received C grade"")",,
+"If not then print that ""you have obtained C grade"" if N >= 70 is true","elif N>= 70:
+print(""you have obtained C grade"")",,
+"If n is sixty or more than sixty, print ""you have received D grade""","elif N>= 60:
+print(""you have received D grade"")",,
+"If N is sixty or more than sixty, print that ""you have received D grade""","elif N>= 60:
+print(""you have received D grade"")",,
+"If n is sixty or more than sixty, print ""you have received D grade""","elif N>= 60:
+print(""you have received D grade"")",,
+"Otherwise print that ""you have received D"" grade if N is sixty or more than sixty","elif N>= 60:
+print(""you have received D grade"")",,
+"If not then print ""You have received D grade"" if N >= 60 true","elif N>= 60:
+print(""You have received D grade"")",,
+"If not then print that ""you have received D"" grade if N >= 60 is true","elif N>= 60:
+print(""you have received D grade"")",,
+"If not then print ""You have received D grade"" if N >= 60 true","elif N>= 60:
+print(""You have received D grade"")",,
+"If not then print that ""you have received D"" if N >= 60 is true","elif N>= 60:
+print(""you have received D grade"")",,
+"If not, print ""You have received E grade"" if N is fifty or more","elif N>= 50:
+print(""You have received E grade"")",,
+"If not, print that ""you have received E grade"" if N is fifty or more","elif N>= 50:
+print(""you have received E grade"")",,
+"If not, print ""You have received this grade"" if N is fifty or more","elif N>= 50:
+print(""You have received E grade"")",,
+"If not then print that ""you have received E grade"" if N is fifty or more","elif N>= 50:
+print(""you have received E grade"")",,
+"If not then print ""You have received this grade"" if N >= 50 is true","elif N>= 50:
+print(""You have received E grade"")",,
+"If not then print that ""you have received E grade"" if N >= 50 is true","elif N>= 50:
+print(""you have received E grade"")",,
+"If not then print ""You have received this grade"" if N >= 50 is true","elif N>= 50:
+print(""You have received E grade"")",,
+"If not then print that ""you have received E grade"" if N >= 50 is true","elif N>= 50:
+print(""you have received E grade"")",,
+"If not then print ""You have received F grade"" if N is less than fifty","elif N<50:
+print(""You have received F grade"")",,
+"If not then print that ""you have received F grade"" if N is less than fifty","elif N<50:
+print(""you have received F grade"")",,
+"If not then print ""You have received F grade"" if N is less than fifty","elif N<50:
+print(""You have received F grade"")",,
+"If not then print that ""you have received F grade"" if N is less than fifty","elif N<50:
+print(""you have received F grade"")",,
+"If not then print ""You have received F grade"" if N < 50 is true","elif N<50:
+print(""You have received F grade"")",,
+"If not then print that ""you have received F grade"" if N < 50 is true","elif N<50:
+print(""you have received F grade"")",,
+"If not then print ""You have received F grade"" if N < 50 is true","elif N<50:
+print(""You have received F grade"")",,
+"If not then print that ""you have received F grade"" if N < 50 is true","elif N<50:
+print(""you have received F grade"")",,
+"Otherwise print ""Invalid Input""","else:
+print(""Invalid Input"")",,
+"Print as ""Invalid Input"" Otherwise","else:
+print(""Invalid Input"")",,
+"Otherwise print ""Invalid Input""","else:
+print(""Invalid Input"")",,
+"If not print as ""invalid input""","else:
+print(""invalid input"")",,
+"Print ""Natural numbers from 1 to 25""","print(""Natural numbers from 1 to 25"")",,
+"Print ""natural numbers from 1 to 25""","print(""natural numbers from 1 to 25"")",,
+"Print ""Natural numbers from 1 to 25""","print(""Natural numbers from 1 to 25"")",,
+"Print ""natural numbers from 1 to 25""","print(""natural numbers from 1 to 25"")",,
+"Print ""Natural numbers from one to twenty-five""","print(""Natural numbers from one to twenty-five"")",,
+"Print as ""natural numbers from one to twenty-five""","print(""natural numbers from one to twenty five"")",,
+"Print ""Natural numbers from one to twenty-five""","print(""Natural numbers from one to twenty-five"")",,
+"Print as ""natural numbers from one to twenty-five""","print(""natural numbers from one to twenty five"")",,
+Execute for loop with J from one to 26,"for j in range(1,26):",,
+Execute for loop with J from one to twenty-six,"for j in range(1,26):",,
+Execute for loop with J from 1 to 26,"for j in range(1,26):",,
+Start for loop with J from one to 26,"for j in range(1,26):",,
+Start for loop with J from one to twenty-six,"for j in range(1,26):",,
+Start for loop with J from 1 to 26,"for j in range(1,26):",,
+Execute for loop with J from one to 26,"for j in range(1,26):",,
+Execute for loop with J from one to twenty-six,"for j in range(1,26):",,
+Execute for loop with J from 1 to 26,"for j in range(1,26):",,
+Start for loop with J from one to 26,"for j in range(1,26):",,
+Start for loop with J from one to twenty-six,"for j in range(1,26):",,
+Start for loop with J from 1 to 26,"for j in range(1,26):",,
+Print J inside loop,    print(j),,
+Print J inside loop,    print(j),,
+Print J inside loop,    print(j),,
+Print J inside loop,    print(j),,
+Declare variable J and set it to zero,J = 0,,
+Declare variable J and store zero in it,J = 0,,
+Assign zero to the variable J,J = 0,,
+Assign zero to the variable J,J = 0,,
+Declare the variable J and set it to zero,J = 0,,
+Assign zero to the variable J,J = 0,,
+Assign zero to the variable J,J = 0,,
+"Execute while Loop with a condition that Variable J must be less than
+twenty-five",while J < 25:,,
+"Start while Loop with a condition that Variable J must be less than 
+twenty-five",while J < 25:,,
+"Execute while Loop with a condition that Variable J must be less than 
+twenty-five",while J < 25:,,
+"Start with a condition that while Loop J variable should be less than
+twenty-five",while J < 25:,,
+"Enforce with condition that while Loop J variable should be less than 
+twenty-five",while J < 25:,,
+Execute while Loop with the condition that Variable J < 25 must be true,while J < 25:,,
+Start while Loop with a condition that Variable J < 25 must be true,while J < 25:,,
+Execute while Loop with the condition that Variable J < 25 must be true,while J < 25:,,
+Start with a condition that while Loop J < 25 must be true,while J < 25:,,
+Enforce with condition that while Loop J < 25 must be true,while J < 25:,,
+"Print ""Hi"" until the condition is true","     print(""Hi"")",,
+"Print ""Hi"" until the condition is true","     print(""Hi"")",,
+"Print ""Hi"" until the condition is true","     print(""Hi"")",,
+"Print ""Hi"" as long as the condition is true","     print(""Hi"")",,
+Subtract one from J until the condition is true,     J -= 1,,
+Subtract one from J until the condition is true,     J -= 1,,
+"Print ""Hi"" inside loop","     print(""Hi"")",,
+"Print ""Hi"" inside the loop","     print(""Hi"")",,
+"Print ""Hi"" inside loop","     print(""Hi"")",,
+Print hi inside loop,"     print(""Hi"")",,
+Subtract one from J inside the loop,     J -= 1,,
+Subtract one from J inside the loop,     J -= 1,,
+Subtract one from J inside the loop,     J -= 1,,
+Subtract one from J inside the loop,     J -= 1,,
+Subtract one from J until the condition is true,     J -= 1,,
+Subtract one from J until the condition is true,     J -= 1,,
+Assign -101 to the variable A.,A = -101,,
+Assign -101 to variable A.,A = -101,,
+Assign -101 to variable A.,A = -101,,
+Declare the variable A and store -101 in it,A = -101,,
+Assign 101 to the variable B.,B = 101,,
+Assign 101 to variable B.,B = 101,,
+Assign 101 to variable B.,B = 101,,
+Declare the variable B and store 101 in it,B = 101,,
+Execute for loop with J from zero to ten,"for J in range(0,10):",,
+Execute for loop with J from zero to ten,"for J in range(0,10):",,
+Execute for loop with J from 0 to 10,"for J in range(0,10):",,
+Start for loop with J from zero to ten,"for J in range(0,10):",,
+Start for loop with J from zero to ten,"for J in range(0,10):",,
+Start for loop with J from 0 to 10,"for J in range(0,10):",,
+Execute for loop with J from zero to ten,"for J in range(0,10):",,
+Execute for loop with J from zero to ten,"for J in range(0,10):",,
+Execute for loop with J from 0 to 10,"for J in range(0,10):",,
+Start for loop with J from zero to ten,"for J in range(0,10):",,
+Start for loop with J from zero to ten,"for J in range(0,10):",,
+Start for loop with J from 0 to 10,"for J in range(0,10):",,
+Declare variable number inside loop and assign user input numeric value,"     number = int(input(""Enter number : ""))",,
+Declare the variable number inside the loop and store the user input number in it,"     number = int(input(""Enter number : ""))",,
+Declare the variable number inside the loop and store the value of the user's input number in it,"     number = int(input(""Enter number : ""))",,
+Declare variable number inside loop and assign user input numeric value to number,"     number = int(input(""Enter number : ""))",,
+Declare the variable number inside the loop and collect the user-given number in it,"     number = int(input(""Enter number : ""))",,
+Assign user input number to variable number inside loop,"     number = int(input(""Enter number : ""))",,
+Set the number to A if A-101 is inside the loop or if the number is greater than A,"     if number > A: 
+          A = number",,
+Set the number to A if A = -101 or number > A is true inside the loop,"     if number > A: 
+          A = number",,
+Assign the number to A if A-101 is inside the loop or the number is greater than A,"     if number > A:  
+          A = number",,
+Assign number to A if A == -101 or number > A is true inside the loop,"     if number > A: 
+          A = number",,
+"If B is 101 or the number is less than B within the loop, assign the number to B","     if number < B: 
+          B = number",,
+Assign number to B if B == 101 or number < B is true inside the loop,"     if number < B: 
+          B = number",,
+Assign the number to B if B is 101 or the number is less than B inside the loop,"     if number < B: 
+          B = number",,
+Assign number to B if B == 101 or number < B is true inside the loop,"     if number < B: 
+          B = number",,
+Print variable A,print(A),,
+Print variable A,print(A),,
+Print Variable A,print(A),,
+Print Variable A,print(A),,
+Print variable B,print(B),,
+Print variable B,print(B),,
+Print Variable B,print(B),,
+Print Variable B,print(B),,
+Assign the number given by the user from one to seven to the variable N,"N = int(input(""Enter N : ""))",,
+Set the number of users from one to seven for the variable N,"N = int(input(""Enter N : ""))",,
+Collect the number given by the user from one to seven in the variable N,"N = int(input(""Enter N : ""))",,
+Store user input in variable N,"N = int(input(""Enter N : ""))",,
+"Put user input 
+in variable N","N = int(input(""Enter N : ""))",,
+"Print ""Sunday"" if N is one","if N==1:
+     print(""Sunday"")",,
+"If not, print as ""Monday"" if N is two","elif N ==2: 
+     print(""Monday"")",,
+"If not then print as ""Tuesday"" if N is three","elif N ==3: 
+     print(""Tuesday"")",,
+"If not then print as ""Wednesday"" if N is four","elif N ==4: 
+     print(""Wednesday"")",,
+"If not then print as ""Thursday"" if N is five","elif N ==5: 
+     print(""Thursday"")",,
+"If not, print as ""Friday"" if N is six","elif N ==6: 
+     print(""Friday"")",,
+"Print ""Saturday"" if not","else: 
+     print(""Saturday"")",,
+Print Sunday if N is one,"if N==1:
+     print(""Sunday"")",,
+"If not then show ""Monday"" if n is two","elif N ==2: 
+     print(""Monday"")",,
+"If not then show ""Tuesday"" if N is three","elif N ==3: 
+     print(""Tuesday"")",,
+"If not then show ""Wednesday"" if N is four","elif N ==4: 
+     print(""Wednesday"")",,
+"If not then show as ""Thursday"" if N is five","elif N ==5: 
+     print(""Thursday"")",,
+"If not then show ""Friday"" if N is six","elif N ==6: 
+     print(""Friday"")",,
+"If not show ""Saturday""","else: 
+     print(""Saturday"")",,
+"Show ""Sunday"" if N is one","if N==1:
+     print(""Sunday"")",,
+"Print ""Sunday"" if N is one","if N==1:
+     print(""Sunday"")",,
+"If not, print on Monday if N is one","elif N ==2: 
+     print(""Monday"")",,
+"If not, print ""Tuesday"" if N is two","elif N ==3: 
+     print(""Tuesday"")",,
+"If not then print as ""Wednesday"" if N is four","elif N ==4: 
+     print(""Wednesday"")",,
+"If not then print as ""Thursday"" in case of N is five","elif N ==5: 
+     print(""Thursday"")",,
+"If not then print as ""Friday"" if N is six","elif N ==6: 
+     print(""Friday"")",,
+"Print ""Saturday"" if not","else: 
+     print(""Saturday"")",,
+Set the number given by the user to the variable number,"number = int(input(""Enter number : ""))",,
+Assign the number given by the user to the variable number,"number = int(input(""Enter number : ""))",,
+Collect user input in the variable number,"number = int(input(""Enter number : ""))",,
+Put user input in variable number,"number = int(input(""Enter number : ""))",,
+Assign zero to a variable called reverse_number,reverse_number=0,,
+Assign zero to a variable called reverse_number,reverse_number=1,,
+Assign zero to a variable called reverse_number,reverse_number=2,,
+Put zero to a variable called reverse_number,reverse_number=3,,
+Execute while Loop if number is more than zero,while(number > 0):,,
+Multiply the reverse_number by ten to the variable reverse_number and give it the remaining number after dividing the number by 10,reverse_number = reverse_number*10 + number%10,,
+reverse_number = reverse_number * 10 + number % 10,reverse_number = reverse_number*10 + number%10,,
+number //= 10,number //= 10,,
+Divide the variable number by 10 and round the answer to the nearest integer,number //= 10,,
+Print reverse_number,print(reverse_number),,
+Print reverse_number,print(reverse_number),,
+Show reverse_number,print(reverse_number),,
+Declare float variable radius and store user input value in it,"radius= float(input(""Enter radius  : ""))",,
+Declare the float variable radius and store the user input value in it,"radius= float(input(""Enter radius  : ""))",,
+Declare the integer variable radius and store the user's input value in it,"radius= int(input(""Enter radius : ""))",,
+Declare the integer variable radius and store the user's input value in it,"radius= int(input(""Enter radius : ""))",,
+Declare variable radius and store user input value in it,"radius= input(""Enter radius :  "")",,
+Declare the variable radius and store the user input value in it,"radius= input(""Enter radius :  "")",,
+Declare the variable radius and store the user's input value in it,"radius= input(""Enter radius :  "")",,
+Declare the variable radius and store the user's input value in it,"radius= input(""Enter radius :  "")",,
+Assign 3.14 to Pi,Pi=3.14,,
+3.14 Assign to Pi,Pi=3.14,,
+3.14 Put to Pie,Pie=3.14,,
+Store 3.14 in pi,pi = 3.14,,
+circumference = 2*pi*radius,circumference=2*pi*radius,,
+circumference = 2*3.14*radius,circumference=2*3.14*radius,,
+circumference = 2*radius*pi,circumference=2*radius*pi,,
+circumference = 2*radius*3.14,circumference=2*radius*3.14,,
+Multiply 2 with radius Multiply with pi and collect the value in variable circumference,circumference=2*pi*radius,,
+Multiply both by radius Multiply by pi and accumulate the value in variable circumference,circumference=2*pi*radius,,
+Multiply both by radius multiply by pi and assign this value to variable circumference,circumference=2*pi*radius,,
+Multiply 2 with radius multiply with pi and assign this value to variable circumference,circumference=2*pi*radius,,
+Print circumference,print(circumference),,
+Print circumference,print(circumference),,
+Show circumference,print(circumference),,
+Print circumference,print(circumference),,
+Declare Variable P and store user input for it,"P = input(""Enter P : "")",,
+Assign user input to variable P,"P = input(""Enter P : "")",,
+Assign user input to variable P,"P = input(""Enter P : "")",,
+Set the value given by the user to variable P,"P = input(""Enter P : "")",,
+Assign User Giving Value to Variable P,"P = input(""Enter P : "")",,
+Enter the number given by the user to variable P,"P = input(""Enter P : "")",,
+Assign User Giving Number to Variable P,"P = input(""Enter P : "")",,
+Set the number given by the user to variable P,"P = input(""Enter P : "")",,
+Declare Variable T and store user input for it,"T = input(""Enter T : "")",,
+Assign user input to variable T,"T = input(""Enter T : "")",,
+Assign user input to variable T,"T = input(""Enter T : "")",,
+Set the value given by the user to variable T,"T = input(""Enter T : "")",,
+Assign User Giving Value to Variable T,"T = input(""Enter T : "")",,
+Enter the number given by the user to variable T,"T = input(""Enter T : "")",,
+Assign User Giving Number to Variable T,"T = input(""Enter T : "")",,
+Set the number given by the user to variable T,"T = input(""Enter T : "")",,
+Declare Variable R and store user input for it,"R = input(""Enter R : "")",,
+Assign user input to variable R,"R = input(""Enter R : "")",,
+Assign user input to variable R,"R = input(""Enter R : "")",,
+Set the value given by the user to variable R,"R = input(""Enter R : "")",,
+Assign User Giving Value to Variable R,"R = input(""Enter R : "")",,
+Enter the number given by the user to variable R,"R = input(""Enter R : "")",,
+Assign User Giving Number to Variable R,"R = input(""Enter R : "")",,
+Set the number given by the user to variable R,"R = input(""Enter R : "")",,
+interest= (P*T*R)/100,interest= (P*T*R)/100,,
+interest= (P*T*R)/Hundred,interest= (P*T*R)/100,,
+Multiply PT and R and divide by 100 and accumulate the result in a variable called interest,interest= (P*T*R)/100,,
+Multiply PT and R by 100 and accumulate the result in a variable called interest,interest= (P*T*R)/100,,
+Multiply PTR and divide by hundred and accumulate the result in a variable called interest,interest= (P*T*R)/100,,
+Multiply PTR by 100 and accumulate the result in a variable called interest,interest= (P*T*R)/100,,
+Print interest,print(interest),,
+Print Interest,print(Interest),,
+Show interest,print(interest),,
+Print interest,print(interest),,
+Set the number given by the user to the variable number,"number= int(input(""Enter number : ""))",,
+Assign the number given by the user to the variable number,"number= int(input(""Enter number : ""))",,
+Collect user input in the variable number,"number= int(input(""Enter number : ""))",,
+Put user input in variable number,"number= int(input(""Enter number : ""))",,
+Assign zero to the result variable,result = 0,,
+Assign zero to the result variable,result = 0,,
+Assign zero to the result variable,result = 0,,
+Put zero to the result variable,result = 0,,
+Execute a loop from variable i to number plus one,"for i in range(1, number + 1):",,
+Add one to the variable i to number and execute the loop until,"for i in range(1, number + 1):",,
+Add one to the variable where i is from one to the number and execute the loop until then,"for i in range(1, number + 1):",,
+Execute loop from number one to number plus one,"for i in range(1, number + 1):",,
+Execute loop from i1 to number +1 there,"for i in range(1, number + 1):",,
+Put result plus i to a variable called result inside loop,     result += i,,
+Put an i in the result for a variable called result inside the loop,     result += i,,
+Intra-rupee result += i,     result += i,,
+Intra-rupee result = result + i,     result += i,,
+Print Result,print(Result),,
+Print Result,print(Result),,
+Show Result,print(Result),,
+Assign 25 to the variable i,i=25,,
+Assign 25 to the variable i,i=25,,
+Add 25 to the variable i,i=25,,
+Store twenty-five in the variable i,i=25,,
+Assign twenty-five to the variable i,i=25,,
+Assign twenty-five to the variable i,i=25,,
+Add twenty-five to the variable i,i=25,,
+Execute loop as long as i is greater than zero,while i>0:,,
+Execute loop as long as i is greater than zero,while i>0:,,
+Move loop until i is greater than zero,while i>0:,,
+Move loop until i is greater than zero,while i>0:,,
+Print i inside loop,     print(i),,
+Print i inside loop,     print(i),,
+Show i inside loop,     print(i),,
+Subtract one from i inside the loop,     i -= 1,,
+Subtract one from the variable i inside the loop,     i -= 1,,
+Inside loop i -= 1,     i -= 1,,
+Inside loop i = i - 1,     i -= 1,,
+Assign zero to a variable A,A=0,,
+Assign zero to the variable A,A=0,,
+Assign zero to the variable A,A=0,,
+Put zero to the variable A,A=0,,
+Assign one to the variable B,B=1,,
+Assign one to the variable B,B=1,,
+Put one for the variable B,B=1,,
+Execute for loop with i from zero to n,"for i in range (0,n):",,
+Enforce for loop with i from zero to N,"for i in range (0,N):",,
+Execute for loop with i from 0 to N,"for i in range (0,N):",,
+Start for loop with i from zero to N,"for i in range (0,N):",,
+Start for loop with i from zero to n,"for i in range (0,n):",,
+Start for loop with i from 0 to N,"for i in range (0,N):",,
+Execute for loop with i from zero to n,"for i in range (0,n):",,
+Execute for loop with i from zero to n,"for i in range (0,n):",,
+Execute for loop with i from 0 to N,"for i in range (0,N):",,
+Start for loop with i from zero to N,"for i in range (0,N):",,
+Start for loop with i from zero to N,"for i in range (0,N):",,
+Start for loop with i from 0 to N,"for i in range (0,N):",,
+Print the variable A inside the loop,     print(A),,
+Print the variable A inside the loop,     print(A),,
+Print Variable A inside loop,     print(A),,
+Print Variable A inside loop,     print(A),,
+Assign the sum of A and B to the variable C inside the loop,     C = A + B,,
+Intra-loop C=A+B,     C = A + B,,
+Declare the variable C inside the loop and collect the sum of A times B in it,     C = A + B,,
+A=B inside the loop,     A = B,,
+Collect the value of A null B inside the loop,     A = B,,
+Assign AG B value inside loop,     A = B,,
+B=C inside the loop,     B = C,,
+Collect the value of B nali C inside the loop,     B = C,,
+Assign a BG C value inside the loop,     B = C,,
+Assign zero to a variable i,i=0,,
+Assign zero to a variable i,i=0,,
+Assign zero to the variable i,i=0,,
+Put zero to a variable i,i=0,,
+Assign zero to the variable amount,amount=0,,
+Assign zero to the variable Amount,Amount=0,,
+Assign zero to the variable Amount,Amount=0,,
+Put zero to the variable amount,amount=0,,
+Enforce while Loop with a condition that Variable I number must be less than one,while i<N+1 :,,
+Start while Loop with a condition that Variable I number must be less than one,while i<N+1 :,,
+Execute a whilst loop with a condition that the variable i number must be less than one,while i<N+1 :,,
+Start with a condition that while Loop I variable number must be less than one plus,while i<N+1 :,,
+Enforce with a condition that while Loop I variable number must be less than one plus,while i<N+1 :,,
+Execute while Loop with the condition that Variable I < Number + 1 must be true,while i<N+1 :,,
+Start while Loop with a condition that Variable I < Number + 1 must be true,while i<N+1 :,,
+Execute while Loop with the condition that Variable I < Number + 1 must be true,while i<N+1 :,,
+Start with a condition that while Loop I < Number + 1 must be true,while i<N+1 :,,
+Enforce with condition that while Loop I < Number + 1 must be true,while i<N+1 :,,
+Put the result plus i to the variable amount inside the loop,     amount+=i,,
+Add i to the variable amount inside the loop,     amount+=i,,
+Intra-rupee amount += i,     amount+=i,,
+Intra-rupee Amount = Amount + I,     Amount= Amount + i,,
+Increase from one to five inside the loop,     i += 1,,
+Increase from one to the variable i inside the loop,     i += 1,,
+Intra-rupee i += 1,     i += 1,,
+Intra-loop I = I + 1,     i += 1,,
+Increase the variable i within the loop by one,     i += 1,,
+Print Variable Amount,print(Amount),,
+Print variable amount,print(amount),,
+Print variable amount,print(amount),,
+Print variable amount,print(amount),,
+Declare a variable number with decimal point and store the input given by the user to it,"number = float(input(""Enter number  : ""))",,
+Assign user input to variable number with decimal point,"number = float(input(""Enter number  : ""))",,
+Assign user input to variable number with decimal point,"number = float(input(""Enter number  : ""))",,
+Set the value given by the user to the floating variable number,"number = float(input(""Enter number  : ""))",,
+Assign the value given by the user to the variable number that is floating,"number = float(input(""Enter number  : ""))",,
+Assign zero to the variable amount,amount=0,,
+Assign zero to the variable Amount,Amount=0,,
+Assign zero to the variable Amount,Amount=0,,
+Put zero to the variable amount,amount=0,,
+A=number,A=number,,
+Collect A with number Value,A=number,,
+Assign A with number value,A=number,,
+Execute for loop with i from zero to four,"for i in range(0,4):",,
+Execute for loop with i from zero to four,"for i in range(0,4):",,
+Execute for loop with i from 0 to 4,"for i in range(0,4):",,
+Start for loop with i from zero to four,"for i in range(0,4):",,
+Start for loop with i from zero to four,"for i in range(0,4):",,
+Start for loop with i from 0 to 4,"for i in range(0,4):",,
+Execute for loop with i from zero to four,"for i in range(0,4):",,
+Execute for loop with i from zero to four,"for i in range(0,4):",,
+Execute for loop with i from 0 to 4,"for i in range(0,4):",,
+Start for loop with i from zero to four,"for i in range(0,4):",,
+Start for loop with i from zero to four,"for i in range(0,4):",,
+Start for loop with i from 0 to 4,"for i in range(0,4):",,
+Digit inside loop = A%10,     digit=A%10,,
+Declare the variable digit inside the loop and then divide A by ten and then collect the remaining number in it,     digit=A%10,,
+Declare the variable digit and assign the remaining number to A after dividing it by ten,     digit=A%10,,
+Declare the variable digit inside the loop and assign the remaining number to A after dividing it by ten,     digit=A%10,,
+Declare the variable digit inside the loop and then divide A by ten and then collect the remaining number in it,     digit=A%10,,
+Intra-rupee Amount=Figure**3,     Amount+=number**3,,
+"If number and amount are equal, print ""It is an Armstrong number""","if number==sum
+     print(""It is an Armstrong number"")",,
+"If number==amount, print ""It is an Armstrong number""","if number==sum
+     print(""It is an Armstrong number"")",,
+"If amount==number , print ""It is an Armstrong number""","if number==sum
+     print(""It is an Armstrong number"")",,
+"Print otherwise ""It is not an Armstrong number""","else
+     print(""It is not an Armstrong number"")",,
+"Otherwise print ""It is not an Armstrong number""","else
+     print(""It is not an Armstrong number"")",,
+Announce the variable N and store the user input for it,"N=int(input(""Enter N : ""))",,
+Assign user input to variable N,"N=int(input(""Enter N : ""))",,
+Set the value given by the user to variable N,"N=int(input(""Enter N : ""))",,
+Assign User Giving Value to Variable N,"N=int(input(""Enter N : ""))",,
+Enter the number given by the user to the variable N,"N=int(input(""Enter N : ""))",,
+Assign User Giving Number to Variable N,"N=int(input(""Enter N : ""))",,
+Assign zero to a variable X,X=0,,
+Assign zero to the variable X,X=0,,
+Assign zero to the variable X,X=0,,
+Put zero to the variable X,X=0,,
+Assign zero to the variable Y,Y=0,,
+Assign zero to the variable Y,Y=0,,
+Assign zero to the variable Y,Y=0,,
+Put zero to the variable Y,Y=0,,
+Execute while Loop with the condition that the value of variable N is not zero,while(N!=0):,,
+Execute while Loop with the condition that the value of variable N is not zero,while(N!=0):,,
+Start while Loop with a condition that the value of variable N is not zero,while(N!=0):,,
+Execute a vile loop with the condition that the value of variable N is not zero,while(N!=0):,,
+Start with the condition that the value of the while Loop en variable is not zero,while(N!=0):,,
+Enforce the condition that the value of the while Loop en variable is not zero,while(N!=0):,,
+Execute while Loop with the condition that Variable N!=0 must be true,while(N!=0):,,
+Start while Loop with a condition that Variable N!=0 must be true,while(N!=0):,,
+Execute while Loop with the condition that Variable N!=0 must be true,while(N!=0):,,
+Start with a condition that while Loop N!=0 must be true,while(N!=0):,,
+Enforce with condition that while Loop N!=0 must be true,while(N!=0):,,
+Add one to X if N is greater than zero inside loop,"     if N>0:
+          X+=1",,
+Attach one to X if N is greater than zero inside the loop,"     if N>0:
+          X+=1",,
+Add one to X if N is greater than zero inside the loop,"     if N>0:
+          X+=1",,
+If not add one to variable Y,"     else:
+          Y+=1",,
+"If not, attach one to the variable Y","     else:
+          Y+=1",,
+If not add one to variable Y,"     else:
+          Y+=1",,
+Assign User Giving Value to N,"N=int(input(""Enter N : ""))",,
+Enter the number given by the user to n,"N=int(input(""Enter N : ""))",,
+Print X,print(X),,
+Print variable X,print(X),,
+Print variable X,print(X),,
+Print Y,print(Y),,
+Print Y,print(Y),,
+Print variable Y,print(Y),,
+Print variable Y,print(Y),,
+Execute for loop with J from one to 26,"for J in range(1,26):",,
+Execute for loop with J from one to twenty-six,"for J in range(1,26):",,
+Execute for loop with J from 1 to 26,"for J in range(1,26):",,
+Start for loop with J from one to 26,"for J in range(1,26):",,
+Start for loop with J from one to twenty-six,"for J in range(1,26):",,
+Start for loop with J from 1 to 26,"for J in range(1,26):",,
+Execute for loop with J from one to 26,"for J in range(1,26):",,
+Execute for loop with J from one to twenty-six,"for J in range(1,26):",,
+Execute for loop with J from 1 to 26,"for J in range(1,26):",,
+Start for loop with J from one to 26,"for J in range(1,26):",,
+Start for loop with J from one to twenty-six,"for J in range(1,26):",,
+Start for loop with J from 1 to 26,"for J in range(1,26):",,
+"Print ""hi"" inside loop","     print(""hi"")",,
+"Print ""hi"" inside loop","     print(""hi"")",,
+"Print ""hi"" inside the loop","     print(""hi"")",,
+"Print ""hi"" inside loop Hi","     print(""hi"")",,
+Declare variable N and assign user input numeric value,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and store user input number value in it,"N = int(input(""Enter N : ""))",,
+Declare variable N and assign user input numeric value to N,"N = int(input(""Enter N : ""))",,
+Declare the variable N and collect the user-given number in it,"N = int(input(""Enter N : ""))",,
+Assign user input number to variable N,"N = int(input(""Enter N : ""))",,
+"If N is divisible by 2 and given a zero reminder print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N is divided by two and given a zero reminder print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If Reminder is zero when N is divided by 2 print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N is divisible by two and Reminder is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N % 2 is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N is divisible by 2 and Reminder is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N is divisible by two and Reminder is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N % 2 is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"Print ""N is an even number"" if N % 2 == 0 is true","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If Reminder is zero when N is divided by 2 print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N is divisible by two and Reminder is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"If N % 2 is zero, print ""N is an even number""","if N % 2 == 0:
+     print(""N is an even number"")",,
+"Print ""N is an even number"" if N % 2 == 0 is true","if N % 2 == 0:
+     print(""N is an even number"")",,
+"Otherwise print ""N is an odd number""","else: 
+     print(""N is odd number"")",,
+"Otherwise print ""N is an odd number""","else: 
+     print(""N is odd number"")",,
+Declare variable A and assign user input numeric value,"A = int(input(""Enter A : ""))",,
+Declare variable A and store user input number in it,"A = int(input(""Enter A : ""))",,
+Declare variable A and store user input number value in it,"A = int(input(""Enter A : ""))",,
+Declare variable A and assign user input numeric value to N,"A = int(input(""Enter A : ""))",,
+Declare Variable A and collect the user-given number in it,"A = int(input(""Enter A : ""))",,
+Assign user input number to variable A,"A = int(input(""Enter A : ""))",,
+Declare variable B and assign user input numeric value,"A = int(input(""Enter A : ""))",,
+Declare variable B and store user input number in it,"A = int(input(""Enter A : ""))",,
+Declare variable B and store user input number value in it,"B = int(input(""Enter B : ""))",,
+Declare variable B and assign user input numeric value to N,"B = int(input(""Enter B : ""))",,
+Declare Variable B and collect the user-given number in it,"B = int(input(""Enter B : ""))",,
+Assign user input number to variable B,"B = int(input(""Enter B : ""))",,
+Declare variable C and assign user input numeric value,"C = int(input(""Enter C : ""))",,
+Declare variable C and store user input number in it,"C = int(input(""Enter C : ""))",,
+Declare variable C and store user input number value in it,"C = int(input(""Enter C : ""))",,
+Declare variable C and assign user input numeric value to N,"C = int(input(""Enter C : ""))",,
+Declare the variable C and collect the user-given number in it,"C = int(input(""Enter C : ""))",,
+Assign user input number to variable C,"C = int(input(""Enter C : ""))",,
+"If Variable A is equal to Variable B or less than B and  If Variable A is equal to or less than C Variable A is the smallest of all, Assign A variable to the smallest variable","if (A <= B) and (A <= C):
+     smallest = A",,
+If Variable A is less than Variable B or equal to B and If A variable is smaller than or equal to C then A variable is smaller than all,"if (A <= B) and (A <= C):
+     smallest = A",,
+Assign A variable to the larget variable,largest = A,,
+"Otherwise Variable B to Variable A If equal to or less than a and variable 
+If B is equal to variable C or less than C
+Variable B is the smallest of all. Assign B variable to the 
+smallest variable","elif (B <= A) and (B <= C):
+     smallest = B",,
+"Otherwise the variable C is the smallest of all.
+Assign C variable to the smallest variable","else:
+     smallest = C",,
+"If Variable B is equal to Variable A or
+If less than A and for variable B variable C 
+Variable B if equal to or less than C 
+Assign B to the variable smallest of all. Very small","if(B <=A) and (B <=C) :
+     smallest = B",,
+"Otherwise variable C to variable A 
+Equivalent or less than A and variable C 
+If Variable B is equal to or less than B
+Variable C is the smallest of all. Assign C variable to the
+smallest variable","elif (C <= A) and (C<= B):
+     smallest = C",,
+"Otherwise variable A to variable B 
+If equal to or less than B and variable A 
+If Variable C is equal to or less than C
+Variable A is the smallest of all. Assign A variable to the
+smallest variable","elif (A <= B) and (A<= C):
+     smallest = A",,
+"Otherwise variable A is the smallest of all. Assign A variable to the smallest 
+variable","else:
+     smallest = A",,
+"Otherwise variable B is smaller than all. Assign the B variable to the smallest 
+variable","else:
+     smallest = B",,
+"If Variable C is equal to Variable A or 
+If less than A and variable C to variable B 
+Variable C if equal to or less than B 
+The smallest of all variables is the smallest 
+Assign C to","if(C < A) and (C <= B) :
+     smallest = C",,
+"Otherwise Variable B to Variable A 
+If equal to or less than a and variable b
+If Variable C is equal to or less than C 
+Variable B is the smallest of all. Assign B variable to the 
+smallest variable","elif (B <= A) and (B <= C):
+     smallest = B",,
+If A >= B and A >= C A variable is the smallest of all,"if (A <= B) and (A <= C):
+     smallest = A",,
+"If not then b >= a and b >= c . B variable 
+is the smallest of all","elif (B <= A) and (B <= C):
+     smallest = B",,
+If b >= a and b >= c . B variable is the smallest of all,"if(B <=A) and (B <=C) :
+     smallest = B",,
+"Otherwise c >= a and c >= b . C variable
+is the smallest of all","elif (C <= A) and (C <= B):
+     smallest = C",,
+If C >= A and C >= b . C variable is the smallest of all,"if(C <= A) and (C <= B) : 
+     smallest = C",,
+"If Variable A is less than Variable B or
+equal to B and less than variable A variable C 
+If small or equal to c. Variable A is the smallest of 
+all","if (A <= B) and (A <= C): 
+     smallest = A",,
+"If not Variable B than Variable A 
+If small or equal to A and variable B 
+If variable C is smaller than or equal to C then C 
+is smaller than all","elif (B <= A) and (B <= C): 
+     smallest = B",,
+"If Variable B is less than Variable A or
+A is equal to and variable B is less than variable C 
+If small or equal to c. Variable B 
+is smaller than all","if (B <= A) and (B <= C):
+     smallest = B",,
+"If not than Variable C Variable A 
+If small or equal to A and variable C 
+If variable B is smaller than or equal to B C 
+is smaller than all","elif (C <= A) and (C<= B): 
+     smallest = C",,
+"If otherwise variable A is less than variable B
+or equal to B and less than variable A variable C 
+If A is smaller than or equal to C then A is smaller than all","elif (A <= B) and (A<= C): 
+     smallest = A",,
+Print smallest,print(smallest),,
+Print smallest,print(smallest),,
+Print the smallest variable now,print(smallest),,
+Print variable smallest,print(smallest),,
+Print variable smallest,print(smallest),,
