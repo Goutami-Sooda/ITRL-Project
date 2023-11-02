@@ -1,0 +1,4898 @@
+[
+  {
+    "text": "Assign number two to variable A.",
+    "code": "A = 2"
+  },
+  {
+    "text": "Assign number two to variable A.",
+    "code": "A = 2"
+  },
+  {
+    "text": "Store number two in variable A",
+    "code": "A = 2"
+  },
+  {
+    "text": "Declare the variable A and store the number two in it",
+    "code": "A = 2"
+  },
+  {
+    "text": "Assign number five to variable B.",
+    "code": "B = 5"
+  },
+  {
+    "text": "Assign number  five to variable B.",
+    "code": "B = 5"
+  },
+  {
+    "text": "Store number five in variable B",
+    "code": "B = 5"
+  },
+  {
+    "text": "Declare the variable B and store the number  five in it",
+    "code": "B = 5"
+  },
+  {
+    "text": "Now add A and B and assign it to a variable called result.",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Add A and B and collect their sum in a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Add A and B and assign their sum to a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Add A and B and assign their sum to the result variable",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Add A and B and accumulate their sum in a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Add A and B and assign it to a variable result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Declare a variable result called result and collect the sum of A and B in it",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Collect the sum of A and B in a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Assign the sum of A and B to a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Print Result Now",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print Result",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print Result",
+    "code": "print(result)"
+  },
+  {
+    "text": "Declare variable A and assign user input numeric value",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable A and assign user input numeric value",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Create a variable A and assign the numeric value provided by the user.",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign user input number to variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign user input number to variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable B and assign user input numeric value",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Declare variable B and assign user input numeric value",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Create a variable B and assign the numeric value provided by the user.",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign user input number to variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign user input number to variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Now add A and B and assign it to a variable called result.",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Add A and B and assign it to a variable result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Declare a variable result called result and collect the sum of A and B in it",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Collect the sum of A and B in a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Assign the sum of A and B to a variable called result",
+    "code": "result = A + B"
+  },
+  {
+    "text": "Print Result Now",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print Result",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print Result",
+    "code": "print(result)"
+  },
+  {
+    "text": "Assign number ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Assign number ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Put number ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Store number ten in variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Assign number ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Assign number ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Put number ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Assign number twelve to variable B",
+    "code": "B=12"
+  },
+  {
+    "text": "Assign number 12 to variable B",
+    "code": "B=12"
+  },
+  {
+    "text": "Assign the number twelve to the variable B.",
+    "code": "B=12"
+  },
+  {
+    "text": "Store number 12 in variable B",
+    "code": "B=12"
+  },
+  {
+    "text": "Put number 12 to variable B.",
+    "code": "B=12"
+  },
+  {
+    "text": "Assign number 12 to variable B",
+    "code": "B=12"
+  },
+  {
+    "text": "Put number 12 to variable B",
+    "code": "B=12"
+  },
+  {
+    "text": "Assign number 14 to variable C",
+    "code": "C=14"
+  },
+  {
+    "text": "Assign number 14 to variable C",
+    "code": "C=14"
+  },
+  {
+    "text": "Put number 14 to variable C",
+    "code": "C=14"
+  },
+  {
+    "text": "Assign number fourteen to variable C",
+    "code": "C=14"
+  },
+  {
+    "text": "Put number fourteen to variable C",
+    "code": "C=14"
+  },
+  {
+    "text": "Assign number 14 to variable C",
+    "code": "C=14"
+  },
+  {
+    "text": "If variable A is equal to variable B or greater\n than B and variable A is equal to variable C or\n greater than C then variable A is greater than \nall. Assign A variable to the largest variable",
+    "code": "if (A >= B) and (A >= C):\n   largest = A"
+  },
+  {
+    "text": "If variable A is greater than or equal to variable B and variable A \nis greater than or equal to C then A variable is greater than all",
+    "code": "if (A >= B) and (A >= C):"
+  },
+  {
+    "text": "Assign A variable to the largest variable",
+    "code": "largest = A"
+  },
+  {
+    "text": "If otherwise variable B is equal to variable A\n or greater than A and variable B is equal to\n variable C or greater than C then variable B is \ngreater than all. Assign the B variable to the \nlargest variable",
+    "code": "elif (B >= A) and (B >= C):\n   largest = B"
+  },
+  {
+    "text": "Otherwise the variable C is the largest of all. \nAssign C variable to the largest variable",
+    "code": "else:\n   largest = C"
+  },
+  {
+    "text": "If variable B is equal to variable A or greater than A and variable B \nis equal to variable C or greater than C then variable B is greater\n than all. Assign B to the largest variable",
+    "code": "if(B >=A) and (B >=C) :\n   largest = B"
+  },
+  {
+    "text": "If otherwise variable C is equal to variable A or greater than A and \nvariable C is equal to variable B or greater than B then variable C \nis greater than all. Assign C variable to the largest variable",
+    "code": "elif (C >= A) and (C>= B):\n   largest = C"
+  },
+  {
+    "text": "If otherwise variable A is equal to variable B or greater than B and \nvariable A is equal to variable C or greater than C then variable A \nis greater than all. Assign A variable to the largest variable",
+    "code": "elif (A >= B) and (A>= C):\n   largest = A"
+  },
+  {
+    "text": "Otherwise variable A is the largest of all. Assign A variable to the\n largest variable",
+    "code": "else:\n   largest = A"
+  },
+  {
+    "text": "Otherwise variable B is the largest of all. Assign B variable to the\n largest variable",
+    "code": "else:\n   largest = B"
+  },
+  {
+    "text": "If variable C is equal to variable A or greater than A and variable C\n is equal to variable B or greater than B then variable C is greater\n than all. Assign C to the largest variable",
+    "code": "if(C >= A) and (C >= B) :\n   largest = C"
+  },
+  {
+    "text": "If otherwise variable B is equal to variable A or greater than A and \nvariable B is equal to variable C or greater than C then variable B\n is greater than all. Assign the B variable to the largest variable",
+    "code": "elif (B >= A) and (B >= C):\n   largest = B"
+  },
+  {
+    "text": "If A >= B and A >= C A variable is the largest of all",
+    "code": "if (A >= B) and (A >= C):\n    largest = A"
+  },
+  {
+    "text": "If not then b >= a and b >= c . B variable is the largest of all",
+    "code": "elif (B >= A) and (B >= C):\n   largest = B"
+  },
+  {
+    "text": "If b >= a and b >= c . B variable is the largest of all",
+    "code": "if(B >=A) and (B >=C) :\n   largest = B"
+  },
+  {
+    "text": "If otherwise c >= a and c >= b . C variable is the largest of all",
+    "code": "elif (C >= A) and (C>= B):\n largest = C"
+  },
+  {
+    "text": "If C >= A and C >= b . C variable is the largest of all",
+    "code": "if(C >= A) and (C >= B) : \n  largest = C"
+  },
+  {
+    "text": "If variable A is greater than or equal to variable B and variable A is \ngreater than or equal to variable C. Variable A is the largest of all",
+    "code": "if (A >= B) and (A >= C): \n   largest = A"
+  },
+  {
+    "text": "If otherwise the variable B is greater than or equal to variable A \nand the variable B is greater than or equal to C then C is greater \nthan all",
+    "code": "elif (B >= A) and (B >= C): \n   largest = B"
+  },
+  {
+    "text": "If variable B is greater than or equal to variable A and variable B\n is greater than or equal to variable C. Variable B is bigger than all",
+    "code": "if (B >= A) and (B >= C):\n  largest = B"
+  },
+  {
+    "text": "If otherwise the variable C is greater than or equal to variable A \nand the variable C is greater than or equal to variable B then C is \ngreater than all",
+    "code": "elif (C >= A) and (C>= B): \n  largest = C"
+  },
+  {
+    "text": "If otherwise the variable A is greater than or equal to variable B and the \nvariable A is greater than or equal to variable C then A is greater than all",
+    "code": "elif (A >= B) and (A>= C): \n  largest = A"
+  },
+  {
+    "text": "Print Largest",
+    "code": "print(largest)"
+  },
+  {
+    "text": "Print Largest",
+    "code": "print(largest)"
+  },
+  {
+    "text": "Print the largest variable now",
+    "code": "print(largest)"
+  },
+  {
+    "text": "Print the largest variable",
+    "code": "print(largest)"
+  },
+  {
+    "text": "Print the largest variable",
+    "code": "print(largest)"
+  },
+  {
+    "text": "Print the word 'hello world'",
+    "code": "print(\"hello world\")"
+  },
+  {
+    "text": "Print 'hello world'",
+    "code": "print(\"hello world\")"
+  },
+  {
+    "text": "Hello World' Print",
+    "code": "print(\"Hello World\")"
+  },
+  {
+    "text": "Print 'hello world'",
+    "code": "print(\"hello world\")"
+  },
+  {
+    "text": "Print 'hello world'",
+    "code": "print(\"hello world\")"
+  },
+  {
+    "text": "Show 'Hello World'",
+    "code": "print(\"hello world\")"
+  },
+  {
+    "text": "Show the word 'hello world' on the screen",
+    "code": "print(\"Hello World\")"
+  },
+  {
+    "text": "Show the word 'hello world'",
+    "code": "print(\"hello world\")"
+  },
+  {
+    "text": "Put 'Hello World'",
+    "code": "print(\"Hello World\")"
+  },
+  {
+    "text": "Declare float variable radius and store user input value in it",
+    "code": "radius= float(input(\"Enter  radius : \")"
+  },
+  {
+    "text": "Declare the float variable radius and store the user input value in it",
+    "code": "radius= float(input(\"Enter radius : \")"
+  },
+  {
+    "text": "Assign 3.14 to Pi",
+    "code": "pi=3.14"
+  },
+  {
+    "text": "3.14 Assign to Pi",
+    "code": "pi=3.14"
+  },
+  {
+    "text": "3.14 Put to Pie",
+    "code": "pi = 3.14"
+  },
+  {
+    "text": "Store 3.14 in pi",
+    "code": "pi = 3.14"
+  },
+  {
+    "text": "Multiply the pie multiplier radius twice and assign the answer to the\n variable area",
+    "code": "area = pi* radius * radius"
+  },
+  {
+    "text": "Pi int radius int radius and assign the answer to the variable area",
+    "code": "area = pi* radius * radius"
+  },
+  {
+    "text": "Area = Pi*radius*radius",
+    "code": "area = pi* radius * radius"
+  },
+  {
+    "text": "Area = Pi * square of radius",
+    "code": "area= pi* pow(radius,2)"
+  },
+  {
+    "text": "Assign the value of pi*radius *radius to the variable Area",
+    "code": "area = pi* radius * radius"
+  },
+  {
+    "text": "Print Area",
+    "code": "print(area)"
+  },
+  {
+    "text": "Show area",
+    "code": "print(area)"
+  },
+  {
+    "text": "Print Area",
+    "code": "print(area)"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value",
+    "code": "N = int(input(\"Enter  N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number value in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value to N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and collect the user-given number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input number to variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "If N>0 is true print 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If N>0 is true print 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If N>0 print 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If N>0 print 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If variable N is greater than zero, print it as 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'positive number' if variable N is greater than zero",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'positive number' if variable N is greater than zero",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If variable N is greater than zero, print it as 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'positive number' if variable N is greater than zero",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'positive number' if variable N is greater than zero",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If variable N is greater than zero, print it as 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If variable N is greater than zero, print 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If variable N is greater than zero, print 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If variable N is greater than zero, print it as 'positive number'",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'positive number' if variable N is greater than zero",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'positive number' if variable N is greater than zero",
+    "code": "if N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0 is true",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0 is true",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0 is true",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0 is true",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not then print 'negative number' if N<0",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Otherwise, if variable N is less than zero, print it as 'negative number' if not",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print it as a 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'negative number' if variable N is less than zero",
+    "code": "elif N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print zero if variable N is zero otherwise",
+    "code": "else:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero otherwise",
+    "code": "else:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero otherwise",
+    "code": "else:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print number zero if not",
+    "code": "else:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero otherwise",
+    "code": "else:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero if not",
+    "code": "else:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero if variable N is zero",
+    "code": "if N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero if variable N is zero",
+    "code": "if N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero if variable N is zero",
+    "code": "if N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print zero if variable N is zero",
+    "code": "if N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print it as 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'Positive' if Variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print it as 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print 'positive' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If otherwise the variable N is greater than zero, print it as a 'positive number'",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print it as a 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print as 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Otherwise print as 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print it as a 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print it as a 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive\")"
+  },
+  {
+    "text": "If not, print as 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print as 'positive number' if variable N is greater than zero",
+    "code": "elif N > 0:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Print 'negative number' if not",
+    "code": "else:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative' if not",
+    "code": "else:\n       print(\"negative\")"
+  },
+  {
+    "text": "If not, print as 'negative number'",
+    "code": "else:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative' if not",
+    "code": "else:\n       print(\"negative\")"
+  },
+  {
+    "text": "If not, print as 'negative number'",
+    "code": "else:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative number' if not",
+    "code": "else:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 is true print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 is true, print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 is true print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 is true, print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If n<0 print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If variable N is less than zero, print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative number' if variable N is less than zero",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If variable N is less than zero, print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If variable N is less than zero, print it as 'negative number' if not",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative number' if variable N is less than zero",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If variable N is less than zero, print it as 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative number' if variable N is less than zero",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If variable N is less than zero, print 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If variable N is smaller than zero, print it as a 'negative number'",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "Print 'negative number' if variable N is less than zero",
+    "code": "if N < 0:\n       print(\"negative number\")"
+  },
+  {
+    "text": "If not, print 'zero' if variable N is zero",
+    "code": "elif N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print 'null' if otherwise variable n is null",
+    "code": "elif N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "Print 'null' if otherwise variable n is null",
+    "code": "elif N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "If not, print 'zero' if variable N is zero",
+    "code": "elif N == 0:\n       print(\"zero\")"
+  },
+  {
+    "text": "If not, print as Positive Number",
+    "code": "else:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print positive number",
+    "code": "else:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print as Positive Number",
+    "code": "else:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print positive number",
+    "code": "else:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print as a positive number",
+    "code": "else:\n       print(\"positive number\")"
+  },
+  {
+    "text": "If not, print as a positive number",
+    "code": "else:\n       print(\"positive number\")"
+  },
+  {
+    "text": "Assign number thirteen to variable X",
+    "code": "x=13"
+  },
+  {
+    "text": "Assign number thirteen to variable X",
+    "code": "x=13"
+  },
+  {
+    "text": "Store number thirteen in variable X",
+    "code": "x=13"
+  },
+  {
+    "text": "Assign number one to variable factorial",
+    "code": "factorial =1"
+  },
+  {
+    "text": "Assign number one to variable factorial",
+    "code": "factorial =1"
+  },
+  {
+    "text": "Print 'error' if less than X zero",
+    "code": "if x <0:\n     print(\"error\")"
+  },
+  {
+    "text": "If the value of X is less than zero, print \"Error",
+    "code": "if x <0:\n     print(\"Error\")"
+  },
+  {
+    "text": "Or assign one to the factorial if the X value is zero",
+    "code": "elif x==0:\n      factorial =1"
+  },
+  {
+    "text": "Or assign one to the factorial if the X value is zero",
+    "code": "elif x==0:\n      factorial =1"
+  },
+  {
+    "text": "Or enforce a for loop,from one  to fourteen",
+    "code": "for i in range(1,14):"
+  },
+  {
+    "text": "Or enforce a for loop,from one  to fourteen",
+    "code": "for i in range(1,14):"
+  },
+  {
+    "text": "Or enforce a for loop, from one  to fourteen",
+    "code": "for i in range(1,14):"
+  },
+  {
+    "text": "Update factorial as factorial *i",
+    "code": "factorial*=i"
+  },
+  {
+    "text": "Update factorial as factorial *i",
+    "code": "factorial*=i"
+  },
+  {
+    "text": "Print Factorial",
+    "code": "print(factorial)"
+  },
+  {
+    "text": "Print Factorial",
+    "code": "print(factorial)"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number value in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value to N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and collect the user-given number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input number to variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "If Variable N is more than one",
+    "code": "if N > 1:"
+  },
+  {
+    "text": "If variable N is greater than 1",
+    "code": "if N > 1:"
+  },
+  {
+    "text": "Start for loop with i from 2 to n/2+1 if variable n is greater than one",
+    "code": "if N > 1: \n   for i in range(2, N//2 + 1):"
+  },
+  {
+    "text": "Start for loop with i from 2 to n/2+1 if variable n is more than one",
+    "code": "if N > 1: \n   for i in range(2, N//2 + 1):"
+  },
+  {
+    "text": "Start for loop with i from 2 to n/2+1 if variable n is greater than one",
+    "code": "if N > 1: \n   for i in range(2, N//2 + 1):"
+  },
+  {
+    "text": "Start for loop with i from 2 to n/2+1 if variable n is more than one",
+    "code": "if N > 1: \n   for i in range(2, N//2 + 1):"
+  },
+  {
+    "text": "Inside the loop, print the 'N is not a prime number' if variable N can be divided by i",
+    "code": "if (N % i) == 0:\n         print(\"N is not a prime number\")\n         break"
+  },
+  {
+    "text": "Otherwise print as 'N is a prime number'",
+    "code": "else:\n      print(\"N is a prime number\")"
+  },
+  {
+    "text": "If not, then print 'N is not a prime number' if N is less than or equal to one",
+    "code": "else:\n   print(\"N is not a prime number\")"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number value in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value to N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and collect the user-given number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input number to variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "For i in range of 0 to 11",
+    "code": "for i in range(1, 11):"
+  },
+  {
+    "text": "Multiply N with i and print the result",
+    "code": "print(f\"{N} x {i} = {N*i}\")"
+  },
+  {
+    "text": "Multiply N with i and print the result",
+    "code": "print(f\"{N} x {i} = {N*i}\")"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number value in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value to N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and collect the user-given number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input number to variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Now declare the result variable and set it to zero",
+    "code": "result = 0"
+  },
+  {
+    "text": "Declare the result variable and store zero in it",
+    "code": "result = 0"
+  },
+  {
+    "text": "Assign zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Declare the result variable and set it to zero",
+    "code": "result = 0"
+  },
+  {
+    "text": "Assign zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Assign zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Now enforce while Loop with a condition that Variable N should be greater than zero",
+    "code": "while(N > 0):"
+  },
+  {
+    "text": "Now start the while Loop with a condition that Variable N should be greater than zero",
+    "code": "while(N > 0):"
+  },
+  {
+    "text": "Start while Loop now with a condition that Variable N should be greater than zero",
+    "code": "while(N > 0):"
+  },
+  {
+    "text": "Now execute the while Loop with the condition that the variable should be greater than N zero",
+    "code": "while(N > 0):"
+  },
+  {
+    "text": "Add N to the result variable until the condition is true and store it in the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Subtract one from N until the condition is true",
+    "code": "N -= 1"
+  },
+  {
+    "text": "Print the result variable if the condition is false",
+    "code": "print(result)"
+  },
+  {
+    "text": "Execute the while Loop with the condition that now the variable N must be greater than zero",
+    "code": "while(N > 0):"
+  },
+  {
+    "text": "Now add the result and variable N inside the loop and collect their sum in the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the result and variable N within the loop and accumulate their sum in the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the result and variable N within the width loop and collect their sum in the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the result and variable N within the width loop and collect their sum in the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the variable N and the result inside the loop and accumulate their sum in the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the variable N and the result inside the loop and assign their sum to a variable called the result",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the variable N and the result inside the loop and assign their sum to the result variable",
+    "code": "result += N"
+  },
+  {
+    "text": "Now add the variable N and the result to the inside of the loop and store their amount in a variable called result",
+    "code": "result += N"
+  },
+  {
+    "text": "Upgrade result to result += N until condition is true",
+    "code": "result += N"
+  },
+  {
+    "text": "Update result as result += N until condition is true",
+    "code": "result += N"
+  },
+  {
+    "text": "Subtract one from N inside the loop",
+    "code": "N -= 1"
+  },
+  {
+    "text": "Now subtract one from N inside the loop",
+    "code": "N -= 1"
+  },
+  {
+    "text": "Print result on conditional false",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print the variable force result when the condition is false",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print result on conditional false",
+    "code": "print(result)"
+  },
+  {
+    "text": "Print result on conditional false",
+    "code": "print(result)"
+  },
+  {
+    "text": "Assign number twenty-four to variable a",
+    "code": "a=24"
+  },
+  {
+    "text": "Assign number twenty-four to variable a",
+    "code": "a=24"
+  },
+  {
+    "text": "Print 'Result:'",
+    "code": "print(\"result:\")"
+  },
+  {
+    "text": "enforce a for loop,from one to twentyfour",
+    "code": "for i in range(1,24):"
+  },
+  {
+    "text": "start a for loop,from one to twenty-four",
+    "code": "for i in range(1,24):"
+  },
+  {
+    "text": "enforce a for loop, from one to twenty-four",
+    "code": "for i in range(1,24):"
+  },
+  {
+    "text": "If a divisible by i",
+    "code": "if a%i==0:"
+  },
+  {
+    "text": "If a divisible by i",
+    "code": "if a%i==0:"
+  },
+  {
+    "text": "Print i",
+    "code": "print(i)"
+  },
+  {
+    "text": "Print i",
+    "code": "print(i)"
+  },
+  {
+    "text": "Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'",
+    "code": "print(\"a, a, e, e, u, u, r, a, a, io, o, au \")"
+  },
+  {
+    "text": "Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'",
+    "code": "print(\"a, a, e, e, u, u, r, a, a, io, o, au \")"
+  },
+  {
+    "text": "Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'",
+    "code": "print(\"a, a, e, e, u, u, r, a, a, io, o, au \")"
+  },
+  {
+    "text": "Print 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'",
+    "code": "print(\"a, a, e, e, u, u, r, a, a, io, o, au \")"
+  },
+  {
+    "text": "Exhibit 'A', 'A', 'E', 'E', 'U', 'U', 'R', 'A', 'A', 'I', 'O', 'O', 'A'",
+    "code": "print(\"A, A, E, E, U, U, R, A, A, I,O,O, A \")"
+  },
+  {
+    "text": "Show 'a', 'a', 'e', 'e', 'u', 'u', 'r', 'a', 'a', 'io', 'o', 'au'",
+    "code": "print(\"a, a, e, e, u, u, r, a, a, io, o, au \")"
+  },
+  {
+    "text": "Store 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Collect the value of a string called 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Collect the value of a string called 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Store 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Collect the word 'Python' where the language is variable",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Put 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Put 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Put the string value 'Python' in the variable Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Assign string value 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Assign string value 'Python' in a variable called Language",
+    "code": "language = \"Python"
+  },
+  {
+    "text": "Assign User Input Value in Variable name",
+    "code": "name = input(\"Enter name : \")"
+  },
+  {
+    "text": "Now print the value in the variable 'My Name is ' name",
+    "code": "print(\"My Name is \", name)"
+  },
+  {
+    "text": "Collect the value given by the user in the variable name",
+    "code": "name = input(\"Enter name : \")"
+  },
+  {
+    "text": "Now print the value in the variable 'My Name is ' Name",
+    "code": "print(\"My Name is \", Name)"
+  },
+  {
+    "text": "Print variable name",
+    "code": "print(name)"
+  },
+  {
+    "text": "Print variable name",
+    "code": "print(name)"
+  },
+  {
+    "text": "Print name",
+    "code": "print(name)"
+  },
+  {
+    "text": "Print name",
+    "code": "print(name)"
+  },
+  {
+    "text": "Set the value given by the user in the variable name",
+    "code": "name = input(\"Enter name : \")"
+  },
+  {
+    "text": "Print 1\\n2\\ n3\\ n4\\n5",
+    "code": "print(\"1\\n2\\n3\\n4\\n5\")"
+  },
+  {
+    "text": "Print 1\\n2\\n3\\n4\\n5",
+    "code": "print(\"1\\n2\\n3\\n4\\n5\")"
+  },
+  {
+    "text": "Print One New Line Character Two New Line Character Three New Line Character Four New Line Character Five",
+    "code": "print(\"1\\n2\\n3\\n4\\n5\")"
+  },
+  {
+    "text": "Print One New Line Character Two New Line Character Three New Line Character Four New Line Character Five",
+    "code": "print(\"1\\n2\\n3\\n4\\n5\")"
+  },
+  {
+    "text": "Print one new line character two new line character three new line character four new line character five numbers",
+    "code": "print(\"1\\n2\\n3\\n4\\n5\")"
+  },
+  {
+    "text": "Print five numbers of a new line character, two new line character, three new line character, four new line character.",
+    "code": "print(\"1\\n2\\n3\\n4\\n5\")"
+  },
+  {
+    "text": "Print 'one\\ntwo\\ntwo\\nthree\\nfour\\nfive'",
+    "code": "print(\"one\\ntwo\\nthree\\nfour\\nfive\")"
+  },
+  {
+    "text": "Print 'one\\ntwo\\nthree\\nfour\\nfive'",
+    "code": "print(\"one\\ntwo\\nthree\\nfour\\nfive\")"
+  },
+  {
+    "text": "Print 'my age' as 15 years",
+    "code": "print(\"my age is 15 years\")"
+  },
+  {
+    "text": "Print 'I am 15 years old'",
+    "code": "print(\"I am 15 years old\")"
+  },
+  {
+    "text": "Print 'my age' as 15 years",
+    "code": "print(\"my age is 15 years\")"
+  },
+  {
+    "text": "Print 'I am 15 years old'",
+    "code": "print(\"I am 15 years old\")"
+  },
+  {
+    "text": "Declare integer variable age and collect user input in it",
+    "code": "age = int(input(\"Enter age : \"))"
+  },
+  {
+    "text": "Declare the integer variable age and add user input to it",
+    "code": "age = int(input(\"Enter age :\"))"
+  },
+  {
+    "text": "Schedule user input for integer variable age",
+    "code": "age = int(input(\"Enter age : \"))"
+  },
+  {
+    "text": "Assign user input for integer variable age",
+    "code": "age = int(input(\"Enter age : \"))"
+  },
+  {
+    "text": "Schedule user input for integer variable age",
+    "code": "age = int(input(\"Enter age : \"))"
+  },
+  {
+    "text": "Schedule user input for integer variable age",
+    "code": "age = int(input(\"Enter age : \"))"
+  },
+  {
+    "text": "Assign user input to integer variable age",
+    "code": "age = int(input(\"Enter age : \"))"
+  },
+  {
+    "text": "Print age",
+    "code": "print(age)"
+  },
+  {
+    "text": "Print age",
+    "code": "print(age)"
+  },
+  {
+    "text": "Print age variable",
+    "code": "print(age)"
+  },
+  {
+    "text": "Print age variable",
+    "code": "print(age)"
+  },
+  {
+    "text": "Assign number seven to variable A.",
+    "code": "A = 7"
+  },
+  {
+    "text": "Assign number seven to variable A.",
+    "code": "A = 7"
+  },
+  {
+    "text": "Store number seven in variable A",
+    "code": "A = 7"
+  },
+  {
+    "text": "Declare variable A and store user input in it",
+    "code": "A = 7"
+  },
+  {
+    "text": "Declare the variable A and store the number seven in it",
+    "code": "A = 7"
+  },
+  {
+    "text": "Print Variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print Variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Declare variable string and store user input in it",
+    "code": "string = input(\"Enter string : \")"
+  },
+  {
+    "text": "Declare variable string and assign user input",
+    "code": "string = input(\"Enter string : \")"
+  },
+  {
+    "text": "Declare variable string and add user input to it",
+    "code": "string = input(\"Enter string : \")"
+  },
+  {
+    "text": "Declare variable string and schedule user input",
+    "code": "string = input(\"Enter string : \")"
+  },
+  {
+    "text": "Declare variable string and assign user input",
+    "code": "string = input(\"Enter string : \")"
+  },
+  {
+    "text": "Declare variable string and assign user input",
+    "code": "string = input(\"Enter string : \")"
+  },
+  {
+    "text": "Print variable string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print variable string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print variable string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print variable string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print variable string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Print variable string",
+    "code": "print(string)"
+  },
+  {
+    "text": "Assign decimal value 3.14 to variable No.1.",
+    "code": "No.1. = 3.14"
+  },
+  {
+    "text": "Set the decimal value 3.14 for variable No.1.",
+    "code": "No.1. = 3.14"
+  },
+  {
+    "text": "Collect decimal value 3.14 in variable no.1",
+    "code": "No.1. = 3.14"
+  },
+  {
+    "text": "Declare the variable No.1 and store the decimal value 3.14 in it",
+    "code": "No.1. = 3.14"
+  },
+  {
+    "text": "Print No.1",
+    "code": "print(No.1.)"
+  },
+  {
+    "text": "Print No.1",
+    "code": "print(No.1.)"
+  },
+  {
+    "text": "Assign user input number as sentence to variable A.",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Set the number user input number as a sentence for variable A.",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Store in Variable A as User Input Number Sentence",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Declare the variable A and store in it as user input number sentence",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Assign user input number as string to variable A.",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Assign number user input number as string to variable A.",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Store user input number as string in variable A",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Declare the variable A and store the user input number as string in it",
+    "code": "A = input(\" Enter A : \")"
+  },
+  {
+    "text": "Print A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print '1\\t 2\\t 3\\t 4\\t 5\\t'",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Print '1\\t 2\\t 3\\t 4\\t 5\\t'",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Print this '1\\t 2\\t 3\\t 4\\t 5\\t'",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Print one two three four five with tab space",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Print one two three four five with tab space",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Print this '1\\t 2\\t 3\\t 4\\t 5\\t'",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Show one two three four five with tab space",
+    "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+  },
+  {
+    "text": "Declare an integer variable and store the user base in it",
+    "code": "A= int(input( \"Enter A :  \")"
+  },
+  {
+    "text": "Announce an integer variable a and store what the user offers to it",
+    "code": "a= int(input( \"Enter a : \")"
+  },
+  {
+    "text": "Declare an integer variable a and store the user for it",
+    "code": "a= int(input(\"Enter a : \")"
+  },
+  {
+    "text": "Take an integer input",
+    "code": "A= int(input(\"Enter A : \")"
+  },
+  {
+    "text": "Declare the Integer Variable a and assign the value given by the user to it",
+    "code": "a= int(input(\"Enter a : \")"
+  },
+  {
+    "text": "Assign user input to the variable a to intizer variable",
+    "code": "a= int(input(\"Enter a : \")"
+  },
+  {
+    "text": "Print variable a",
+    "code": "print(a)"
+  },
+  {
+    "text": "Print number",
+    "code": "print(number)"
+  },
+  {
+    "text": "Print number",
+    "code": "print(number)"
+  },
+  {
+    "text": "Print a",
+    "code": "print(a)"
+  },
+  {
+    "text": "Print a",
+    "code": "print(a)"
+  },
+  {
+    "text": "Declare integer variable N and assign user input numeric value",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare integer variable N and store user input number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare integer variable N and store user input number value in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare integer variable N and assign user input numeric value to N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the integer variable N and collect the user-given number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input number to integer variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value to it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user string input",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input string in it",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input string in it",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input string to N",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and collect user-given string in it",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input string to variable N",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input string value to it",
+    "code": "N = str(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input float value",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input float in it",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and store the user's input float value in it",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input float value to N",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and collect the user-given float in it",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input float to variable N",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input float value to it",
+    "code": "N = float(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Print data type of N",
+    "code": "print(type(N))"
+  },
+  {
+    "text": "Print data type of N",
+    "code": "print(type(N))"
+  },
+  {
+    "text": "Assign 90  to Variable A",
+    "code": "a=90"
+  },
+  {
+    "text": "Assign 90 to variable A",
+    "code": "a=90"
+  },
+  {
+    "text": "Collect 90 for variable A.",
+    "code": "a=90"
+  },
+  {
+    "text": "Store for variable  B (A- 32).",
+    "code": "b=a-32"
+  },
+  {
+    "text": "Assign to variable  B, (A- 32)",
+    "code": "b=a-32"
+  },
+  {
+    "text": "Assign to variable B ,(A-32)",
+    "code": "b=a-32"
+  },
+  {
+    "text": "Assign B*(5/9) to Variable Celsius",
+    "code": "celsius=b*5/9"
+  },
+  {
+    "text": "Assign B*(5/9) to variable Celsius.",
+    "code": "celsius=b*5/9"
+  },
+  {
+    "text": "Collect B*(5/9) for variable Celsius",
+    "code": "celsius=b*5/9"
+  },
+  {
+    "text": "print celsius",
+    "code": "print(celsius)"
+  },
+  {
+    "text": "print celsius",
+    "code": "print(celsius)"
+  },
+  {
+    "text": "print celsius",
+    "code": "print(celsius)"
+  },
+  {
+    "text": "print celsius Variable",
+    "code": "print(celsius)"
+  },
+  {
+    "text": "Assign 13 to Variable A",
+    "code": "A = 13"
+  },
+  {
+    "text": "Assign 13 to variable A.",
+    "code": "A = 13"
+  },
+  {
+    "text": "Store 13 to Variable A",
+    "code": "A = 13"
+  },
+  {
+    "text": "Collect 25 for variable  B.",
+    "code": "B = 25"
+  },
+  {
+    "text": "Assign 25 to Variable  B",
+    "code": "B = 25"
+  },
+  {
+    "text": "Assign 25 to variable B.",
+    "code": "B = 25"
+  },
+  {
+    "text": "Store 67 for variable C.",
+    "code": "C = 67"
+  },
+  {
+    "text": "Assign 67 to variable C.",
+    "code": "C = 67"
+  },
+  {
+    "text": "Assign 67 to variable C.",
+    "code": "C = 67"
+  },
+  {
+    "text": "Collect A*B* C for variable  product.",
+    "code": "product= a*b*c"
+  },
+  {
+    "text": "Collect A*B* C for variable  product.",
+    "code": "product= A*B*C"
+  },
+  {
+    "text": "Collect A*B* C for variable  product.",
+    "code": "product= A*B*C"
+  },
+  {
+    "text": "Print product",
+    "code": "print(product)"
+  },
+  {
+    "text": "Print product",
+    "code": "print(product)"
+  },
+  {
+    "text": "Print product variable",
+    "code": "print(product)"
+  },
+  {
+    "text": "Assign \"hello\" to variable A",
+    "code": "A=\"hello"
+  },
+  {
+    "text": "Assign \"hello\" to variable A.",
+    "code": "A=\"hello"
+  },
+  {
+    "text": "Store \"hello\" to variable A.",
+    "code": "A=\"hello"
+  },
+  {
+    "text": "Store len(a) to variable  B.",
+    "code": "B=len(a)"
+  },
+  {
+    "text": "Assign len(a) to variable  B",
+    "code": "B=len(a)"
+  },
+  {
+    "text": "Assign Len(A) to Variable  B",
+    "code": "B=len(A)"
+  },
+  {
+    "text": "Print Variable  B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Assign 19235 to Variable A",
+    "code": "A=19235"
+  },
+  {
+    "text": "Assign 19235 to variable A",
+    "code": "A=19235"
+  },
+  {
+    "text": "Collect 19235 for variable A.",
+    "code": "A=19235"
+  },
+  {
+    "text": "Collect for variable  B (A**0.5)",
+    "code": "B=A**0.5"
+  },
+  {
+    "text": "Assign to variable  B (A**0.5).",
+    "code": "B=A**0.5"
+  },
+  {
+    "text": "Assign to variable  B (A**0.5)",
+    "code": "B=A**0.5"
+  },
+  {
+    "text": "Print Variable  B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Declare a float variable F and store the user base  in it",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Declare a float variable F and store what the user offers  to it",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Declare a float variable F and store the user for it",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Win one flow input  in F",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Declare the float variable F and assign the value given by the user to it",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Assign user input to the float variable F",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Schedule user input for the float variable F",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Declare the float variable F and assign the value given by the user to it",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Collect what the user gives to Float variable",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Declare a float variable F and assign a user base  to it",
+    "code": "F = float(input(\"Enter F : \"))"
+  },
+  {
+    "text": "Declare Variable A that is an integer and store user input for it",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign integer user preference to variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign integer user input to variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable A where A is an integer",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Value to integer Variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to variable  A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Set the number given by the user to variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare integer Variable B and store user input for it",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign user preference to variable B that is an integer",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign integer user input to variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Set the integer value given by the user to variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign the value given by the user to integer variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to the variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Collect the number given by the user in variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Add sum of A and B to the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Assign sum of A and B to the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Set the sum of A and B for the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Add A and B to the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Assign A and B to a variable called sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Add A and B and store them in a variable called sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Add A and B and put it in a variable called sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Print sum now",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Show sum Now",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Show a variable called sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print variable sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print Sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print Sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Declare float Variable A and store user input for it",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign user input to variable A that is float",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign user input to floating variable A",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable A where A is a float",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Value to floating point Variable A",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Enter the float number given by the user to variable A",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving float Number to Variable A",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Set the float number given by the user to variable A",
+    "code": "A = float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign floating user preference to variable B",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign float user input to variable B",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Set the value given by the user to floating variable B",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign the value given by the user to float variable B",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to the variable B where B is a floating point number",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Collect the float number given by the user in variable B",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable B that is float",
+    "code": "B = float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Add sum of A and B to the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Assign sum of A and B to the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Set the sum of A and B for the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Add A and B to the variable sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Assign A and B to a variable called sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Add A and B and store them in a variable called sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Add A and B and put it in a variable called sum",
+    "code": "sum = A + B"
+  },
+  {
+    "text": "Print Sam now",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Show Sam Now",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Show a variable called sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print variable Sam",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print Sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print Sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Miss A and B and assign what is the difference to the variable",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Lose A and B and accumulate to what variable is the difference",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Miss A and B and put what is the difference to the variable",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Assign the sum past A and B to the variable difference",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Assign the missing answer A and B to the variable variable Variance",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Add the sum past A and B to the variable difference",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Assign the difference of A and B to the variable Difference",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Differentiate between A and B for variable Variable Variance",
+    "code": "difference = A - B"
+  },
+  {
+    "text": "Show variable difference",
+    "code": "print(difference)"
+  },
+  {
+    "text": "Print variable difference",
+    "code": "print(difference)"
+  },
+  {
+    "text": "Show difference now",
+    "code": "print(difference)"
+  },
+  {
+    "text": "Print Difference",
+    "code": "print(difference)"
+  },
+  {
+    "text": "Print the difference now",
+    "code": "print(difference)"
+  },
+  {
+    "text": "Print variable difference",
+    "code": "print(difference)"
+  },
+  {
+    "text": "multiply a and b and store it in a variable called product",
+    "code": "Product = A * B"
+  },
+  {
+    "text": "Multiply A and B in the variable Product",
+    "code": "Product = A * B"
+  },
+  {
+    "text": "Multiply A and B and assign the variable Product",
+    "code": "Product = A * B"
+  },
+  {
+    "text": "Multiply A and B and assign the variable Product",
+    "code": "Product = A * B"
+  },
+  {
+    "text": "Collect the multiplied value of A and B in the variable Product",
+    "code": "Product = A * B"
+  },
+  {
+    "text": "Collect the user input for the variable Celsius where Celsius is float",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Collect user input for a float variable called Celsius",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Collect Celsius user input",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Assign Celsius user input",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Assign user input to a float variable called Celsius",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Collect the value that the user tells the float variable Celsius",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Give the user the value for the float variable Celsius",
+    "code": "Celsius = float(input(\"Enter Celsius : \"))"
+  },
+  {
+    "text": "Declare Kelvin variable and add 273 to Fahrenheit and assign it to Kelvin variable",
+    "code": "Kelvin = Celsius + 273"
+  },
+  {
+    "text": "Kelvin =  Celsius + 273",
+    "code": "Kelvin = Celsius + 273"
+  },
+  {
+    "text": "Kelvin= Celsius + 273.15",
+    "code": "Kelvin = Celsius + 273.15"
+  },
+  {
+    "text": "Declare the Kelvin variable and add two hundred seventy-three to the Fahrenheit and assign it to the Kelvin variable",
+    "code": "Kelvin = Celsius + 273"
+  },
+  {
+    "text": "Add 273 to Fahrenheit and assign it to Kelvin variable",
+    "code": "Kelvin = Celsius + 273"
+  },
+  {
+    "text": "Add two hundred seventy-three to the Fahrenheit and assign it to the Kelvin variable",
+    "code": "Kelvin = Celsius + 273"
+  },
+  {
+    "text": "Print Kelvin",
+    "code": "print(Kelvin)"
+  },
+  {
+    "text": "Show variable Kelvin",
+    "code": "print(Kelvin)"
+  },
+  {
+    "text": "Show Kelvin's",
+    "code": "print(Kelvin)"
+  },
+  {
+    "text": "Print Kelvin",
+    "code": "print(Kelvin)"
+  },
+  {
+    "text": "Print Kelvin",
+    "code": "print(Kelvin)"
+  },
+  {
+    "text": "Announce integer Variable Year and Assign User Input",
+    "code": "Year = int(input(\"Enter Year : \"))"
+  },
+  {
+    "text": "Declare a variable year and store user input in it where year is integer",
+    "code": "year = int(input(\"Enter year : \"))"
+  },
+  {
+    "text": "Declare a integer variable year and store user input in it",
+    "code": "year = int(input(\"Enter year : \"))"
+  },
+  {
+    "text": "Declare integer Variable Year and Assign User Input to Year",
+    "code": "Year = int(input(\"Enter Year : \"))"
+  },
+  {
+    "text": "Announce a integer variable year and collect user input on it",
+    "code": "year = int(input(\"Enter year : \"))"
+  },
+  {
+    "text": "Assign user input for int variable year",
+    "code": "year = int(input(\"Enter year : \"))"
+  },
+  {
+    "text": "Declare a variable year and assign user input to it where year is int",
+    "code": "year = int(input(\"Enter year : \"))"
+  },
+  {
+    "text": "If either year%4=0 and year %100!=0 or year%400==0 print this as 'leap year'",
+    "code": "if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(\"leap year\")"
+  },
+  {
+    "text": "If either year%4=0 and year %100!=0 or year%400==0 then print this as 'leap year'",
+    "code": "if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(\"leap year\")"
+  },
+  {
+    "text": "Print year%4=0 and year%100!=0 or year%400==0 if 'there is a leap year'",
+    "code": "if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(\"there is a leap year\")"
+  },
+  {
+    "text": "Print year%4=0 and year%100!=0 or year%400==0 if 'there is a leap year'",
+    "code": "if ((year % 4 == 0) and (year % 100 == 0) ) OR (year % 400 == 0): print(\"there is a leap year\")"
+  },
+  {
+    "text": "Print otherwise 'this is not a leap year'",
+    "code": "else: print(\"this is not a leap year\")"
+  },
+  {
+    "text": "If not print 'this is not a leap year'",
+    "code": "else: print(\"this is not a leap year\")"
+  },
+  {
+    "text": "Print otherwise 'it will not be a leap year'",
+    "code": "else: print(\"it will not be a leap year\")"
+  },
+  {
+    "text": "If not, print this as 'no leap year'",
+    "code": "else: print(\"no leap year\")"
+  },
+  {
+    "text": "Print 'my name is - ' followed by the variable name",
+    "code": "print(\"my name is - \",name)"
+  },
+  {
+    "text": "Print 'The sum is equal to ' followed by the variable result",
+    "code": "print(\"The sum is equal to \",result)"
+  },
+  {
+    "text": "Print 'my age is ' followed by the variable age",
+    "code": "print(\"my age is \",age)"
+  },
+  {
+    "text": "Set the  value given by the user to variable A with decimal point",
+    "code": "A=float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Value to Variable A",
+    "code": "A=int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Enter the  number with decimal point given by the user to variable A",
+    "code": "A=float(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable A",
+    "code": "A=int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable B with decimal point",
+    "code": "B=float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign the value given by the user to variable B",
+    "code": "B=int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to the variable B with decimal point",
+    "code": "B=float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Collect the number given by the user in variable B",
+    "code": "B=int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable B with decimal point",
+    "code": "B=float(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable C",
+    "code": "C=int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Assign User Giving Value to Variable C with decimal point",
+    "code": "C=float(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to the variable C",
+    "code": "C=int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Collect the number given by the user in variable C with decimal point",
+    "code": "C=float(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable C",
+    "code": "C=int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Add ABC accumulated amount to the variable sum",
+    "code": "sum=A+B+C"
+  },
+  {
+    "text": "Assign sum of A B and C to the variable sum",
+    "code": "sum=A+B+C"
+  },
+  {
+    "text": "Set the sum of A C and B for the variable sum",
+    "code": "sum=A+B+C"
+  },
+  {
+    "text": "Add A B and C to the variable sum",
+    "code": "sum=A+B+C"
+  },
+  {
+    "text": "Assign A B and C to a variable called sum",
+    "code": "sum=A+B+C"
+  },
+  {
+    "text": "Collect A B and C in a variable called sum",
+    "code": "sum=A+B+C"
+  },
+  {
+    "text": "Print variable sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Print sum",
+    "code": "print(sum)"
+  },
+  {
+    "text": "Set the value given by the user to variable A",
+    "code": "A=int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Value to Variable A",
+    "code": "A=int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to variable A",
+    "code": "A=int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable A",
+    "code": "A=int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Add three to variable A and print",
+    "code": "print(A+3)"
+  },
+  {
+    "text": "Add three to variable A",
+    "code": "A=A+3"
+  },
+  {
+    "text": "Add three to A",
+    "code": "A+=3"
+  },
+  {
+    "text": "Add three to A Print",
+    "code": "print(A+3)"
+  },
+  {
+    "text": "Add three to variable A and print",
+    "code": "print(A+3)"
+  },
+  {
+    "text": "Add three to A and print",
+    "code": "A=A+3"
+  },
+  {
+    "text": "Add three to A",
+    "code": "A=A+3"
+  },
+  {
+    "text": "Add three to variable A",
+    "code": "A+=3"
+  },
+  {
+    "text": "Print Variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print Variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Assign User Giving Number to Variable S",
+    "code": "S=int(input(\"Enter S : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to the variable S",
+    "code": "S=int(input(\"Enter S : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable S",
+    "code": "S=int(input(\"Enter S : \"))"
+  },
+  {
+    "text": "Collect the number given by the user in variable S",
+    "code": "S=int(input(\"Enter S : \"))"
+  },
+  {
+    "text": "Variable A is equivalent to S*S",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Variable A is equal to S*S",
+    "code": "A=S*S"
+  },
+  {
+    "text": "A=S *S",
+    "code": "A=S*S"
+  },
+  {
+    "text": "A=S **2",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Variable A equals S **2",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Variable A is equal to S **2",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Add a value of S **2 to the variable A",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Assign the value S**2 to the variable A",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Assign a value of S **2 to the variable A",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Add S *S value to variable A",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Assign S *S value to variable A",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Set S *S value for variable A",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Put the value of S *S to the variable A",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Assign S *S value to variable A",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Store S *S value in variable A",
+    "code": "A=S*S"
+  },
+  {
+    "text": "Put the value of S **2 to the variable A",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Assign the value of S **2 to the variable A",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Store the value of S **2 in the variable A",
+    "code": "A=S**2"
+  },
+  {
+    "text": "Print variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Assign User Given Character to Variable A",
+    "code": "A=input(\"Enter A : \")"
+  },
+  {
+    "text": "Enter the user-generated character for variable A",
+    "code": "A=input(\"Enter A : \")"
+  },
+  {
+    "text": "Assign User to Variable A Character",
+    "code": "A=input(\"Enter A : \")"
+  },
+  {
+    "text": "Collect the user-generated character for variable A",
+    "code": "A=input(\"Enter A : \")"
+  },
+  {
+    "text": "If the value of A is equal to a or e or i or o or u then print \"the given character is vowel",
+    "code": "if (A == 'a' or A == 'e' or A == 'i' or A== 'o' or A== 'u' or A== 'A' or A == 'E' or A== 'I' or A== 'O' or A== 'U'): \nprint(\"the given character is a vowel\")"
+  },
+  {
+    "text": "If the value of variable A is equal to a or e or i or o or u then print \"the given character is vowel",
+    "code": "if (A == 'a' or A == 'e' or A == 'i' or A== 'o' or A== 'u' or A== 'A' or A == 'E' or A== 'I' or A== 'O' or A== 'U'): \nprint(\"the given character is a vowel\")"
+  },
+  {
+    "text": "Otherwise print \"The given character is not a vowel",
+    "code": "else:\nprint(\"The given character is not a vowel\")"
+  },
+  {
+    "text": "Print otherwise \"The given character is not a vowel",
+    "code": "else:\nprint(\"The given character is not a vowel\")"
+  },
+  {
+    "text": "Assign User Given Sentence to Variable Name",
+    "code": "name=input(\"Enter name : \")"
+  },
+  {
+    "text": "Enter the user input sentence for the variable name",
+    "code": "name=input(\"Enter name : \")"
+  },
+  {
+    "text": "Specify the sentence to be given by the user to the variable name",
+    "code": "name=input(\"Enter name : \")"
+  },
+  {
+    "text": "Collect the sentence given by the user to the variable name",
+    "code": "name=input(\"Enter name : \")"
+  },
+  {
+    "text": "Print \"Hi, My Name is \",name",
+    "code": "print(\"Hi,My Name is \",name)"
+  },
+  {
+    "text": "Print Hi, My Name is,name",
+    "code": "print(\"Hi,My Name is \",name)"
+  },
+  {
+    "text": "Print \"Hi, My Name is\"+name",
+    "code": "print(\"Hi,My Name is \"+name)"
+  },
+  {
+    "text": "Print \"Hi, My Name is\"+name",
+    "code": "print(\"Hi,My Name is \"+name)"
+  },
+  {
+    "text": "Put ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Assign value ten to variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Collect ten for Variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Schedule Twenty for Variable B",
+    "code": "B=20"
+  },
+  {
+    "text": "Put twenty to variable B",
+    "code": "B=20"
+  },
+  {
+    "text": "Set Value Twenty for Variable B",
+    "code": "B=20"
+  },
+  {
+    "text": "Collect twenty for variable B",
+    "code": "B=20"
+  },
+  {
+    "text": "Schedule ten for variable A",
+    "code": "A=10"
+  },
+  {
+    "text": "Declare the variable P and assign the number given by the user",
+    "code": "P=int(input(\"Enter P : \"))"
+  },
+  {
+    "text": "Declare variable P and assign user input numeric value",
+    "code": "P=int(input(\"Enter P : \"))"
+  },
+  {
+    "text": "Set the value given by the user to the variable P",
+    "code": "P=int(input(\"Enter P : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable P",
+    "code": "P=int(input(\"Enter P : \"))"
+  },
+  {
+    "text": "Declare Variable T and assign the number given by the user",
+    "code": "T=int(input(\"Enter T : \"))"
+  },
+  {
+    "text": "Declare variable T and assign user input numeric value",
+    "code": "T=int(input(\"Enter T : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable T",
+    "code": "T=int(input(\"Enter T : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable T",
+    "code": "T=int(input(\"Enter T : \"))"
+  },
+  {
+    "text": "Create a variable P and assign the numeric value provided by the user.",
+    "code": "P=int(input(\"Enter P :\"))"
+  },
+  {
+    "text": "Create a variable called T and assign the numeric value provided by the user.",
+    "code": "T=int(input(\"Enter T : \"))"
+  },
+  {
+    "text": "Print value of variable P is less than T",
+    "code": "print(P<T)"
+  },
+  {
+    "text": "Print that the value of variable P is less than or equal to T",
+    "code": "print(P<=T)"
+  },
+  {
+    "text": "Print that the value of variable P is greater than or equal to T",
+    "code": "print(P>=T)"
+  },
+  {
+    "text": "Print value of variable P is greater than T",
+    "code": "print(P>T)"
+  },
+  {
+    "text": "Print value of variable P is not equal to T",
+    "code": "print(P!=T)"
+  },
+  {
+    "text": "Print value of variable P is equal to T",
+    "code": "print(P==T)"
+  },
+  {
+    "text": "Declare variable X and assign user input numeric value",
+    "code": "X = int(input(\"Enter X : \"))"
+  },
+  {
+    "text": "Announce Variable X and store user input number in it",
+    "code": "X = int(input(\"Enter X : \"))"
+  },
+  {
+    "text": "Declare variable X and store user input number value in it",
+    "code": "X = int(input(\"Enter X : \"))"
+  },
+  {
+    "text": "Declare variable X and assign user input numeric value to X",
+    "code": "X = int(input(\"Enter X : \"))"
+  },
+  {
+    "text": "Declare Variable X and collect the user-given number in it",
+    "code": "X = int(input(\"Enter X : \"))"
+  },
+  {
+    "text": "Assign user input number to variable X",
+    "code": "X = int(input(\"Enter X : \"))"
+  },
+  {
+    "text": "If X % 13 is zero, print \"X divided by 13",
+    "code": "if X % 13 == 0: \nprint(\"X divided by 13\")"
+  },
+  {
+    "text": "If X % 13 is zero, print \"X divided by 13",
+    "code": "if X % 13 == 0: \nprint(\"X divided by 13\")"
+  },
+  {
+    "text": "If X % 13 is zero, print \"X divided by 13",
+    "code": "if X % 13 == 0: \nprint(\"X divided by 13\")"
+  },
+  {
+    "text": "If X % 13 is zero, print \"X divided by 13",
+    "code": "if X % 13 == 0: \nprint(\"X divided by 13\")"
+  },
+  {
+    "text": "Print otherwise \"X cannot be divided by 13",
+    "code": "else: \nprint(\"X cannot be divided by 13\")"
+  },
+  {
+    "text": "Print otherwise \"X cannot be divided by 13",
+    "code": "else: \nprint(\"X cannot be divided by 13\")"
+  },
+  {
+    "text": "Assign input number to variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "If N is greater than ninety or ninety, print \"You have received A grade",
+    "code": "if N>= 90:\nprint(\"You have received A grade\")"
+  },
+  {
+    "text": "If N is greater than ninety or ninety print that \"you have received A grade",
+    "code": "if N>= 90:\nprint(\"you have received A grade\")"
+  },
+  {
+    "text": "If N is greater than ninety or ninety, print \"You have received A grade",
+    "code": "if N>= 90:\nprint(\"You have received A grade\")"
+  },
+  {
+    "text": "If N is greater than ninety or ninety print that \"you have received A grade",
+    "code": "if N>= 90:\nprint(\"you have received A grade\")"
+  },
+  {
+    "text": "If N >= 90 true print \"You have received A grade",
+    "code": "if N>= 90:\nprint(\"You have received A grade\")"
+  },
+  {
+    "text": "If N >= 90 true print that \"you have received A grade",
+    "code": "if N>= 90:\nprint(\"you have received A grade\")"
+  },
+  {
+    "text": "If N >= 90 true print \"You have received A grade",
+    "code": "if N>= 90:\nprint(\"You have received A grade\")"
+  },
+  {
+    "text": "If N >= 90 true print that \"you have received A grade",
+    "code": "if N>= 90:\nprint(\"you have received A grade\")"
+  },
+  {
+    "text": "If not, print \"You have received B grade\" if N is greater than eighty or eighty",
+    "code": "elif N>= 80:\nprint(\"You have received B grade\")"
+  },
+  {
+    "text": "If not then print that \"you have obtained B grade\" if N is more than eighty or eighty",
+    "code": "elif N>= 80:\nprint(\"you have obtained B grade\")"
+  },
+  {
+    "text": "If not then print \"You have received B grade\" if N is greater than eighty or eighty",
+    "code": "elif N>= 80:\nprint(\"You have received B grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received B grade\" if N is more than eighty or eighty",
+    "code": "elif N>= 80:\nprint(\"you have received B grade\")"
+  },
+  {
+    "text": "If not then print \"you have received B grade\" if N >= 80 is true",
+    "code": "elif N>= 80:\nprint(\"you have received B grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received B grade\" if N >= 80 is true",
+    "code": "elif N>= 80:\nprint(\"you have received B grade\")"
+  },
+  {
+    "text": "If not then print \"You have received B grade\" if N >= 80 is true",
+    "code": "elif N>= 80:\nprint(\"You have received B grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received B grade\" if N >= 80 is true",
+    "code": "elif N>= 80:\nprint(\"you have received B grade\")"
+  },
+  {
+    "text": "If not, print \"You have received C grade\" if N is seventy or more than seventy",
+    "code": "elif N>= 70:\nprint(\"You have received C grade\")"
+  },
+  {
+    "text": "If not then print that \"you have obtained C grade\" if N is seventy or more than seventy",
+    "code": "elif N>= 70:\nprint(\"you have obtained C grade\")"
+  },
+  {
+    "text": "If not, print \"You have received C grade\" if N is greater than seventy or seventy",
+    "code": "elif N>= 70:\nprint(\"You have received C grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received C grade\" if N is seventy or more than seventy",
+    "code": "elif N>= 70:\nprint(\"you have received C grade\")"
+  },
+  {
+    "text": "If not then print \"You have received C grade\" if N >= 70 true",
+    "code": "elif N>= 70:\nprint(\"You have received C grade\")"
+  },
+  {
+    "text": "If not then print that \"you have obtained\" C grade if N >= 70 is true",
+    "code": "elif N>= 70:\nprint(\"you have obtained C grade\")"
+  },
+  {
+    "text": "If not then print \"You have received C grade\" if N >= 70 true",
+    "code": "elif N>= 70:\nprint(\"You have received C grade\")"
+  },
+  {
+    "text": "If not then print that \"you have obtained C grade\" if N >= 70 is true",
+    "code": "elif N>= 70:\nprint(\"you have obtained C grade\")"
+  },
+  {
+    "text": "If n is sixty or more than sixty, print \"you have received D grade",
+    "code": "elif N>= 60:\nprint(\"you have received D grade\")"
+  },
+  {
+    "text": "If N is sixty or more than sixty, print that \"you have received D grade",
+    "code": "elif N>= 60:\nprint(\"you have received D grade\")"
+  },
+  {
+    "text": "If n is sixty or more than sixty, print \"you have received D grade",
+    "code": "elif N>= 60:\nprint(\"you have received D grade\")"
+  },
+  {
+    "text": "Otherwise print that \"you have received D\" grade if N is sixty or more than sixty",
+    "code": "elif N>= 60:\nprint(\"you have received D grade\")"
+  },
+  {
+    "text": "If not then print \"You have received D grade\" if N >= 60 true",
+    "code": "elif N>= 60:\nprint(\"You have received D grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received D\" grade if N >= 60 is true",
+    "code": "elif N>= 60:\nprint(\"you have received D grade\")"
+  },
+  {
+    "text": "If not then print \"You have received D grade\" if N >= 60 true",
+    "code": "elif N>= 60:\nprint(\"You have received D grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received D\" if N >= 60 is true",
+    "code": "elif N>= 60:\nprint(\"you have received D grade\")"
+  },
+  {
+    "text": "If not, print \"You have received E grade\" if N is fifty or more",
+    "code": "elif N>= 50:\nprint(\"You have received E grade\")"
+  },
+  {
+    "text": "If not, print that \"you have received E grade\" if N is fifty or more",
+    "code": "elif N>= 50:\nprint(\"you have received E grade\")"
+  },
+  {
+    "text": "If not, print \"You have received this grade\" if N is fifty or more",
+    "code": "elif N>= 50:\nprint(\"You have received E grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received E grade\" if N is fifty or more",
+    "code": "elif N>= 50:\nprint(\"you have received E grade\")"
+  },
+  {
+    "text": "If not then print \"You have received this grade\" if N >= 50 is true",
+    "code": "elif N>= 50:\nprint(\"You have received E grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received E grade\" if N >= 50 is true",
+    "code": "elif N>= 50:\nprint(\"you have received E grade\")"
+  },
+  {
+    "text": "If not then print \"You have received this grade\" if N >= 50 is true",
+    "code": "elif N>= 50:\nprint(\"You have received E grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received E grade\" if N >= 50 is true",
+    "code": "elif N>= 50:\nprint(\"you have received E grade\")"
+  },
+  {
+    "text": "If not then print \"You have received F grade\" if N is less than fifty",
+    "code": "elif N<50:\nprint(\"You have received F grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received F grade\" if N is less than fifty",
+    "code": "elif N<50:\nprint(\"you have received F grade\")"
+  },
+  {
+    "text": "If not then print \"You have received F grade\" if N is less than fifty",
+    "code": "elif N<50:\nprint(\"You have received F grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received F grade\" if N is less than fifty",
+    "code": "elif N<50:\nprint(\"you have received F grade\")"
+  },
+  {
+    "text": "If not then print \"You have received F grade\" if N < 50 is true",
+    "code": "elif N<50:\nprint(\"You have received F grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received F grade\" if N < 50 is true",
+    "code": "elif N<50:\nprint(\"you have received F grade\")"
+  },
+  {
+    "text": "If not then print \"You have received F grade\" if N < 50 is true",
+    "code": "elif N<50:\nprint(\"You have received F grade\")"
+  },
+  {
+    "text": "If not then print that \"you have received F grade\" if N < 50 is true",
+    "code": "elif N<50:\nprint(\"you have received F grade\")"
+  },
+  {
+    "text": "Otherwise print \"Invalid Input",
+    "code": "else:\nprint(\"Invalid Input\")"
+  },
+  {
+    "text": "Print as \"Invalid Input\" Otherwise",
+    "code": "else:\nprint(\"Invalid Input\")"
+  },
+  {
+    "text": "Otherwise print \"Invalid Input",
+    "code": "else:\nprint(\"Invalid Input\")"
+  },
+  {
+    "text": "If not print as \"invalid input",
+    "code": "else:\nprint(\"invalid input\")"
+  },
+  {
+    "text": "Print \"Natural numbers from 1 to 25",
+    "code": "print(\"Natural numbers from 1 to 25\")"
+  },
+  {
+    "text": "Print \"natural numbers from 1 to 25",
+    "code": "print(\"natural numbers from 1 to 25\")"
+  },
+  {
+    "text": "Print \"Natural numbers from 1 to 25",
+    "code": "print(\"Natural numbers from 1 to 25\")"
+  },
+  {
+    "text": "Print \"natural numbers from 1 to 25",
+    "code": "print(\"natural numbers from 1 to 25\")"
+  },
+  {
+    "text": "Print \"Natural numbers from one to twenty-five",
+    "code": "print(\"Natural numbers from one to twenty-five\")"
+  },
+  {
+    "text": "Print as \"natural numbers from one to twenty-five",
+    "code": "print(\"natural numbers from one to twenty five\")"
+  },
+  {
+    "text": "Print \"Natural numbers from one to twenty-five",
+    "code": "print(\"Natural numbers from one to twenty-five\")"
+  },
+  {
+    "text": "Print as \"natural numbers from one to twenty-five",
+    "code": "print(\"natural numbers from one to twenty five\")"
+  },
+  {
+    "text": "Execute for loop with J from one to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from one to twenty-six",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from 1 to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to twenty-six",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from 1 to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from one to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from one to twenty-six",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from 1 to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to twenty-six",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from 1 to 26",
+    "code": "for j in range(1,26):"
+  },
+  {
+    "text": "Print J inside loop",
+    "code": "print(j)"
+  },
+  {
+    "text": "Print J inside loop",
+    "code": "print(j)"
+  },
+  {
+    "text": "Print J inside loop",
+    "code": "print(j)"
+  },
+  {
+    "text": "Print J inside loop",
+    "code": "print(j)"
+  },
+  {
+    "text": "Declare variable J and set it to zero",
+    "code": "J = 0"
+  },
+  {
+    "text": "Declare variable J and store zero in it",
+    "code": "J = 0"
+  },
+  {
+    "text": "Assign zero to the variable J",
+    "code": "J = 0"
+  },
+  {
+    "text": "Assign zero to the variable J",
+    "code": "J = 0"
+  },
+  {
+    "text": "Declare the variable J and set it to zero",
+    "code": "J = 0"
+  },
+  {
+    "text": "Assign zero to the variable J",
+    "code": "J = 0"
+  },
+  {
+    "text": "Assign zero to the variable J",
+    "code": "J = 0"
+  },
+  {
+    "text": "Execute while Loop with a condition that Variable J must be less than\ntwenty-five",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Start while Loop with a condition that Variable J must be less than \ntwenty-five",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Execute while Loop with a condition that Variable J must be less than \ntwenty-five",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Start with a condition that while Loop J variable should be less than\ntwenty-five",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Enforce with condition that while Loop J variable should be less than \ntwenty-five",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Execute while Loop with the condition that Variable J < 25 must be true",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Start while Loop with a condition that Variable J < 25 must be true",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Execute while Loop with the condition that Variable J < 25 must be true",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Start with a condition that while Loop J < 25 must be true",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Enforce with condition that while Loop J < 25 must be true",
+    "code": "while J < 25:"
+  },
+  {
+    "text": "Print \"Hi\" until the condition is true",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Print \"Hi\" until the condition is true",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Print \"Hi\" until the condition is true",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Print \"Hi\" as long as the condition is true",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Subtract one from J until the condition is true",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Subtract one from J until the condition is true",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Print \"Hi\" inside loop",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Print \"Hi\" inside the loop",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Print \"Hi\" inside loop",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Print hi inside loop",
+    "code": "print(\"Hi\")"
+  },
+  {
+    "text": "Subtract one from J inside the loop",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Subtract one from J inside the loop",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Subtract one from J inside the loop",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Subtract one from J inside the loop",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Subtract one from J until the condition is true",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Subtract one from J until the condition is true",
+    "code": "J -= 1"
+  },
+  {
+    "text": "Assign -101 to the variable A.",
+    "code": "A = -101"
+  },
+  {
+    "text": "Assign -101 to variable A.",
+    "code": "A = -101"
+  },
+  {
+    "text": "Assign -101 to variable A.",
+    "code": "A = -101"
+  },
+  {
+    "text": "Declare the variable A and store -101 in it",
+    "code": "A = -101"
+  },
+  {
+    "text": "Assign 101 to the variable B.",
+    "code": "B = 101"
+  },
+  {
+    "text": "Assign 101 to variable B.",
+    "code": "B = 101"
+  },
+  {
+    "text": "Assign 101 to variable B.",
+    "code": "B = 101"
+  },
+  {
+    "text": "Declare the variable B and store 101 in it",
+    "code": "B = 101"
+  },
+  {
+    "text": "Execute for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Execute for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Execute for loop with J from 0 to 10",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Start for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Start for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Start for loop with J from 0 to 10",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Execute for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Execute for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Execute for loop with J from 0 to 10",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Start for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Start for loop with J from zero to ten",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Start for loop with J from 0 to 10",
+    "code": "for J in range(0,10):"
+  },
+  {
+    "text": "Declare variable number inside loop and assign user input numeric value",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Declare the variable number inside the loop and store the user input number in it",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Declare the variable number inside the loop and store the value of the user's input number in it",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Declare variable number inside loop and assign user input numeric value to number",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Declare the variable number inside the loop and collect the user-given number in it",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Assign user input number to variable number inside loop",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Set the number to A if A-101 is inside the loop or if the number is greater than A",
+    "code": "if number > A: \n          A = number"
+  },
+  {
+    "text": "Set the number to A if A = -101 or number > A is true inside the loop",
+    "code": "if number > A: \n          A = number"
+  },
+  {
+    "text": "Assign the number to A if A-101 is inside the loop or the number is greater than A",
+    "code": "if number > A:  \n          A = number"
+  },
+  {
+    "text": "Assign number to A if A == -101 or number > A is true inside the loop",
+    "code": "if number > A: \n          A = number"
+  },
+  {
+    "text": "If B is 101 or the number is less than B within the loop, assign the number to B",
+    "code": "if number < B: \n          B = number"
+  },
+  {
+    "text": "Assign number to B if B == 101 or number < B is true inside the loop",
+    "code": "if number < B: \n          B = number"
+  },
+  {
+    "text": "Assign the number to B if B is 101 or the number is less than B inside the loop",
+    "code": "if number < B: \n          B = number"
+  },
+  {
+    "text": "Assign number to B if B == 101 or number < B is true inside the loop",
+    "code": "if number < B: \n          B = number"
+  },
+  {
+    "text": "Print variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print Variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print Variable A",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print variable B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print variable B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print Variable B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Print Variable B",
+    "code": "print(B)"
+  },
+  {
+    "text": "Assign the number given by the user from one to seven to the variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Set the number of users from one to seven for the variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Collect the number given by the user from one to seven in the variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Store user input in variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Put user input \nin variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Print \"Sunday\" if N is one",
+    "code": "if N==1:\n     print(\"Sunday\")"
+  },
+  {
+    "text": "If not, print as \"Monday\" if N is two",
+    "code": "elif N ==2: \n     print(\"Monday\")"
+  },
+  {
+    "text": "If not then print as \"Tuesday\" if N is three",
+    "code": "elif N ==3: \n     print(\"Tuesday\")"
+  },
+  {
+    "text": "If not then print as \"Wednesday\" if N is four",
+    "code": "elif N ==4: \n     print(\"Wednesday\")"
+  },
+  {
+    "text": "If not then print as \"Thursday\" if N is five",
+    "code": "elif N ==5: \n     print(\"Thursday\")"
+  },
+  {
+    "text": "If not, print as \"Friday\" if N is six",
+    "code": "elif N ==6: \n     print(\"Friday\")"
+  },
+  {
+    "text": "Print \"Saturday\" if not",
+    "code": "else: \n     print(\"Saturday\")"
+  },
+  {
+    "text": "Print Sunday if N is one",
+    "code": "if N==1:\n     print(\"Sunday\")"
+  },
+  {
+    "text": "If not then show \"Monday\" if n is two",
+    "code": "elif N ==2: \n     print(\"Monday\")"
+  },
+  {
+    "text": "If not then show \"Tuesday\" if N is three",
+    "code": "elif N ==3: \n     print(\"Tuesday\")"
+  },
+  {
+    "text": "If not then show \"Wednesday\" if N is four",
+    "code": "elif N ==4: \n     print(\"Wednesday\")"
+  },
+  {
+    "text": "If not then show as \"Thursday\" if N is five",
+    "code": "elif N ==5: \n     print(\"Thursday\")"
+  },
+  {
+    "text": "If not then show \"Friday\" if N is six",
+    "code": "elif N ==6: \n     print(\"Friday\")"
+  },
+  {
+    "text": "If not show \"Saturday",
+    "code": "else: \n     print(\"Saturday\")"
+  },
+  {
+    "text": "Show \"Sunday\" if N is one",
+    "code": "if N==1:\n     print(\"Sunday\")"
+  },
+  {
+    "text": "Print \"Sunday\" if N is one",
+    "code": "if N==1:\n     print(\"Sunday\")"
+  },
+  {
+    "text": "If not, print on Monday if N is one",
+    "code": "elif N ==2: \n     print(\"Monday\")"
+  },
+  {
+    "text": "If not, print \"Tuesday\" if N is two",
+    "code": "elif N ==3: \n     print(\"Tuesday\")"
+  },
+  {
+    "text": "If not then print as \"Wednesday\" if N is four",
+    "code": "elif N ==4: \n     print(\"Wednesday\")"
+  },
+  {
+    "text": "If not then print as \"Thursday\" in case of N is five",
+    "code": "elif N ==5: \n     print(\"Thursday\")"
+  },
+  {
+    "text": "If not then print as \"Friday\" if N is six",
+    "code": "elif N ==6: \n     print(\"Friday\")"
+  },
+  {
+    "text": "Print \"Saturday\" if not",
+    "code": "else: \n     print(\"Saturday\")"
+  },
+  {
+    "text": "Set the number given by the user to the variable number",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Assign the number given by the user to the variable number",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Collect user input in the variable number",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Put user input in variable number",
+    "code": "number = int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Assign zero to a variable called reverse_number",
+    "code": "reverse_number=0"
+  },
+  {
+    "text": "Assign zero to a variable called reverse_number",
+    "code": "reverse_number=1"
+  },
+  {
+    "text": "Assign zero to a variable called reverse_number",
+    "code": "reverse_number=2"
+  },
+  {
+    "text": "Put zero to a variable called reverse_number",
+    "code": "reverse_number=3"
+  },
+  {
+    "text": "Execute while Loop if number is more than zero",
+    "code": "while(number > 0):"
+  },
+  {
+    "text": "Multiply the reverse_number by ten to the variable reverse_number and give it the remaining number after dividing the number by 10",
+    "code": "reverse_number = reverse_number*10 + number%10"
+  },
+  {
+    "text": "reverse_number = reverse_number * 10 + number % 10",
+    "code": "reverse_number = reverse_number*10 + number%10"
+  },
+  {
+    "text": "number //= 10",
+    "code": "number //= 10"
+  },
+  {
+    "text": "Divide the variable number by 10 and round the answer to the nearest integer",
+    "code": "number //= 10"
+  },
+  {
+    "text": "Print reverse_number",
+    "code": "print(reverse_number)"
+  },
+  {
+    "text": "Print reverse_number",
+    "code": "print(reverse_number)"
+  },
+  {
+    "text": "Show reverse_number",
+    "code": "print(reverse_number)"
+  },
+  {
+    "text": "Declare float variable radius and store user input value in it",
+    "code": "radius= float(input(\"Enter radius  : \"))"
+  },
+  {
+    "text": "Declare the float variable radius and store the user input value in it",
+    "code": "radius= float(input(\"Enter radius  : \"))"
+  },
+  {
+    "text": "Declare the integer variable radius and store the user's input value in it",
+    "code": "radius= int(input(\"Enter radius : \"))"
+  },
+  {
+    "text": "Declare the integer variable radius and store the user's input value in it",
+    "code": "radius= int(input(\"Enter radius : \"))"
+  },
+  {
+    "text": "Declare variable radius and store user input value in it",
+    "code": "radius= input(\"Enter radius :  \")"
+  },
+  {
+    "text": "Declare the variable radius and store the user input value in it",
+    "code": "radius= input(\"Enter radius :  \")"
+  },
+  {
+    "text": "Declare the variable radius and store the user's input value in it",
+    "code": "radius= input(\"Enter radius :  \")"
+  },
+  {
+    "text": "Declare the variable radius and store the user's input value in it",
+    "code": "radius= input(\"Enter radius :  \")"
+  },
+  {
+    "text": "Assign 3.14 to Pi",
+    "code": "Pi=3.14"
+  },
+  {
+    "text": "3.14 Assign to Pi",
+    "code": "Pi=3.14"
+  },
+  {
+    "text": "3.14 Put to Pie",
+    "code": "Pie=3.14"
+  },
+  {
+    "text": "Store 3.14 in pi",
+    "code": "pi = 3.14"
+  },
+  {
+    "text": "circumference = 2*pi*radius",
+    "code": "circumference=2*pi*radius"
+  },
+  {
+    "text": "circumference = 2*3.14*radius",
+    "code": "circumference=2*3.14*radius"
+  },
+  {
+    "text": "circumference = 2*radius*pi",
+    "code": "circumference=2*radius*pi"
+  },
+  {
+    "text": "circumference = 2*radius*3.14",
+    "code": "circumference=2*radius*3.14"
+  },
+  {
+    "text": "Multiply 2 with radius Multiply with pi and collect the value in variable circumference",
+    "code": "circumference=2*pi*radius"
+  },
+  {
+    "text": "Multiply both by radius Multiply by pi and accumulate the value in variable circumference",
+    "code": "circumference=2*pi*radius"
+  },
+  {
+    "text": "Multiply both by radius multiply by pi and assign this value to variable circumference",
+    "code": "circumference=2*pi*radius"
+  },
+  {
+    "text": "Multiply 2 with radius multiply with pi and assign this value to variable circumference",
+    "code": "circumference=2*pi*radius"
+  },
+  {
+    "text": "Print circumference",
+    "code": "print(circumference)"
+  },
+  {
+    "text": "Print circumference",
+    "code": "print(circumference)"
+  },
+  {
+    "text": "Show circumference",
+    "code": "print(circumference)"
+  },
+  {
+    "text": "Print circumference",
+    "code": "print(circumference)"
+  },
+  {
+    "text": "Declare Variable P and store user input for it",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Assign user input to variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Assign user input to variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Set the value given by the user to variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Assign User Giving Value to Variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Enter the number given by the user to variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Assign User Giving Number to Variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Set the number given by the user to variable P",
+    "code": "P = input(\"Enter P : \")"
+  },
+  {
+    "text": "Declare Variable T and store user input for it",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Assign user input to variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Assign user input to variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Set the value given by the user to variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Assign User Giving Value to Variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Enter the number given by the user to variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Assign User Giving Number to Variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Set the number given by the user to variable T",
+    "code": "T = input(\"Enter T : \")"
+  },
+  {
+    "text": "Declare Variable R and store user input for it",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Assign user input to variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Assign user input to variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Set the value given by the user to variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Assign User Giving Value to Variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Enter the number given by the user to variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Assign User Giving Number to Variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "Set the number given by the user to variable R",
+    "code": "R = input(\"Enter R : \")"
+  },
+  {
+    "text": "interest= (P*T*R)/100",
+    "code": "interest= (P*T*R)/100"
+  },
+  {
+    "text": "interest= (P*T*R)/Hundred",
+    "code": "interest= (P*T*R)/100"
+  },
+  {
+    "text": "Multiply PT and R and divide by 100 and accumulate the result in a variable called interest",
+    "code": "interest= (P*T*R)/100"
+  },
+  {
+    "text": "Multiply PT and R by 100 and accumulate the result in a variable called interest",
+    "code": "interest= (P*T*R)/100"
+  },
+  {
+    "text": "Multiply PTR and divide by hundred and accumulate the result in a variable called interest",
+    "code": "interest= (P*T*R)/100"
+  },
+  {
+    "text": "Multiply PTR by 100 and accumulate the result in a variable called interest",
+    "code": "interest= (P*T*R)/100"
+  },
+  {
+    "text": "Print interest",
+    "code": "print(interest)"
+  },
+  {
+    "text": "Print Interest",
+    "code": "print(Interest)"
+  },
+  {
+    "text": "Show interest",
+    "code": "print(interest)"
+  },
+  {
+    "text": "Print interest",
+    "code": "print(interest)"
+  },
+  {
+    "text": "Set the number given by the user to the variable number",
+    "code": "number= int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Assign the number given by the user to the variable number",
+    "code": "number= int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Collect user input in the variable number",
+    "code": "number= int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Put user input in variable number",
+    "code": "number= int(input(\"Enter number : \"))"
+  },
+  {
+    "text": "Assign zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Assign zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Assign zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Put zero to the result variable",
+    "code": "result = 0"
+  },
+  {
+    "text": "Execute a loop from variable i to number plus one",
+    "code": "for i in range(1, number + 1):"
+  },
+  {
+    "text": "Add one to the variable i to number and execute the loop until",
+    "code": "for i in range(1, number + 1):"
+  },
+  {
+    "text": "Add one to the variable where i is from one to the number and execute the loop until then",
+    "code": "for i in range(1, number + 1):"
+  },
+  {
+    "text": "Execute loop from number one to number plus one",
+    "code": "for i in range(1, number + 1):"
+  },
+  {
+    "text": "Execute loop from i1 to number +1 there",
+    "code": "for i in range(1, number + 1):"
+  },
+  {
+    "text": "Put result plus i to a variable called result inside loop",
+    "code": "result += i"
+  },
+  {
+    "text": "Put an i in the result for a variable called result inside the loop",
+    "code": "result += i"
+  },
+  {
+    "text": "Intra-rupee result += i",
+    "code": "result += i"
+  },
+  {
+    "text": "Intra-rupee result = result + i",
+    "code": "result += i"
+  },
+  {
+    "text": "Print Result",
+    "code": "print(Result)"
+  },
+  {
+    "text": "Print Result",
+    "code": "print(Result)"
+  },
+  {
+    "text": "Show Result",
+    "code": "print(Result)"
+  },
+  {
+    "text": "Assign 25 to the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Assign 25 to the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Add 25 to the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Store twenty-five in the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Assign twenty-five to the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Assign twenty-five to the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Add twenty-five to the variable i",
+    "code": "i=25"
+  },
+  {
+    "text": "Execute loop as long as i is greater than zero",
+    "code": "while i>0:"
+  },
+  {
+    "text": "Execute loop as long as i is greater than zero",
+    "code": "while i>0:"
+  },
+  {
+    "text": "Move loop until i is greater than zero",
+    "code": "while i>0:"
+  },
+  {
+    "text": "Move loop until i is greater than zero",
+    "code": "while i>0:"
+  },
+  {
+    "text": "Print i inside loop",
+    "code": "print(i)"
+  },
+  {
+    "text": "Print i inside loop",
+    "code": "print(i)"
+  },
+  {
+    "text": "Show i inside loop",
+    "code": "print(i)"
+  },
+  {
+    "text": "Subtract one from i inside the loop",
+    "code": "i -= 1"
+  },
+  {
+    "text": "Subtract one from the variable i inside the loop",
+    "code": "i -= 1"
+  },
+  {
+    "text": "Inside loop i -= 1",
+    "code": "i -= 1"
+  },
+  {
+    "text": "Inside loop i = i - 1",
+    "code": "i -= 1"
+  },
+  {
+    "text": "Assign zero to a variable A",
+    "code": "A=0"
+  },
+  {
+    "text": "Assign zero to the variable A",
+    "code": "A=0"
+  },
+  {
+    "text": "Assign zero to the variable A",
+    "code": "A=0"
+  },
+  {
+    "text": "Put zero to the variable A",
+    "code": "A=0"
+  },
+  {
+    "text": "Assign one to the variable B",
+    "code": "B=1"
+  },
+  {
+    "text": "Assign one to the variable B",
+    "code": "B=1"
+  },
+  {
+    "text": "Put one for the variable B",
+    "code": "B=1"
+  },
+  {
+    "text": "Execute for loop with i from zero to n",
+    "code": "for i in range (0,n):"
+  },
+  {
+    "text": "Enforce for loop with i from zero to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Execute for loop with i from 0 to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Start for loop with i from zero to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Start for loop with i from zero to n",
+    "code": "for i in range (0,n):"
+  },
+  {
+    "text": "Start for loop with i from 0 to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Execute for loop with i from zero to n",
+    "code": "for i in range (0,n):"
+  },
+  {
+    "text": "Execute for loop with i from zero to n",
+    "code": "for i in range (0,n):"
+  },
+  {
+    "text": "Execute for loop with i from 0 to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Start for loop with i from zero to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Start for loop with i from zero to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Start for loop with i from 0 to N",
+    "code": "for i in range (0,N):"
+  },
+  {
+    "text": "Print the variable A inside the loop",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print the variable A inside the loop",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print Variable A inside loop",
+    "code": "print(A)"
+  },
+  {
+    "text": "Print Variable A inside loop",
+    "code": "print(A)"
+  },
+  {
+    "text": "Assign the sum of A and B to the variable C inside the loop",
+    "code": "C = A + B"
+  },
+  {
+    "text": "Intra-loop C=A+B",
+    "code": "C = A + B"
+  },
+  {
+    "text": "Declare the variable C inside the loop and collect the sum of A times B in it",
+    "code": "C = A + B"
+  },
+  {
+    "text": "A=B inside the loop",
+    "code": "A = B"
+  },
+  {
+    "text": "Collect the value of A null B inside the loop",
+    "code": "A = B"
+  },
+  {
+    "text": "Assign AG B value inside loop",
+    "code": "A = B"
+  },
+  {
+    "text": "B=C inside the loop",
+    "code": "B = C"
+  },
+  {
+    "text": "Collect the value of B nali C inside the loop",
+    "code": "B = C"
+  },
+  {
+    "text": "Assign a BG C value inside the loop",
+    "code": "B = C"
+  },
+  {
+    "text": "Assign zero to a variable i",
+    "code": "i=0"
+  },
+  {
+    "text": "Assign zero to a variable i",
+    "code": "i=0"
+  },
+  {
+    "text": "Assign zero to the variable i",
+    "code": "i=0"
+  },
+  {
+    "text": "Put zero to a variable i",
+    "code": "i=0"
+  },
+  {
+    "text": "Assign zero to the variable amount",
+    "code": "amount=0"
+  },
+  {
+    "text": "Assign zero to the variable Amount",
+    "code": "Amount=0"
+  },
+  {
+    "text": "Assign zero to the variable Amount",
+    "code": "Amount=0"
+  },
+  {
+    "text": "Put zero to the variable amount",
+    "code": "amount=0"
+  },
+  {
+    "text": "Enforce while Loop with a condition that Variable I number must be less than one",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Start while Loop with a condition that Variable I number must be less than one",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Execute a whilst loop with a condition that the variable i number must be less than one",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Start with a condition that while Loop I variable number must be less than one plus",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Enforce with a condition that while Loop I variable number must be less than one plus",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Execute while Loop with the condition that Variable I < Number + 1 must be true",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Start while Loop with a condition that Variable I < Number + 1 must be true",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Execute while Loop with the condition that Variable I < Number + 1 must be true",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Start with a condition that while Loop I < Number + 1 must be true",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Enforce with condition that while Loop I < Number + 1 must be true",
+    "code": "while i<N+1 :"
+  },
+  {
+    "text": "Put the result plus i to the variable amount inside the loop",
+    "code": "amount+=i"
+  },
+  {
+    "text": "Add i to the variable amount inside the loop",
+    "code": "amount+=i"
+  },
+  {
+    "text": "Intra-rupee amount += i",
+    "code": "amount+=i"
+  },
+  {
+    "text": "Intra-rupee Amount = Amount + I",
+    "code": "Amount= Amount + i"
+  },
+  {
+    "text": "Increase from one to five inside the loop",
+    "code": "i += 1"
+  },
+  {
+    "text": "Increase from one to the variable i inside the loop",
+    "code": "i += 1"
+  },
+  {
+    "text": "Intra-rupee i += 1",
+    "code": "i += 1"
+  },
+  {
+    "text": "Intra-loop I = I + 1",
+    "code": "i += 1"
+  },
+  {
+    "text": "Increase the variable i within the loop by one",
+    "code": "i += 1"
+  },
+  {
+    "text": "Print Variable Amount",
+    "code": "print(Amount)"
+  },
+  {
+    "text": "Print variable amount",
+    "code": "print(amount)"
+  },
+  {
+    "text": "Print variable amount",
+    "code": "print(amount)"
+  },
+  {
+    "text": "Print variable amount",
+    "code": "print(amount)"
+  },
+  {
+    "text": "Declare a variable number with decimal point and store the input given by the user to it",
+    "code": "number = float(input(\"Enter number  : \"))"
+  },
+  {
+    "text": "Assign user input to variable number with decimal point",
+    "code": "number = float(input(\"Enter number  : \"))"
+  },
+  {
+    "text": "Assign user input to variable number with decimal point",
+    "code": "number = float(input(\"Enter number  : \"))"
+  },
+  {
+    "text": "Set the value given by the user to the floating variable number",
+    "code": "number = float(input(\"Enter number  : \"))"
+  },
+  {
+    "text": "Assign the value given by the user to the variable number that is floating",
+    "code": "number = float(input(\"Enter number  : \"))"
+  },
+  {
+    "text": "Assign zero to the variable amount",
+    "code": "amount=0"
+  },
+  {
+    "text": "Assign zero to the variable Amount",
+    "code": "Amount=0"
+  },
+  {
+    "text": "Assign zero to the variable Amount",
+    "code": "Amount=0"
+  },
+  {
+    "text": "Put zero to the variable amount",
+    "code": "amount=0"
+  },
+  {
+    "text": "A=number",
+    "code": "A=number"
+  },
+  {
+    "text": "Collect A with number Value",
+    "code": "A=number"
+  },
+  {
+    "text": "Assign A with number value",
+    "code": "A=number"
+  },
+  {
+    "text": "Execute for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Execute for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Execute for loop with i from 0 to 4",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Start for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Start for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Start for loop with i from 0 to 4",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Execute for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Execute for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Execute for loop with i from 0 to 4",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Start for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Start for loop with i from zero to four",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Start for loop with i from 0 to 4",
+    "code": "for i in range(0,4):"
+  },
+  {
+    "text": "Digit inside loop = A%10",
+    "code": "digit=A%10"
+  },
+  {
+    "text": "Declare the variable digit inside the loop and then divide A by ten and then collect the remaining number in it",
+    "code": "digit=A%10"
+  },
+  {
+    "text": "Declare the variable digit and assign the remaining number to A after dividing it by ten",
+    "code": "digit=A%10"
+  },
+  {
+    "text": "Declare the variable digit inside the loop and assign the remaining number to A after dividing it by ten",
+    "code": "digit=A%10"
+  },
+  {
+    "text": "Declare the variable digit inside the loop and then divide A by ten and then collect the remaining number in it",
+    "code": "digit=A%10"
+  },
+  {
+    "text": "Intra-rupee Amount=Figure**3",
+    "code": "Amount+=number**3"
+  },
+  {
+    "text": "If number and amount are equal, print \"It is an Armstrong number",
+    "code": "if number==sum\n     print(\"It is an Armstrong number\")"
+  },
+  {
+    "text": "If number==amount, print \"It is an Armstrong number",
+    "code": "if number==sum\n     print(\"It is an Armstrong number\")"
+  },
+  {
+    "text": "If amount==number , print \"It is an Armstrong number",
+    "code": "if number==sum\n     print(\"It is an Armstrong number\")"
+  },
+  {
+    "text": "Print otherwise \"It is not an Armstrong number",
+    "code": "else\n     print(\"It is not an Armstrong number\")"
+  },
+  {
+    "text": "Otherwise print \"It is not an Armstrong number",
+    "code": "else\n     print(\"It is not an Armstrong number\")"
+  },
+  {
+    "text": "Announce the variable N and store the user input for it",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input to variable N",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Set the value given by the user to variable N",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign User Giving Value to Variable N",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to the variable N",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign User Giving Number to Variable N",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign zero to a variable X",
+    "code": "X=0"
+  },
+  {
+    "text": "Assign zero to the variable X",
+    "code": "X=0"
+  },
+  {
+    "text": "Assign zero to the variable X",
+    "code": "X=0"
+  },
+  {
+    "text": "Put zero to the variable X",
+    "code": "X=0"
+  },
+  {
+    "text": "Assign zero to the variable Y",
+    "code": "Y=0"
+  },
+  {
+    "text": "Assign zero to the variable Y",
+    "code": "Y=0"
+  },
+  {
+    "text": "Assign zero to the variable Y",
+    "code": "Y=0"
+  },
+  {
+    "text": "Put zero to the variable Y",
+    "code": "Y=0"
+  },
+  {
+    "text": "Execute while Loop with the condition that the value of variable N is not zero",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Execute while Loop with the condition that the value of variable N is not zero",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Start while Loop with a condition that the value of variable N is not zero",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Execute a vile loop with the condition that the value of variable N is not zero",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Start with the condition that the value of the while Loop en variable is not zero",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Enforce the condition that the value of the while Loop en variable is not zero",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Execute while Loop with the condition that Variable N!=0 must be true",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Start while Loop with a condition that Variable N!=0 must be true",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Execute while Loop with the condition that Variable N!=0 must be true",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Start with a condition that while Loop N!=0 must be true",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Enforce with condition that while Loop N!=0 must be true",
+    "code": "while(N!=0):"
+  },
+  {
+    "text": "Add one to X if N is greater than zero inside loop",
+    "code": "if N>0:\n          X+=1"
+  },
+  {
+    "text": "Attach one to X if N is greater than zero inside the loop",
+    "code": "if N>0:\n          X+=1"
+  },
+  {
+    "text": "Add one to X if N is greater than zero inside the loop",
+    "code": "if N>0:\n          X+=1"
+  },
+  {
+    "text": "If not add one to variable Y",
+    "code": "else:\n          Y+=1"
+  },
+  {
+    "text": "If not, attach one to the variable Y",
+    "code": "else:\n          Y+=1"
+  },
+  {
+    "text": "If not add one to variable Y",
+    "code": "else:\n          Y+=1"
+  },
+  {
+    "text": "Assign User Giving Value to N",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Enter the number given by the user to n",
+    "code": "N=int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Print X",
+    "code": "print(X)"
+  },
+  {
+    "text": "Print variable X",
+    "code": "print(X)"
+  },
+  {
+    "text": "Print variable X",
+    "code": "print(X)"
+  },
+  {
+    "text": "Print Y",
+    "code": "print(Y)"
+  },
+  {
+    "text": "Print Y",
+    "code": "print(Y)"
+  },
+  {
+    "text": "Print variable Y",
+    "code": "print(Y)"
+  },
+  {
+    "text": "Print variable Y",
+    "code": "print(Y)"
+  },
+  {
+    "text": "Execute for loop with J from one to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from one to twenty-six",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from 1 to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to twenty-six",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from 1 to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from one to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from one to twenty-six",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Execute for loop with J from 1 to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from one to twenty-six",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Start for loop with J from 1 to 26",
+    "code": "for J in range(1,26):"
+  },
+  {
+    "text": "Print \"hi\" inside loop",
+    "code": "print(\"hi\")"
+  },
+  {
+    "text": "Print \"hi\" inside loop",
+    "code": "print(\"hi\")"
+  },
+  {
+    "text": "Print \"hi\" inside the loop",
+    "code": "print(\"hi\")"
+  },
+  {
+    "text": "Print \"hi\" inside loop Hi",
+    "code": "print(\"hi\")"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and store user input number value in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare variable N and assign user input numeric value to N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Declare the variable N and collect the user-given number in it",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "Assign user input number to variable N",
+    "code": "N = int(input(\"Enter N : \"))"
+  },
+  {
+    "text": "If N is divisible by 2 and given a zero reminder print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N is divided by two and given a zero reminder print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If Reminder is zero when N is divided by 2 print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N is divisible by two and Reminder is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N % 2 is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N is divisible by 2 and Reminder is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N is divisible by two and Reminder is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N % 2 is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "Print \"N is an even number\" if N % 2 == 0 is true",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If Reminder is zero when N is divided by 2 print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N is divisible by two and Reminder is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "If N % 2 is zero, print \"N is an even number",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "Print \"N is an even number\" if N % 2 == 0 is true",
+    "code": "if N % 2 == 0:\n     print(\"N is an even number\")"
+  },
+  {
+    "text": "Otherwise print \"N is an odd number",
+    "code": "else: \n     print(\"N is odd number\")"
+  },
+  {
+    "text": "Otherwise print \"N is an odd number",
+    "code": "else: \n     print(\"N is odd number\")"
+  },
+  {
+    "text": "Declare variable A and assign user input numeric value",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable A and store user input number in it",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable A and store user input number value in it",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable A and assign user input numeric value to N",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare Variable A and collect the user-given number in it",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Assign user input number to variable A",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable B and assign user input numeric value",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable B and store user input number in it",
+    "code": "A = int(input(\"Enter A : \"))"
+  },
+  {
+    "text": "Declare variable B and store user input number value in it",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Declare variable B and assign user input numeric value to N",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Declare Variable B and collect the user-given number in it",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Assign user input number to variable B",
+    "code": "B = int(input(\"Enter B : \"))"
+  },
+  {
+    "text": "Declare variable C and assign user input numeric value",
+    "code": "C = int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Declare variable C and store user input number in it",
+    "code": "C = int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Declare variable C and store user input number value in it",
+    "code": "C = int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Declare variable C and assign user input numeric value to N",
+    "code": "C = int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Declare the variable C and collect the user-given number in it",
+    "code": "C = int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "Assign user input number to variable C",
+    "code": "C = int(input(\"Enter C : \"))"
+  },
+  {
+    "text": "If Variable A is equal to Variable B or less than B and  If Variable A is equal to or less than C Variable A is the smallest of all, Assign A variable to the smallest variable",
+    "code": "if (A <= B) and (A <= C):\n     smallest = A"
+  },
+  {
+    "text": "If Variable A is less than Variable B or equal to B and If A variable is smaller than or equal to C then A variable is smaller than all",
+    "code": "if (A <= B) and (A <= C):\n     smallest = A"
+  },
+  {
+    "text": "Assign A variable to the larget variable",
+    "code": "largest = A"
+  },
+  {
+    "text": "Otherwise Variable B to Variable A If equal to or less than a and variable \nIf B is equal to variable C or less than C\nVariable B is the smallest of all. Assign B variable to the \nsmallest variable",
+    "code": "elif (B <= A) and (B <= C):\n     smallest = B"
+  },
+  {
+    "text": "Otherwise the variable C is the smallest of all.\nAssign C variable to the smallest variable",
+    "code": "else:\n     smallest = C"
+  },
+  {
+    "text": "If Variable B is equal to Variable A or\nIf less than A and for variable B variable C \nVariable B if equal to or less than C \nAssign B to the variable smallest of all. Very small",
+    "code": "if(B <=A) and (B <=C) :\n     smallest = B"
+  },
+  {
+    "text": "Otherwise variable C to variable A \nEquivalent or less than A and variable C \nIf Variable B is equal to or less than B\nVariable C is the smallest of all. Assign C variable to the\nsmallest variable",
+    "code": "elif (C <= A) and (C<= B):\n     smallest = C"
+  },
+  {
+    "text": "Otherwise variable A to variable B \nIf equal to or less than B and variable A \nIf Variable C is equal to or less than C\nVariable A is the smallest of all. Assign A variable to the\nsmallest variable",
+    "code": "elif (A <= B) and (A<= C):\n     smallest = A"
+  },
+  {
+    "text": "Otherwise variable A is the smallest of all. Assign A variable to the smallest \nvariable",
+    "code": "else:\n     smallest = A"
+  },
+  {
+    "text": "Otherwise variable B is smaller than all. Assign the B variable to the smallest \nvariable",
+    "code": "else:\n     smallest = B"
+  },
+  {
+    "text": "If Variable C is equal to Variable A or \nIf less than A and variable C to variable B \nVariable C if equal to or less than B \nThe smallest of all variables is the smallest \nAssign C to",
+    "code": "if(C < A) and (C <= B) :\n     smallest = C"
+  },
+  {
+    "text": "Otherwise Variable B to Variable A \nIf equal to or less than a and variable b\nIf Variable C is equal to or less than C \nVariable B is the smallest of all. Assign B variable to the \nsmallest variable",
+    "code": "elif (B <= A) and (B <= C):\n     smallest = B"
+  },
+  {
+    "text": "If A >= B and A >= C A variable is the smallest of all",
+    "code": "if (A <= B) and (A <= C):\n     smallest = A"
+  },
+  {
+    "text": "If not then b >= a and b >= c . B variable \nis the smallest of all",
+    "code": "elif (B <= A) and (B <= C):\n     smallest = B"
+  },
+  {
+    "text": "If b >= a and b >= c . B variable is the smallest of all",
+    "code": "if(B <=A) and (B <=C) :\n     smallest = B"
+  },
+  {
+    "text": "Otherwise c >= a and c >= b . C variable\nis the smallest of all",
+    "code": "elif (C <= A) and (C <= B):\n     smallest = C"
+  },
+  {
+    "text": "If C >= A and C >= b . C variable is the smallest of all",
+    "code": "if(C <= A) and (C <= B) : \n     smallest = C"
+  },
+  {
+    "text": "If Variable A is less than Variable B or\nequal to B and less than variable A variable C \nIf small or equal to c. Variable A is the smallest of \nall",
+    "code": "if (A <= B) and (A <= C): \n     smallest = A"
+  },
+  {
+    "text": "If not Variable B than Variable A \nIf small or equal to A and variable B \nIf variable C is smaller than or equal to C then C \nis smaller than all",
+    "code": "elif (B <= A) and (B <= C): \n     smallest = B"
+  },
+  {
+    "text": "If Variable B is less than Variable A or\nA is equal to and variable B is less than variable C \nIf small or equal to c. Variable B \nis smaller than all",
+    "code": "if (B <= A) and (B <= C):\n     smallest = B"
+  },
+  {
+    "text": "If not than Variable C Variable A \nIf small or equal to A and variable C \nIf variable B is smaller than or equal to B C \nis smaller than all",
+    "code": "elif (C <= A) and (C<= B): \n     smallest = C"
+  },
+  {
+    "text": "If otherwise variable A is less than variable B\nor equal to B and less than variable A variable C \nIf A is smaller than or equal to C then A is smaller than all",
+    "code": "elif (A <= B) and (A<= C): \n     smallest = A"
+  },
+  {
+    "text": "Print smallest",
+    "code": "print(smallest)"
+  },
+  {
+    "text": "Print smallest",
+    "code": "print(smallest)"
+  },
+  {
+    "text": "Print the smallest variable now",
+    "code": "print(smallest)"
+  },
+  {
+    "text": "Print variable smallest",
+    "code": "print(smallest)"
+  },
+  {
+    "text": "Print variable smallest",
+    "code": "print(smallest)"
+  }
+]
