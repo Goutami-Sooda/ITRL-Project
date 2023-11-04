@@ -4894,5 +4894,81 @@
   {
     "text": "Print variable smallest",
     "code": "print(smallest)"
+  },
+  {
+    "text": "Assign number two to variable var1.",
+    "code": "var1  = 2"
+  },
+  {
+    "text": "Assign number ten to variable var1",
+    "code": "var1 = 10"
+  },
+  {
+    "text": "Store number two in variable var1",
+    "code": "var1 = 2"
+  },
+  {
+    "text": "Declare the variable var1 and store the number two in it",
+    "code": "var1 = 2"
+  },
+  {
+    "text": "Assign number two to variable num_1",
+    "code": "num_1 = 2"
+  },
+  {
+    "text": "Assign number ten to variable num_2",
+    "code": "num_2 = 10"
+  },
+  {
+    "text": "Store number two in variable name",
+    "code": "name = 2"
+  },
+  {
+    "text": "Declare the variable var1 and store the number two in it",
+    "code": "var1 = 2"
+  },
+  {
+    "text": "Assign number two to variable _number1",
+    "code": "_number1  = 2"
+  },
+  {
+    "text": "Assign number ten to variable _number1",
+    "code": "_number1 = 10"
+  },
+  {
+    "text": "Store number two in variable _number1",
+    "code": "_number1 = 2"
+  },
+  {
+    "text": "Declare the variable var2 and store the number two in it",
+    "code": "var2 = 2"
+  },
+  {
+    "text": "Assign 'Hello World' to variable first_statement",
+    "code": "first_statement = \"Hello World"
+  },
+  {
+    "text": "Assign 'Its awesome to be here' to the string variable letsgo",
+    "code": "letsgo = \"Its awesome to be here"
+  },
+  {
+    "text": "Declare a variable called statement and assign 'This is our NLP model' to it",
+    "code": "statement = \"This is our NLP model"
+  },
+  {
+    "text": "Assign number two to variable a",
+    "code": "a  = 2"
+  },
+  {
+    "text": "Assign number ten to variable b",
+    "code": "b = 10"
+  },
+  {
+    "text": "Store number two in variable c",
+    "code": "c = 2"
+  },
+  {
+    "text": "Declare the variable d and store the number two in it",
+    "code": "d = 2"
   }
 ]
