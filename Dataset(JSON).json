@@ -3145,19 +3145,19 @@
   },
   {
     "text": "Print J inside loop",
-    "code": "print(j)"
+    "code": "\t print(j)"
   },
   {
     "text": "Print J inside loop",
-    "code": "print(j)"
+    "code": "\t print(j)"
   },
   {
     "text": "Print J inside loop",
-    "code": "print(j)"
+    "code": "\t print(j)"
   },
   {
     "text": "Print J inside loop",
-    "code": "print(j)"
+    "code": "\t print(j)"
   },
   {
     "text": "Declare variable J and set it to zero",
@@ -3229,67 +3229,67 @@
   },
   {
     "text": "Print \"Hi\" until the condition is true",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Print \"Hi\" until the condition is true",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Print \"Hi\" until the condition is true",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Print \"Hi\" as long as the condition is true",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Subtract one from J until the condition is true",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Subtract one from J until the condition is true",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Print \"Hi\" inside loop",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Print \"Hi\" inside the loop",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Print \"Hi\" inside loop",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Print hi inside loop",
-    "code": "print(\"Hi\")"
+    "code": "\t print(\"Hi\")"
   },
   {
     "text": "Subtract one from J inside the loop",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Subtract one from J inside the loop",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Subtract one from J inside the loop",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Subtract one from J inside the loop",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Subtract one from J until the condition is true",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Subtract one from J until the condition is true",
-    "code": "J -= 1"
+    "code": "\t J -= 1"
   },
   {
     "text": "Assign -101 to the variable A.",
@@ -3373,59 +3373,59 @@
   },
   {
     "text": "Declare variable number inside loop and assign user input numeric value",
-    "code": "number = int(input(\"Enter number : \"))"
+    "code": "\t number = int(input(\"Enter number : \"))"
   },
   {
     "text": "Declare the variable number inside the loop and store the user input number in it",
-    "code": "number = int(input(\"Enter number : \"))"
+    "code": "\t number = int(input(\"Enter number : \"))"
   },
   {
     "text": "Declare the variable number inside the loop and store the value of the user's input number in it",
-    "code": "number = int(input(\"Enter number : \"))"
+    "code": "\t number = int(input(\"Enter number : \"))"
   },
   {
     "text": "Declare variable number inside loop and assign user input numeric value to number",
-    "code": "number = int(input(\"Enter number : \"))"
+    "code": "\t number = int(input(\"Enter number : \"))"
   },
   {
     "text": "Declare the variable number inside the loop and collect the user-given number in it",
-    "code": "number = int(input(\"Enter number : \"))"
+    "code": "\t number = int(input(\"Enter number : \"))"
   },
   {
     "text": "Assign user input number to variable number inside loop",
-    "code": "number = int(input(\"Enter number : \"))"
+    "code": "\t number = int(input(\"Enter number : \"))"
   },
   {
     "text": "Set the number to A if A-101 is inside the loop or if the number is greater than A",
-    "code": "if number > A: \n          A = number"
+    "code": "\t if number > A: \n          A = number"
   },
   {
     "text": "Set the number to A if A = -101 or number > A is true inside the loop",
-    "code": "if number > A: \n          A = number"
+    "code": "\t if number > A: \n          A = number"
   },
   {
     "text": "Assign the number to A if A-101 is inside the loop or the number is greater than A",
-    "code": "if number > A:  \n          A = number"
+    "code": "\t if number > A:  \n          A = number"
   },
   {
     "text": "Assign number to A if A == -101 or number > A is true inside the loop",
-    "code": "if number > A: \n          A = number"
+    "code": "\t if number > A: \n          A = number"
   },
   {
     "text": "If B is 101 or the number is less than B within the loop, assign the number to B",
-    "code": "if number < B: \n          B = number"
+    "code": "\t if number < B: \n          B = number"
   },
   {
     "text": "Assign number to B if B == 101 or number < B is true inside the loop",
-    "code": "if number < B: \n          B = number"
+    "code": "\t if number < B: \n          B = number"
   },
   {
     "text": "Assign the number to B if B is 101 or the number is less than B inside the loop",
-    "code": "if number < B: \n          B = number"
+    "code": "\t if number < B: \n          B = number"
   },
   {
     "text": "Assign number to B if B == 101 or number < B is true inside the loop",
-    "code": "if number < B: \n          B = number"
+    "code": "\t if number < B: \n          B = number"
   },
   {
     "text": "Print variable A",
@@ -3476,7 +3476,7 @@
     "code": "N = int(input(\"Enter N : \"))"
   },
   {
-    "text": "Put user input \nin variable N",
+    "text": "Put user input \n in variable N",
     "code": "N = int(input(\"Enter N : \"))"
   },
   {
@@ -3917,19 +3917,19 @@
   },
   {
     "text": "Put result plus i to a variable called result inside loop",
-    "code": "result += i"
+    "code": "\t result += i"
   },
   {
     "text": "Put an i in the result for a variable called result inside the loop",
-    "code": "result += i"
+    "code": "\t result += i"
   },
   {
     "text": "Intra-rupee result += i",
-    "code": "result += i"
+    "code": "\t result += i"
   },
   {
     "text": "Intra-rupee result = result + i",
-    "code": "result += i"
+    "code": "\t result += i"
   },
   {
     "text": "Print Result",
@@ -3989,31 +3989,31 @@
   },
   {
     "text": "Print i inside loop",
-    "code": "print(i)"
+    "code": "\t print(i)"
   },
   {
     "text": "Print i inside loop",
-    "code": "print(i)"
+    "code": "\t print(i)"
   },
   {
     "text": "Show i inside loop",
-    "code": "print(i)"
+    "code": "\t print(i)"
   },
   {
     "text": "Subtract one from i inside the loop",
-    "code": "i -= 1"
+    "code": "\t i -= 1"
   },
   {
     "text": "Subtract one from the variable i inside the loop",
-    "code": "i -= 1"
+    "code": "\t i -= 1"
   },
   {
     "text": "Inside loop i -= 1",
-    "code": "i -= 1"
+    "code": "\t i -= 1"
   },
   {
     "text": "Inside loop i = i - 1",
-    "code": "i -= 1"
+    "code": "\t i -= 1"
   },
   {
     "text": "Assign zero to a variable A",
@@ -4093,55 +4093,55 @@
   },
   {
     "text": "Print the variable A inside the loop",
-    "code": "print(A)"
+    "code": "\t print(A)"
   },
   {
     "text": "Print the variable A inside the loop",
-    "code": "print(A)"
+    "code": "\t print(A)"
   },
   {
     "text": "Print Variable A inside loop",
-    "code": "print(A)"
+    "code": "\t print(A)"
   },
   {
     "text": "Print Variable A inside loop",
-    "code": "print(A)"
+    "code": "\t print(A)"
   },
   {
     "text": "Assign the sum of A and B to the variable C inside the loop",
-    "code": "C = A + B"
+    "code": "\t C = A + B"
   },
   {
     "text": "Intra-loop C=A+B",
-    "code": "C = A + B"
+    "code": "\t C = A + B"
   },
   {
     "text": "Declare the variable C inside the loop and collect the sum of A times B in it",
-    "code": "C = A + B"
+    "code": "\t C = A + B"
   },
   {
     "text": "A=B inside the loop",
-    "code": "A = B"
+    "code": "\t A = B"
   },
   {
     "text": "Collect the value of A null B inside the loop",
-    "code": "A = B"
+    "code": "\t A = B"
   },
   {
     "text": "Assign AG B value inside loop",
-    "code": "A = B"
+    "code": "\t A = B"
   },
   {
     "text": "B=C inside the loop",
-    "code": "B = C"
+    "code": "\t B = C"
   },
   {
-    "text": "Collect the value of B nali C inside the loop",
-    "code": "B = C"
+    "text": "Collect the value of B to C inside the loop",
+    "code": "\t B = C"
   },
   {
-    "text": "Assign a BG C value inside the loop",
-    "code": "B = C"
+    "text": "Assign a B to C value inside the loop",
+    "code": "\t B = C"
   },
   {
     "text": "Assign zero to a variable i",
@@ -4217,39 +4217,39 @@
   },
   {
     "text": "Put the result plus i to the variable amount inside the loop",
-    "code": "amount+=i"
+    "code": "\t amount+=i"
   },
   {
     "text": "Add i to the variable amount inside the loop",
-    "code": "amount+=i"
+    "code": "\t amount+=i"
   },
   {
     "text": "Intra-rupee amount += i",
-    "code": "amount+=i"
+    "code": "\t amount+=i"
   },
   {
     "text": "Intra-rupee Amount = Amount + I",
-    "code": "Amount= Amount + i"
+    "code": "\t Amount= Amount + i"
   },
   {
     "text": "Increase from one to five inside the loop",
-    "code": "i += 1"
+    "code": "\t i += 1"
   },
   {
     "text": "Increase from one to the variable i inside the loop",
-    "code": "i += 1"
+    "code": "\t i += 1"
   },
   {
     "text": "Intra-rupee i += 1",
-    "code": "i += 1"
+    "code": "\t i += 1"
   },
   {
     "text": "Intra-loop I = I + 1",
-    "code": "i += 1"
+    "code": "\t i += 1"
   },
   {
     "text": "Increase the variable i within the loop by one",
-    "code": "i += 1"
+    "code": "\t i += 1"
   },
   {
     "text": "Print Variable Amount",
@@ -4365,27 +4365,27 @@
   },
   {
     "text": "Digit inside loop = A%10",
-    "code": "digit=A%10"
+    "code": "\t digit=A%10"
   },
   {
     "text": "Declare the variable digit inside the loop and then divide A by ten and then collect the remaining number in it",
-    "code": "digit=A%10"
+    "code": "\t digit=A%10"
   },
   {
     "text": "Declare the variable digit and assign the remaining number to A after dividing it by ten",
-    "code": "digit=A%10"
+    "code": "\t digit=A%10"
   },
   {
     "text": "Declare the variable digit inside the loop and assign the remaining number to A after dividing it by ten",
-    "code": "digit=A%10"
+    "code": "\t digit=A%10"
   },
   {
     "text": "Declare the variable digit inside the loop and then divide A by ten and then collect the remaining number in it",
-    "code": "digit=A%10"
+    "code": "\t digit=A%10"
   },
   {
     "text": "Intra-rupee Amount=Figure**3",
-    "code": "Amount+=number**3"
+    "code": "\t Amount+=number**3"
   },
   {
     "text": "If number and amount are equal, print \"It is an Armstrong number",
@@ -4509,15 +4509,15 @@
   },
   {
     "text": "Add one to X if N is greater than zero inside loop",
-    "code": "if N>0:\n          X+=1"
+    "code": "\t if N>0:\n          X+=1"
   },
   {
     "text": "Attach one to X if N is greater than zero inside the loop",
-    "code": "if N>0:\n          X+=1"
+    "code": "\t if N>0:\n          X+=1"
   },
   {
     "text": "Add one to X if N is greater than zero inside the loop",
-    "code": "if N>0:\n          X+=1"
+    "code": "\t if N>0:\n          X+=1"
   },
   {
     "text": "If not add one to variable Y",
@@ -4617,19 +4617,19 @@
   },
   {
     "text": "Print \"hi\" inside loop",
-    "code": "print(\"hi\")"
+    "code": "\t print(\"hi\")"
   },
   {
     "text": "Print \"hi\" inside loop",
-    "code": "print(\"hi\")"
+    "code": "\t print(\"hi\")"
   },
   {
     "text": "Print \"hi\" inside the loop",
-    "code": "print(\"hi\")"
+    "code": "\t print(\"hi\")"
   },
   {
-    "text": "Print \"hi\" inside loop Hi",
-    "code": "print(\"hi\")"
+    "text": "Print \"hi\" inside loop",
+    "code": "\t print(\"hi\")"
   },
   {
     "text": "Declare variable N and assign user input numeric value",
@@ -4840,19 +4840,19 @@
     "code": "if (A <= B) and (A <= C):\n     smallest = A"
   },
   {
-    "text": "If not then b >= a and b >= c . B variable \nis the smallest of all",
+    "text": "If not then b >= a and b >= c. B variable \nis the smallest of all",
     "code": "elif (B <= A) and (B <= C):\n     smallest = B"
   },
   {
-    "text": "If b >= a and b >= c . B variable is the smallest of all",
+    "text": "If b >= a and b >= c. B variable is the smallest of all",
     "code": "if(B <=A) and (B <=C) :\n     smallest = B"
   },
   {
-    "text": "Otherwise c >= a and c >= b . C variable\nis the smallest of all",
+    "text": "Otherwise c >= a and c >= b. C variable\nis the smallest of all",
     "code": "elif (C <= A) and (C <= B):\n     smallest = C"
   },
   {
-    "text": "If C >= A and C >= b . C variable is the smallest of all",
+    "text": "If C >= A and C >= b. C variable is the smallest of all",
     "code": "if(C <= A) and (C <= B) : \n     smallest = C"
   },
   {
@@ -4945,15 +4945,15 @@
   },
   {
     "text": "Assign 'Hello World' to variable first_statement",
-    "code": "first_statement = \"Hello World"
+    "code": "first_statement = \"Hello World\""
   },
   {
     "text": "Assign 'Its awesome to be here' to the string variable letsgo",
-    "code": "letsgo = \"Its awesome to be here"
+    "code": "letsgo = \"Its awesome to be here\""
   },
   {
     "text": "Declare a variable called statement and assign 'This is our NLP model' to it",
-    "code": "statement = \"This is our NLP model"
+    "code": "statement = \"This is our NLP model\""
   },
   {
     "text": "Assign number two to variable a",
