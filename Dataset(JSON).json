@@ -4956,6 +4956,26 @@
     "code": "statement = \"This is our NLP model\""
   },
   {
+    "text": "Declare a variable called statement and assign 'Hello' to it",
+    "code": "statement = \"Hello\""
+  },
+  {
+    "text": "Declare a variable called statement and assign 'hello World' to it",
+    "code": "statement = \"hello World\""
+  },
+  {
+    "text": "Declare a variable called statement and assign 'ITRL Project' to it",
+    "code": "statement = \"ITRL Project\""
+  },
+  {
+    "text": "Assign 'Programming in python' to the string variable letsgo",
+    "code": "letsgo = \"Programming in python\""
+  },
+  {
+    "text": "Assign 'programming Is SUpeR FuN' to the string variable programming",
+    "code": "letsgo = \"programming Is SUpeR FuN\""
+  },
+  {
     "text": "Assign number two to variable a",
     "code": "a  = 2"
   },
