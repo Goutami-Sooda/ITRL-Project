@@ -1,58 +1,52 @@
-from django.http import HttpResponse
-from django.template import loader
-
-from django.shortcuts import render
-from django.http import JsonResponse
-from .forms import TranslationForm
+from django.http import HttpResponse 
+from django.http import JsonResponse 
 from translate import Translator
+from django.views.decorators.csrf import csrf_exempt
+import json
 
 
-def main(request):
-    template = loader.get_template('main.html')
-    return HttpResponse(template.render())
-
+@csrf_exempt
 def translate_algorithm(request):
     if request.method == 'POST':
-        form = TranslationForm(request.POST)
-        if form.is_valid():
-            kannada_algorithm = form.cleaned_data['kannada_algorithm']
+        try:
+            data = json.loads(request.body)
+            kannada_algorithm = data.get('text', '') 
+            #print(kannada_algorithm)
+
+            # Perform translation
+            translator = Translator(from_lang="kn", to_lang="en")
+            translated_text = translator.translate(kannada_algorithm)
+            #print(translated_text)
+
+            # Convert to lowercase
+            lowercase_text = translated_text.lower()
+            #print(lowercase_text)
             
-            try:
-                # Perform translation using the 'translate' library (install it using: pip install translate)
-                translated_algorithm = translate_algorithm_function(kannada_algorithm)
 
-                # Return the translated algorithm     
-                return JsonResponse({'translated_algorithm': translated_algorithm, 'error_message': None})
+            # Check if translation limit has been reached
+            if "MYMEMORY LIMIT HAS BEEN REACHED" in translated_text:
+                error_message= "Sorry for the inconvenience. Please try again after 24 hours."
+                return JsonResponse({'translatedText': error_message})
 
-            except Exception as e:
-                # Check if translation limit error occurred
-                if "MYMEMORY LIMIT HAS BEEN REACHED" in str(e):
-                    error_message = "Sorry for the inconvenience. Please try again after 24 hours."
+            elif "network error" in translated_text.lower():
+                error_message = "Network error. Please check your internet connection."
+                return JsonResponse({'translatedText': error_message})
 
-                elif "network error" in str(e).lower():
-                    error_message = "Network error. Please check your internet connection."
+            
+            return JsonResponse({'translatedText': lowercase_text})
+        
+        except json.JSONDecodeError as e:
+            return JsonResponse({'error': 'Invalid JSON format'}, status=400)
 
-                else:
-                    error_message = "An unexpected error occurred. Please try again later."    
-                
-                return JsonResponse({'translated_algorithm': None, 'error_message': _('Error: ') + error_message})
-                
-
-    else:
-        form = TranslationForm()
-
-    return render(request, 'translate_algorithm.html', {'form': form})
+    return JsonResponse({'error': 'Invalid request method'}, status=405)
     
-
-def translate_algorithm_function(kannada_algorithm):
-    # Perform translation
-    translator = Translator(from_lang="kn", to_lang="en")
-    translated_text = translator.translate(kannada_algorithm)
-
-    # Convert to lowercase
-    lowercase_text = translated_text.lower()
-
-    return lowercase_text
 
 #def model_inference(english_algorithm):
     # todo
+
+def options_view(request):
+    response = HttpResponse()
+    response['Access-Control-Allow-Origin'] = 'http://localhost:5173/'  # Set this to the actual allowed origin in production
+    response['Access-Control-Allow-Methods'] = 'POST, OPTIONS'  # Add other allowed methods
+    response['Access-Control-Allow-Headers'] = 'Content-Type'  # Add other allowed headers
+    return response
