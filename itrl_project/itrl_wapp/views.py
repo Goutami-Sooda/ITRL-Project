@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from translate import Translator
 from django.views.decorators.csrf import csrf_exempt
 import json
+import requests
 
 
 @csrf_exempt
@@ -33,7 +34,9 @@ def translate_algorithm(request):
                 return JsonResponse({'translatedText': error_message})
 
             
-            return JsonResponse({'translatedText': lowercase_text})
+            #return JsonResponse({'translatedText': lowercase_text})
+            python_code = model_inference(lowercase_text)
+            return JsonResponse({'generatedText': python_code})
         
         except json.JSONDecodeError as e:
             return JsonResponse({'error': 'Invalid JSON format'}, status=400)
@@ -41,8 +44,23 @@ def translate_algorithm(request):
     return JsonResponse({'error': 'Invalid request method'}, status=405)
     
 
-#def model_inference(english_algorithm):
-    # todo
+def model_inference(english_algorithm):
+    API_URL = "https://api-inference.huggingface.co/models/AshArya/ITRLTrained"
+    headers = {"Authorization": "Bearer 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"}
+    payload = {"inputs": english_algorithm}
+
+    # Perform model inference
+    response = requests.post(API_URL, headers=headers, json=payload)
+    result = response.json()
+    
+    # Parse the output to extract the python code generated
+    if result and isinstance(result, list) and len(result) > 0:
+        generated_text = result[0].get("generated_text", "")
+        
+        #print(generated_text)
+        return generated_text
+            
+    
 
 def options_view(request):
     response = HttpResponse()
