@@ -14,7 +14,7 @@ interface KannadaKeyboardIssueProps {}
 const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [voiceInput, setVoiceInput] = useState<string>("");
   const [recognizedText, setRecognizedText] = useState<string[]>([]);
-  const [translatedText, setTranslatedText] = useState(''); //translated text display
+  const [generatedText, setGeneratedText] = useState(''); //translated text display
 
   let recognition: any;
   var webkitSpeechRecognition: any;
@@ -202,12 +202,12 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
 
       const data = await response.json();
       //console.log('Translated text:', data.translatedText);
-      setTranslatedText(data.translatedText);
+      setGeneratedText(data.generatedText);
       //console.log(data.translatedText); 
     } 
     
     catch (error) {
-      console.error('Translation error:', error);
+      console.error('Backend error:', error);
     }
   };
 
@@ -222,7 +222,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   return (
     <Box textAlign="center" padding="4">
       <Text fontSize="2xl" fontWeight="bold">
-        Record or Type : Kannada Algorithm
+      ರೆಕಾರ್ಡ್ ಅಥವಾ ಟೈಪ್: ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್
       </Text>
       <VStack spacing="4" align="center" className="container">
         <HStack className="text-box">
@@ -232,29 +232,34 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             id="voiceInputField"
             value={voiceInput}
             onChange={(e) => setVoiceInput(e.target.value)}
+            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
           />
           
           <Button
             className="record-button"
             onClick={startVoiceRecognition}
             colorScheme="teal"
+            style={{ width: '150px' }}
           >
-            Record
+            ರೆಕಾರ್ಡ್ 
           </Button>
 
           <Button                           
-            className="translate-button"
+            className="submit-button"
             onClick={translateAlgorithm}
             colorScheme="teal"
+            style={{ width: '150px' }}
           >
-            Translate
+            ಸಲ್ಲಿಸಿ 
           </Button>
+
           <Input
             type="text"
             className="input-field"
             id="translatedInputField"
-            value={translatedText}
-            onChange={(e) => setTranslatedText(e.target.value)}
+            value={generatedText === null ? "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ" : generatedText} //try again
+            onChange={(e) => setGeneratedText(e.target.value)}
+            readOnly
           />
 
 
