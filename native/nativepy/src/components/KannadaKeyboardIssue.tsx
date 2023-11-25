@@ -14,7 +14,10 @@ interface KannadaKeyboardIssueProps {}
 const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [voiceInput, setVoiceInput] = useState<string>("");
   const [recognizedText, setRecognizedText] = useState<string[]>([]);
+  const [translatedText, setTranslatedText] = useState(''); //translated text display
+
   let recognition: any;
+  var webkitSpeechRecognition: any;
 
   const kannadaLettersData = [
     "ಅ",
@@ -24,7 +27,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "ಉ",
     "ಊ",
     "ಋ",
-    "ೠ",
     "ಎ",
     "ಏ",
     "ಐ",
@@ -74,6 +76,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const kannadaLettersData3 = [
     "ಸ",
     "ಹ",
+    "ಳ",
     "೦",
     "೧",
     "೨",
@@ -102,14 +105,11 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "ೌ",
     "್ಕ",
     "್ಖ",
-    "್",
-    "್ದ",
-    "್ಧ",
+    
   ];
 
   const kannadaOthersData1 = [
-    "ಗ",
-    "್ನ",
+    "್ದ",
     "್ಘ",
     "್ಙ",
     "್ಚ",
@@ -120,20 +120,14 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "್ಟ",
     "್ಠ",
     "್ಡ",
-    "್ಢ",
     "್ಣ",
     "್ತ",
   ];
 
   const kannadaOthersData2 = [
-    "್",
-    "್ದ",
-    "್ಧ",
     "್ನ",
     "್ಪ",
-    "್ಫ",
     "್ಬ",
-    "್ಭ",
     "್ಮ",
     "್ಯ",
     "್ರ",
@@ -147,7 +141,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
 
   const handleKeyClick = (character: string) => {
     setVoiceInput((prevInput) => {
-      const cursorPosition = prevInput.length;
+      const cursorPosition = prevInput.length; //can be modified to point exact cursor location
       const newText =
         prevInput.substring(0, cursorPosition) +
         character +
@@ -196,6 +190,27 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     recognition.start();
   };
 
+  const translateAlgorithm = async () => {                 
+    try {
+      const response = await fetch('http://127.0.0.1:8080/api/translate/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text: voiceInput }),
+      });
+
+      const data = await response.json();
+      //console.log('Translated text:', data.translatedText);
+      setTranslatedText(data.translatedText);
+      //console.log(data.translatedText); 
+    } 
+    
+    catch (error) {
+      console.error('Translation error:', error);
+    }
+  };
+
   useEffect(() => {
     return () => {
       if (recognition) {
@@ -207,7 +222,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   return (
     <Box textAlign="center" padding="4">
       <Text fontSize="2xl" fontWeight="bold">
-        Record : Kannada to Python Code
+        Record or Type : Kannada Algorithm
       </Text>
       <VStack spacing="4" align="center" className="container">
         <HStack className="text-box">
@@ -218,6 +233,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             value={voiceInput}
             onChange={(e) => setVoiceInput(e.target.value)}
           />
+          
           <Button
             className="record-button"
             onClick={startVoiceRecognition}
@@ -225,6 +241,23 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
           >
             Record
           </Button>
+
+          <Button                           
+            className="translate-button"
+            onClick={translateAlgorithm}
+            colorScheme="teal"
+          >
+            Translate
+          </Button>
+          <Input
+            type="text"
+            className="input-field"
+            id="translatedInputField"
+            value={translatedText}
+            onChange={(e) => setTranslatedText(e.target.value)}
+          />
+
+
         </HStack>
         <VStack
           spacing="2"
