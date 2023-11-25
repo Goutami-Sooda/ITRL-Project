@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { ChangeEvent } from "react";
 import {
   Box,
   Input,
@@ -14,6 +15,8 @@ interface KannadaKeyboardIssueProps {}
 const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [voiceInput, setVoiceInput] = useState<string>("");
   const [recognizedText, setRecognizedText] = useState<string[]>([]);
+  const [translatedTexts, setTranslatedTexts] = useState<string[]>([]);
+  const recognitionRef = useRef<any>(null);
   let recognition: any;
 
   const kannadaLettersData = [
@@ -102,11 +105,9 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "ೌ",
     "್ಕ",
     "್ಖ",
-    "್",
     "್ದ",
     "್ಧ",
   ];
-
   const kannadaOthersData1 = [
     "ಗ",
     "್ನ",
@@ -124,7 +125,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "್ಣ",
     "್ತ",
   ];
-
   const kannadaOthersData2 = [
     "್",
     "್ದ",
@@ -146,56 +146,69 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   ];
 
   const handleKeyClick = (character: string) => {
-    setVoiceInput((prevInput) => {
-      const cursorPosition = prevInput.length;
+    const inputField = document.getElementById(
+      "voiceInputField"
+    ) as HTMLInputElement;
+
+    if (inputField) {
+      const start = inputField.selectionStart || 0;
+      const end = inputField.selectionEnd || 0;
+
       const newText =
-        prevInput.substring(0, cursorPosition) +
+        inputField.value.substring(0, start) +
         character +
-        prevInput.substring(cursorPosition);
-      return newText;
-    });
+        inputField.value.substring(end);
+
+      setVoiceInput(newText);
+      const newCursorPosition = start + character.length;
+      inputField.setSelectionRange(newCursorPosition, newCursorPosition);
+
+      // Update recognizedText with the modified input only if it's from the Kannada keyboard
+      if (character !== "") {
+        setRecognizedText([newText]);
+      }
+    }
+  };
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    // Update recognizedText with the modified input using the computer keyboard
+    setRecognizedText([e.target.value]);
+    setVoiceInput(e.target.value);
   };
 
   const startVoiceRecognition = () => {
     if ("webkitSpeechRecognition" in window) {
-      recognition = new webkitSpeechRecognition();
-      recognition.lang = "kn-IN";
+      recognitionRef.current = new webkitSpeechRecognition();
+      recognitionRef.current.lang = "kn-IN";
 
-      recognition.onresult = (event: any) => {
+      recognitionRef.current.onresult = (event: any) => {
         const transcript = event.results[0][0].transcript;
+        setRecognizedText((prevText) => [...prevText, transcript]);
         setVoiceInput(transcript);
       };
 
-      recognition.onerror = (event: any) => {
+      recognitionRef.current.onerror = (event: any) => {
         console.error("Speech recognition error:", event.error);
       };
 
-      recognition.start();
+      recognitionRef.current.start();
     } else {
       alert("Speech recognition not supported in your browser.");
     }
   };
 
-  const startRecognition = (index: number): void => {
-    const recognition = new webkitSpeechRecognition();
-    recognition.lang = "kn-IN";
+  // const translateText = (): void => {
+  //   console.log("Recognized Text:", recognizedText);
+  //   setTranslatedText(voiceInput);
+  //   console.log("Translated Text:", translatedText);
+  // };
 
-    recognition.onresult = (event: any): void => {
-      const transcript: string = event.results[0][0].transcript;
-      setRecognizedText((prevText) => {
-        const newText = [...prevText];
-        newText[index] = transcript;
-        return newText;
-      });
-    };
-
-    recognition.onerror = (event: any) => {
-      console.error("Speech recognition error:", event.error);
-    };
-
-    recognition.start();
+  const translateText = (): void => {
+    const translatedText = recognizedText.join(" ");
+    setTranslatedTexts((prevTexts) => [...prevTexts, translatedText]);
+    setRecognizedText([]);
+    setVoiceInput("");
   };
-
   useEffect(() => {
     return () => {
       if (recognition) {
@@ -216,7 +229,10 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             className="input-field"
             id="voiceInputField"
             value={voiceInput}
-            onChange={(e) => setVoiceInput(e.target.value)}
+            // onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            //   setVoiceInput(e.target.value)
+            // }
+            onChange={handleInputChange}
           />
           <Button
             className="record-button"
@@ -225,7 +241,16 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
           >
             Record
           </Button>
+
+          <Button
+            className="translate-button"
+            onClick={translateText}
+            colorScheme="teal"
+          >
+            Translate
+          </Button>
         </HStack>
+
         <VStack
           spacing="2"
           divider={<StackDivider borderColor="gray.200" />}
@@ -327,6 +352,12 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
           </VStack>
         </VStack>
       </VStack>
+      {translatedTexts.map((text, index) => (
+        <Text key={index} className="translated-text">
+          {text}
+          <br />
+        </Text>
+      ))}
     </Box>
   );
 };
