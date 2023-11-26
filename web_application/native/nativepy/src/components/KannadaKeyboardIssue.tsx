@@ -202,7 +202,15 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
 
       const data = await response.json();
       //console.log('Translated text:', data.translatedText);
-      setGeneratedText(data.generatedText);
+      const pythonCode = data.generatedText;
+      if(pythonCode === null){
+        setGeneratedText("ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"); //try again
+      }
+      else{
+        setGeneratedText(pythonCode.toLowerCase());
+      }
+      
+      //setGeneratedText(data.generatedText);
       //console.log(data.translatedText); 
     } 
     
@@ -257,7 +265,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             type="text"
             className="input-field"
             id="translatedInputField"
-            value={generatedText === null ? "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ" : generatedText} //try again
+            value={generatedText}
             onChange={(e) => setGeneratedText(e.target.value)}
             readOnly
           />
