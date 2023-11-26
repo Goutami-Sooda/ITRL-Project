@@ -1093,7 +1093,7 @@
   },
   {
     "text": "Subtract one from N until the condition is true",
-    "code": "N -= 1"
+    "code": "  N -= 1"
   },
   {
     "text": "Print the result variable if the condition is false",
