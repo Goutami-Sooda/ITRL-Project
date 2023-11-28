@@ -1,6 +1,7 @@
 from django.http import HttpResponse 
 from django.http import JsonResponse 
-from translate import Translator
+#from translate import Translator
+from deep_translator import GoogleTranslator
 from django.views.decorators.csrf import csrf_exempt
 import json
 import requests
@@ -15,8 +16,10 @@ def translate_algorithm(request):
             #print(kannada_algorithm)
 
             # Perform translation
-            translator = Translator(from_lang="kn", to_lang="en")
-            translated_text = translator.translate(kannada_algorithm)
+            translated_text = GoogleTranslator(source='kn', target='en').translate(kannada_algorithm)
+
+            #translator = Translator(from_lang="kn", to_lang="en")
+            #translated_text = translator.translate(kannada_algorithm)
             #print(translated_text)
 
             # Convert to lowercase
@@ -25,11 +28,11 @@ def translate_algorithm(request):
             
 
             # Check if translation limit has been reached
-            if "MYMEMORY LIMIT HAS BEEN REACHED" in translated_text:
-                error_message= "Sorry for the inconvenience. Please try again after 24 hours."
-                return JsonResponse({'translatedText': error_message})
+            #if "MYMEMORY MYMEMORY WARNING" in translated_text:
+            #    error_message= "Sorry for the inconvenience. Please try again after 24 hours."
+            #    return JsonResponse({'translatedText': error_message})
 
-            elif "network error" in translated_text.lower():
+            if "network error" in translated_text.lower():
                 error_message = "Network error. Please check your internet connection."
                 return JsonResponse({'translatedText': error_message})
 
