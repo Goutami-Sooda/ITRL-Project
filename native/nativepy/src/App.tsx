@@ -11,6 +11,7 @@ function App() {
       templateAreas={`"header header" "nav nav" "question question" "incode editor"`}
       gap={1}
       autoFlow="row dense"
+      templateColumns="60% 40%"
     >
       <GridItem area="header">
         <Header></Header>
@@ -21,11 +22,12 @@ function App() {
       <GridItem area="question" bg="blue.600">
         <Question></Question>
       </GridItem>
-      <GridItem area="incode" maxHeight="75vh" overflowX="scroll">
+      <GridItem area="incode" w="100%" overflowX="scroll">
         <KannadaKeyboardIssue></KannadaKeyboardIssue>
       </GridItem>
       <GridItem area="editor" minHeight="80vh" bg="black">
         <Editor></Editor>
+        {/* <PythonEditor></PythonEditor> */}
       </GridItem>
     </Grid>
   );
