@@ -15,7 +15,7 @@ interface KannadaKeyboardIssueProps {}
 const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [voiceInput, setVoiceInput] = useState<string>("");
   const [recognizedText, setRecognizedText] = useState<string[]>([]);
-  const [generatedText, setGeneratedText] = useState(''); //translated text display
+  const [generatedText, setGeneratedText] = useState(""); //translated text display//
 
   const [translatedTexts, setTranslatedTexts] = useState<string[]>([]); //collection of all algorithms
   const recognitionRef = useRef<any>(null);
@@ -222,13 +222,11 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
       setTranslatedTexts((prevTexts) => [...prevTexts, translatedText]);
       setRecognizedText([]);
       setVoiceInput("");
-      
+
       //setGeneratedText(data.generatedText);
-      //console.log(data.translatedText); 
-    } 
-    
-    catch (error) {
-      console.error('Backend error:', error);
+      //console.log(data.translatedText);
+    } catch (error) {
+      console.error("Backend error:", error);
     }
   };
 
@@ -243,7 +241,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   return (
     <Box textAlign="center" padding="4">
       <Text fontSize="2xl" fontWeight="bold">
-      ರೆಕಾರ್ಡ್ ಅಥವಾ ಟೈಪ್: ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್
+        ರೆಕಾರ್ಡ್ ಅಥವಾ ಟೈಪ್: ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್
       </Text>
       <VStack spacing="4" align="center" className="container">
         <HStack className="text-box">
@@ -259,23 +257,22 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             // }
             onChange={handleInputChange}
           />
-          
           <Button
             className="record-button"
             onClick={startVoiceRecognition}
             colorScheme="teal"
-            style={{ width: '150px' }}
+            style={{ width: "150px" }}
           >
-            ರೆಕಾರ್ಡ್ 
+            ರೆಕಾರ್ಡ್
           </Button>
 
-          <Button                           
+          <Button
             className="submit-button"
             onClick={translateAlgorithm}
             colorScheme="teal"
-            style={{ width: '150px' }}
+            style={{ width: "150px" }}
           >
-            ಸಲ್ಲಿಸಿ 
+            ಸಲ್ಲಿಸಿ
           </Button>
 
           <Input
@@ -286,8 +283,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             onChange={(e) => setGeneratedText(e.target.value)}
             readOnly
           />
-
-
         </HStack>
 
         <VStack
@@ -399,14 +394,12 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                 whiteSpace="pre-line"
                 width="400px"
               >
-                <Text>{translatedTexts.join('\n')}</Text>
+                <Text>{translatedTexts.join("\n")}</Text>
               </Box>
             </VStack>
-
           </VStack>
         </VStack>
       </VStack>
-
     </Box>
   );
 };
