@@ -22,7 +22,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [showFirstSection, setShowFirstSection] = useState(true);
   const recognitionRef = useRef<any>(null);
   let recognition: any;
-  //let webkitSpeechRecognition: any;
 
   const kannadaLettersData = [
     "ಅ",
@@ -113,7 +112,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     
   ];
   const kannadaOthersData1 = [
-    "್ದ",
+    "್ಗ",
     "್ಘ",
     "್ಙ",
     "್ಚ",
@@ -126,8 +125,10 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "್ಡ",
     "್ಣ",
     "್ತ",
+    "್ಥ",
   ];
   const kannadaOthersData2 = [
+    "್ದ",
     "್ನ",
     "್ಪ",
     "್ಬ",
@@ -146,30 +147,34 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     const inputField = document.getElementById(
       "voiceInputField"
     ) as HTMLInputElement;
-
+  
     if (inputField) {
       const start = inputField.selectionStart || 0;
       const end = inputField.selectionEnd || 0;
-
+  
+      const currentText = inputField.value;
+  
       const newText =
-        inputField.value.substring(0, start) +
+        currentText.substring(0, start) +
         character +
-        inputField.value.substring(end);
-
+        currentText.substring(end);
+  
+      inputField.value = newText;
+      const newCursorPosition = start + character.length;
+  
+      // Focus on the input field after updating its value
+      inputField.focus();
+      
+      inputField.setSelectionRange(newCursorPosition, newCursorPosition);
+  
       setVoiceInput(newText);
-      //const newCursorPosition = start + character.length;
-      //inputField.setSelectionRange(newCursorPosition, newCursorPosition);
-
+  
       // Update recognizedText with the modified input only if it's from the Kannada keyboard
       if (character !== "") {
         setRecognizedText([newText]);
       }
-      
-      //see
-      const newCursorPosition = start + character.length;
-      inputField.setSelectionRange(newCursorPosition, newCursorPosition);
     }
-  };
+  };  
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     // Update recognizedText with the modified input using the computer keyboard
@@ -198,12 +203,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     }
   };
 
-  // const translateText = (): void => {
-  //   console.log("Recognized Text:", recognizedText);
-  //   setTranslatedText(voiceInput);
-  //   console.log("Translated Text:", translatedText);
-  // };
-
   const translateAlgorithm = async () => {                 
     try {
       const response = await fetch('http://127.0.0.1:8080/api/translate/', {
@@ -222,7 +221,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
       }
       else{
         setGeneratedText(pythonCode.toLowerCase());
-        setGeneratedPyCode([data.generatedText.toLowerCase()]); //see
+        setGeneratedPyCode([pythonCode.toLowerCase()]); 
       }
 
       const translatedText = recognizedText.join(" ");
@@ -230,7 +229,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
       setRecognizedText([]);
       setVoiceInput("");
 
-      //setGeneratedText(data.generatedText);
       //console.log(data.translatedText);
     } catch (error) {
       console.error("Backend error:", error);
@@ -246,9 +244,8 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   }, [recognition]);
 
   useEffect(() => {
-    const PyCodeList = generatedPyCode.join(" ");
-    setPyCodeList((prevTexts) => [...prevTexts, PyCodeList]); 
-  }, [generatedPyCode]);  
+    setPyCodeList((prevTexts) => [...prevTexts, ...generatedPyCode]);
+  }, [generatedPyCode]);
 
   const handleSectionSwitch = () => {
     setShowFirstSection((prevShowFirstSection) => !prevShowFirstSection);
@@ -291,7 +288,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -304,7 +301,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -323,7 +320,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -336,7 +333,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -349,7 +346,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -373,11 +370,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             className="input-field"
             id="voiceInputField"
             value={voiceInput}
-            //onChange={(e) => setVoiceInput(e.target.value)}  //no need
             placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
-            // onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            //   setVoiceInput(e.target.value)
-            // }
             onChange={handleInputChange}
           />
           <Button
@@ -440,17 +433,15 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   borderWidth="1px"
                   borderRadius="lg"
                   p="4"
-                  whiteSpace="pre-line"
+                  whiteSpace="pre-wrap"
                   width="400px"
                 >
-                  <Text>{PyCodeList.join("\n").trim()}</Text>
+                  <Text textAlign="left">{PyCodeList.join("\n").trim()}</Text>
                 </Box>
               </HStack>  
             </VStack>
-                </VStack>
-
+          </VStack>
         </VStack>
-      {/*</VStack>*/}
     </Box>
   );
 };
