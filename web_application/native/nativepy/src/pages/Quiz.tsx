@@ -59,16 +59,16 @@ function Quiz() {
         {showScore ? (
           <Box>
             <Heading as="h1">
-              Your Score: {score} out of {questionsData.length}
+              ನಿಮ್ಮ ಅಂಕ: {questionsData.length} ರಲ್ಲಿ {score}
             </Heading>
             <Button colorScheme="teal" onClick={restartQuiz} mt="4">
-              Restart Quiz
+              ರಸಪ್ರಶ್ನೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ
             </Button>
           </Box>
         ) : (
           <Box>
             <Heading as="h1">
-              Question {currentQuestion + 1}/{questionsData.length}
+              ಪ್ರಶ್ನೆ {currentQuestion + 1}/{questionsData.length}
             </Heading>
             <Box bg="gray.100" p="4" borderRadius="md" mt="4">
               {questionsData[currentQuestion].question}
@@ -100,20 +100,20 @@ function Quiz() {
         <AlertDialogOverlay>
           <AlertDialogContent>
             <AlertDialogHeader fontSize="lg" fontWeight="bold">
-              {isCorrect !== null ? (isCorrect ? "Correct!" : "Wrong!") : ""}
+              {isCorrect !== null ? (isCorrect ? "ಸರಿಯಾದ!" : "ತಪ್ಪಾಗಿದೆ!") : ""}
             </AlertDialogHeader>
 
             <AlertDialogBody>
               {isCorrect !== null
                 ? isCorrect
-                  ? "Good job! Your answer is correct."
-                  : "Oops! Your answer is wrong."
+                  ? "ಉತ್ತಮ! ನಿಮ್ಮ ಉತ್ತರ ಸರಿಯಾಗಿದೆ." //"Good job! Your answer is correct."
+                  : "ನಿಮ್ಮ ಉತ್ತರ ತಪ್ಪಾಗಿದೆ."           //"Oops! Your answer is wrong."
                 : ""}
             </AlertDialogBody>
 
             <AlertDialogFooter>
               <Button colorScheme="teal" onClick={handleClose}>
-                Close
+                ಮುಂದಿನ ಪ್ರಶ್ನೆ
               </Button>
             </AlertDialogFooter>
           </AlertDialogContent>

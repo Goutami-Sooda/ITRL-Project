@@ -17,19 +17,19 @@ const NavBar = () => {
     >
       {/* Chakra UI Link */}
       <ChakraLink as={RouterLink} to="/">
-        HOME
+        ಮುಖಪುಟ    
       </ChakraLink>
 
       <ChakraLink href="#" isExternal>
-        TUTORIAL
+        ಕಲಿಕೆ
       </ChakraLink>
 
       <ChakraLink as={RouterLink} to="quiz">
-        QUIZ
+        ರಸಪ್ರಶ್ನೆ
       </ChakraLink>
 
       <ChakraLink href="#" isExternal>
-        CONTACT
+        ಸಂಪರ್ಕಿಸಿ
       </ChakraLink>
     </HStack>
   );

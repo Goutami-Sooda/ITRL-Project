@@ -8,8 +8,9 @@ const Question = () => {
       color="white"
       height="5vh"
     >
-      <Text>Question:</Text>
-      <Text>Kannada Question here</Text>
+      <Text>ಪ್ರಶ್ನೆ:</Text>
+      <Text>Kannada question here</Text>  
+      
     </HStack>
   );
 };

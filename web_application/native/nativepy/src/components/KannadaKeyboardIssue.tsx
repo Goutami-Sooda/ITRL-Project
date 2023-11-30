@@ -15,9 +15,11 @@ interface KannadaKeyboardIssueProps {}
 const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [voiceInput, setVoiceInput] = useState<string>("");
   const [recognizedText, setRecognizedText] = useState<string[]>([]);
-  const [generatedText, setGeneratedText] = useState(""); //translated text display//
-
+  const [generatedText, setGeneratedText] = useState(""); //translated text display
   const [translatedTexts, setTranslatedTexts] = useState<string[]>([]); //collection of all algorithms
+  const [PyCodeList, setPyCodeList] = useState<string[]>([]); //collection of all python code lines
+  const [generatedPyCode, setGeneratedPyCode] = useState<string[]>([]);
+  const [showFirstSection, setShowFirstSection] = useState(true);
   const recognitionRef = useRef<any>(null);
   let recognition: any;
   //let webkitSpeechRecognition: any;
@@ -155,13 +157,17 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
         inputField.value.substring(end);
 
       setVoiceInput(newText);
-      const newCursorPosition = start + character.length;
-      inputField.setSelectionRange(newCursorPosition, newCursorPosition);
+      //const newCursorPosition = start + character.length;
+      //inputField.setSelectionRange(newCursorPosition, newCursorPosition);
 
       // Update recognizedText with the modified input only if it's from the Kannada keyboard
       if (character !== "") {
         setRecognizedText([newText]);
       }
+      
+      //see
+      const newCursorPosition = start + character.length;
+      inputField.setSelectionRange(newCursorPosition, newCursorPosition);
     }
   };
 
@@ -216,6 +222,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
       }
       else{
         setGeneratedText(pythonCode.toLowerCase());
+        setGeneratedPyCode([data.generatedText.toLowerCase()]); //see
       }
 
       const translatedText = recognizedText.join(" ");
@@ -238,61 +245,21 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     };
   }, [recognition]);
 
-  return (
-    <Box textAlign="center" padding="4">
-      <Text fontSize="2xl" fontWeight="bold">
-        ರೆಕಾರ್ಡ್ ಅಥವಾ ಟೈಪ್: ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್
-      </Text>
-      <VStack spacing="4" align="center" className="container">
-        <HStack className="text-box">
-          <Input
-            type="text"
-            className="input-field"
-            id="voiceInputField"
-            value={voiceInput}
-            //onChange={(e) => setVoiceInput(e.target.value)}  //no need
-            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
-            // onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            //   setVoiceInput(e.target.value)
-            // }
-            onChange={handleInputChange}
-          />
-          <Button
-            className="record-button"
-            onClick={startVoiceRecognition}
-            colorScheme="teal"
-            style={{ width: "150px" }}
-          >
-            ರೆಕಾರ್ಡ್
-          </Button>
+  useEffect(() => {
+    const PyCodeList = generatedPyCode.join(" ");
+    setPyCodeList((prevTexts) => [...prevTexts, PyCodeList]); 
+  }, [generatedPyCode]);  
 
-          <Button
-            className="submit-button"
-            onClick={translateAlgorithm}
-            colorScheme="teal"
-            style={{ width: "150px" }}
-          >
-            ಸಲ್ಲಿಸಿ
-          </Button>
+  const handleSectionSwitch = () => {
+    setShowFirstSection((prevShowFirstSection) => !prevShowFirstSection);
+  };
 
-          <Input
-            type="text"
-            className="input-field"
-            id="translatedInputField"
-            value={generatedText}
-            onChange={(e) => setGeneratedText(e.target.value)}
-            readOnly
-          />
-        </HStack>
-
-        <VStack
-          spacing="2"
-          divider={<StackDivider borderColor="gray.200" />}
-          className="keyboard-container"
-          maxWidth="30vh"
-        >
-          <VStack className="keyboard-section" maxWidth="20vh">
-            <HStack>
+  const getKeyboardSection = () => {                          
+    if (showFirstSection) {
+      return (
+        <VStack className="keyboard-section" maxWidth="20vh">
+          {/* Render buttons for the first section */}
+          <HStack>
               {kannadaLettersData.map((character, index) => (
                 <Button
                   key={character}
@@ -344,7 +311,13 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                 </Button>
               ))}
             </HStack>
-            <HStack>
+        </VStack>
+      );
+    } else {
+      return (
+        <VStack className="keyboard-section" maxWidth="20vh">
+          {/* Render buttons for the second section */}
+          <HStack>
               {kannadaOthersData.map((character, index) => (
                 <Button
                   key={character}
@@ -383,23 +356,101 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                 </Button>
               ))}
             </HStack>
+        </VStack>
+      );
+    }
+  };
+
+  return (
+    <Box textAlign="center" padding="4">
+      <Text fontSize="2xl" fontWeight="bold">
+        ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್: ಬರೆಯಿರಿ ಅಥವಾ ಮಾತನಾಡಿ
+      </Text>
+      <VStack spacing="4" align="center" className="container">
+        <HStack className="text-box">
+          <Input
+            type="text"
+            className="input-field"
+            id="voiceInputField"
+            value={voiceInput}
+            //onChange={(e) => setVoiceInput(e.target.value)}  //no need
+            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
+            // onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            //   setVoiceInput(e.target.value)
+            // }
+            onChange={handleInputChange}
+          />
+          <Button
+            className="record-button"
+            onClick={startVoiceRecognition}
+            colorScheme="teal"
+            style={{ width: "190px" }}
+          >
+            ಮಾತನಾಡಿ
+          </Button>
+
+          <Button
+            className="submit-button"
+            onClick={translateAlgorithm}
+            colorScheme="teal"
+            style={{ width: "145px" }}
+          >
+            ಸಲ್ಲಿಸಿ
+          </Button>
+
+          <Input
+            type="text"
+            className="input-field"
+            id="translatedInputField"
+            value={generatedText}
+            onChange={(e) => setGeneratedText(e.target.value)}
+            readOnly
+          />
+        </HStack>
+
+        <VStack
+          spacing="2"
+          divider={<StackDivider borderColor="gray.200" />}
+          className="keyboard-container"
+          maxWidth="30vh"
+        >
+           {getKeyboardSection()}
+
+            <HStack>
+              <Button onClick={handleSectionSwitch}>ವಿಭಾಗವನ್ನು ಬದಲಾಯಿಸಿ</Button>
+            </HStack>
 
             <VStack>
-              <Box
-                className="algorithms-field"
-                id="collectedInputField"
-                borderWidth="1px"
-                borderRadius="lg"
-                p="4"
-                whiteSpace="pre-line"
-                width="400px"
-              >
-                <Text>{translatedTexts.join("\n")}</Text>
-              </Box>
+              <HStack>
+                <Box
+                  className="algorithms-field"
+                  id="collectedInputField"
+                  borderWidth="1px"
+                  borderRadius="lg"
+                  p="4"
+                  whiteSpace="pre-line"
+                  width="400px"
+                >
+                  <Text>{translatedTexts.join("\n")}</Text>
+                </Box>
+          
+                <Box
+                  className="pycode-field"
+                  id="collectedPycodeField"
+                  borderWidth="1px"
+                  borderRadius="lg"
+                  p="4"
+                  whiteSpace="pre-line"
+                  width="400px"
+                >
+                  <Text>{PyCodeList.join("\n").trim()}</Text>
+                </Box>
+              </HStack>  
             </VStack>
-          </VStack>
+                </VStack>
+
         </VStack>
-      </VStack>
+      {/*</VStack>*/}
     </Box>
   );
 };
