@@ -1,5 +1,5 @@
 // Quiz.tsx
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import {
   Box,
   Button,
@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-import { questionsData } from "./questions";
+import { questionsData as originalQuestionsData } from "./questions";
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
@@ -21,6 +21,8 @@ function Quiz() {
   const [showScore, setShowScore] = useState<boolean>(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [questionsData, setQuestionsData] = useState([...originalQuestionsData]);
+  const cancelRef = useRef<HTMLButtonElement | null>(null);
 
   const handleAnswerButtonClick = (isCorrect: boolean): void => {
     setIsCorrect(isCorrect);
@@ -43,12 +45,27 @@ function Quiz() {
     setIsCorrect(null);
   };
 
+  // Fisher-Yates Algorithm to shuffle questions
+  const shuffleArray = (array: any[]): any[] => {
+    const shuffledArray = [...array];
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    }
+    return shuffledArray;
+  };
+
   const restartQuiz = (): void => {
+    // Shuffle the questions array
+    const shuffledQuestions = shuffleArray(questionsData);
+  
+    // Reset the state with shuffled questions
     setCurrentQuestion(0);
     setScore(0);
     setShowScore(false);
     setIsCorrect(null);
     setIsOpen(false);
+    setQuestionsData(shuffledQuestions);
   };
 
   return (
@@ -94,7 +111,7 @@ function Quiz() {
       <AlertDialog
         isOpen={isOpen}
         onClose={handleClose}
-        leastDestructiveRef={undefined}
+        leastDestructiveRef={cancelRef}
         autoFocus={false}
       >
         <AlertDialogOverlay>
@@ -112,7 +129,11 @@ function Quiz() {
             </AlertDialogBody>
 
             <AlertDialogFooter>
-              <Button colorScheme="teal" onClick={handleClose}>
+              <Button
+                colorScheme="teal"
+                onClick={handleClose}
+                ref={(ref) => (cancelRef.current = ref)}
+              >
                 ಮುಂದಿನ ಪ್ರಶ್ನೆ
               </Button>
             </AlertDialogFooter>
