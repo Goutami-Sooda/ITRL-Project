@@ -34,7 +34,7 @@ def translate_algorithm(request):
 
             if "network error" in translated_text.lower():
                 error_message = "Network error. Please check your internet connection."
-                return JsonResponse({'translatedText': error_message})
+                return JsonResponse({'generatedText': error_message})        
 
             
             #return JsonResponse({'translatedText': lowercase_text})
@@ -64,6 +64,28 @@ def model_inference(english_algorithm):
         return generated_text
             
     
+@csrf_exempt
+def translate_error_message(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            error_message = data.get('text', '') 
+            #print(error_message)
+
+            # Perform translation
+            translated_error = GoogleTranslator(source='en', target='kn').translate(error_message)
+
+            if "network error" in translated_error.lower():
+                error_info = "Network error. Please check your internet connection."
+                return JsonResponse({'translatedText': error_info})
+
+            return JsonResponse({'translatedText': translated_error})
+        
+        except json.JSONDecodeError as e:
+            return JsonResponse({'error': 'Invalid JSON format'}, status=400)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=405)
+
 
 def options_view(request):
     response = HttpResponse()

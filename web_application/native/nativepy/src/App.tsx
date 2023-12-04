@@ -2,9 +2,11 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Question from "./components/Question";
-import SpeechRecognitionBox from "./components/KannadaKeyboardIssue";
+//import SpeechRecognitionBox from "./components/KannadaKeyboardIssue";
 import Editor from "./components/Editor";
 import KannadaKeyboardIssue from "./components/KannadaKeyboardIssue";
+import ErrorTranslation from "./components/ErrorTranslation";
+
 function App() {
   return (
     <Grid
@@ -22,12 +24,12 @@ function App() {
       <GridItem area="question" bg="blue.600">
         <Question></Question>
       </GridItem>
-      <GridItem area="incode" w="100%" overflowX="scroll">
+      <GridItem area="incode" w="100%" overflowY="scroll">
         <KannadaKeyboardIssue></KannadaKeyboardIssue>
       </GridItem>
-      <GridItem area="editor" minHeight="80vh" bg="black">
+      <GridItem area="editor" minHeight="80vh" bg="white" p={4}>   
         <Editor></Editor>
-        {/* <PythonEditor></PythonEditor> */}
+        <ErrorTranslation></ErrorTranslation>
       </GridItem>
     </Grid>
   );
