@@ -6,8 +6,15 @@ import Question from "./components/Question";
 import Editor from "./components/Editor";
 import KannadaKeyboardIssue from "./components/KannadaKeyboardIssue";
 import ErrorTranslation from "./components/ErrorTranslation";
+import { activateModel } from './services/ModelActivation';
+import React, { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    // Call the activateModel function once the component mounts
+    activateModel();
+  }, []);
+
   return (
     <Grid
       templateAreas={`"header header" "nav nav" "question question" "incode editor"`}
@@ -24,7 +31,7 @@ function App() {
       <GridItem area="question" bg="blue.600">
         <Question></Question>
       </GridItem>
-      <GridItem area="incode" w="100%" overflowY="scroll">
+      <GridItem area="incode" w="100%" overflowX="scroll">
         <KannadaKeyboardIssue></KannadaKeyboardIssue>
       </GridItem>
       <GridItem area="editor" minHeight="80vh" bg="white" p={4}>   

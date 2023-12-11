@@ -20,7 +20,7 @@ const NavBar = () => {
         ಮುಖಪುಟ    
       </ChakraLink>
 
-      <ChakraLink href="#" isExternal>
+      <ChakraLink as={RouterLink} to="tutorials">
         ಕಲಿಕೆ
       </ChakraLink>
 

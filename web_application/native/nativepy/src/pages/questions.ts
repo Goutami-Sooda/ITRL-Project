@@ -141,5 +141,95 @@ export const questionsData = [
       { answerText: "20", isCorrect: true },
     ],
   },
+   {
+    question: "7 % 3 ರ ಫಲಿತಾಂಶವೇನು?",
+    options: [
+      { answerText: "1", isCorrect: true },
+      { answerText: "2", isCorrect: false },
+      { answerText: "3", isCorrect: false },
+      { answerText: "0", isCorrect: false },
+    ],
+  },
+  {
+    question: "15 // 2 ರ ಫಲಿತಾಂಶವೇನು",
+    options: [
+      { answerText: "7.5", isCorrect: false },
+      { answerText: "7", isCorrect: true },
+      { answerText: "8", isCorrect: false },
+      { answerText: "7, remainder 1", isCorrect: false },
+    ],
+  },
+  {
+    question: "ಇದರ ಔಟ್‌ಪುಟ್ ಏನಾಗುತ್ತದೆ ವೇರಿಯಬಲ್ x ಗೆ 10 ಅನ್ನು ನಿಯೋಜಿಸಿ \n 5 ಅನ್ನು ವೇರಿಯಬಲ್ y ಗೆ ನಿಯೋಜಿಸಿ ಮುದ್ರಿಸು(x==y)",
+    options: [
+      { answerText: "True", isCorrect: false },
+      { answerText: "False", isCorrect: true },
+      { answerText: "ದೋಷ", isCorrect: false },
+      { answerText: "ಮೇಲಿನ ಯಾವುದೂ ಅಲ್", isCorrect: false },
+    ],
+  },
+  {
+    question: "\"ಪೈಥಾನ್\" ನ ಡೇಟಾ ಪ್ರಕಾರ ಯಾವುದು",
+    options: [
+      { answerText: "ಪೂರ್ಣಾಂಕ", isCorrect: false },
+      { answerText: "ಫ್ಲೋಟಿಂಗ್ ಪಾಯಿಂಟ್", isCorrect: false },
+      { answerText: "ಸ್ಟ್ರಿಂಗ್ ", isCorrect: true },
+      { answerText: "ಮೇಲಿನ ಯಾವುದೂ ಅಲ್", isCorrect: false },
+    ],
+  },
+  {
+    question: "ಪೈಥಾನ್‌ನಲ್ಲಿ ಇಂಡೆಂಟೇಶನ್ ಏನನ್ನು ಸೂಚಿಸುತ್ತದೆ",
+    options: [
+      { answerText: "ಇದು ಕೋಡ್‌ನಲ್ಲಿ ಕಾಮೆಂಟ್ ಲೈನ್ ಅನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.", isCorrect: false },
+      { answerText: "ಇದು ಪ್ರಮುಖ ಹೇಳಿಕೆಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸುತ್ತದೆ", isCorrect: false },
+      { answerText: "ನಿರ್ದಿಷ್ಟ ಸ್ಥಿತಿಯನ್ನು ಆಧರಿಸಿ ಕೋಡ್ ಅನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲು ", isCorrect: false },
+      { answerText: "ಹೇಳಿಕೆಗಳನ್ನು ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳಾಗಿ ಗುಂಪು ಮಾಡುತ್ತದೆ", isCorrect: true },
+    ],
+  },
+  {
+    question: "20 ರ ಡೇಟಾ ಪ್ರಕಾರ ಯಾವುದು",
+    options: [
+      { answerText: "ಪೂರ್ಣಾಂಕ (ಇಂಟ್)(int)", isCorrect: true },
+      { answerText: "ಫ್ಲೋಟಿಂಗ್ ಪಾಯಿಂಟ್ ಸಂಖ್ಯೆ (ಫ್ಲೋಟ್ )(float)", isCorrect:false },
+      { answerText: "ಸ್ಟ್ರಿಂಗ್ (str)", isCorrect: false },
+      { answerText: "ಮೇಲಿನ ಯಾವುದೂ ಅಲ್ಲ", isCorrect: false },
+    ],
+  },
+  {
+    question: "100.0 ರ ಡೇಟಾ ಪ್ರಕಾರ ಯಾವುದು",
+    options: [
+      { answerText: "ಪೂರ್ಣಾಂಕ (ಇಂಟ್)(int)", isCorrect: false },
+      { answerText: "ಫ್ಲೋಟಿಂಗ್ ಪಾಯಿಂಟ್ ಸಂಖ್ಯೆ (ಫ್ಲೋಟ್ )(float)", isCorrect:true },
+      { answerText: "ಸ್ಟ್ರಿಂಗ್ (str)", isCorrect: false },
+      { answerText: "ಮೇಲಿನ ಯಾವುದೂ ಅಲ್ಲ", isCorrect: false },
+    ],
+  },
+  {
+    question: "ಫಾರ್ ಲೂಪ್ ಅನ್ನು ಯಾವಾಗ ಬಳಸಲಾಗುತ್ತದೆ",
+    options: [
+      { answerText: "ಪುನರಾವರ್ತನೆಗಳ ಸಂಖ್ಯೆ ನಮಗೆ ತಿಳಿದಿಲ್ಲದಿದ್ದಾಗ", isCorrect: false },
+      { answerText: "ಪುನರಾವರ್ತನೆಗಳ ಸಂಖ್ಯೆ ತಿಳಿದಾಗ", isCorrect:true },
+      { answerText: "ಎರಡೂ ಸಂದರ್ಭಗಳಲ್ಲಿ", isCorrect: false },
+      { answerText: "ಮೇಲಿನ ಯಾವುದೂ ಅಲ್ಲ", isCorrect: false },
+    ],
+  },
+  {
+    question: "ಒಂದು ವೇಳೆ  ಹೇಳಿಕೆಯಲ್ಲಿನ ಸ್ಥಿತಿಯನ್ನು ಪೂರೈಸದಿದ್ದರೆ ಏನಾಗುತ್ತದೆ",
+    options: [
+      { answerText: "ಒಂದು ವೇಳೆ ಬ್ಲಾಕ್‌ನ ಒಳಗಿನ ಕೋಡ್ ಕಾರ್ಯಗತಗೊಳ್ಳುತ್ತದೆ", isCorrect: false },
+      { answerText: "ಇದು ಸಿಂಟ್ಯಾಕ್ಸ್ ದೋಷಕ್ಕೆ ಕಾರಣವಾಗುತ್ತದೆ", isCorrect:false },
+      { answerText: "ಇಲ್ಲದಿದ್ದರೆ ಬ್ಲಾಕ್‌ನಲ್ಲಿರುವ ಕೋಡ್ ಕಾರ್ಯಗತಗೊಳ್ಳುತ್ತದೆ", isCorrect: true },
+      { answerText: "ಇಲ್ಲದಿದ್ದರೆ ಒಂದು ವೇಳೆ ಬ್ಲಾಕ್‌ನಲ್ಲಿರುವ ಕೋಡ್ ಕಾರ್ಯಗತಗೊಳ್ಳುತ್ತದೆ", isCorrect: false },
+    ],
+  },
+  {
+    question: "2**8 ರ ಫಲಿತಾಂಶವೇನು",
+    options: [
+      { answerText: "256", isCorrect: true },
+      { answerText: "16", isCorrect:false },
+      { answerText: "4", isCorrect: false },
+      { answerText: "128", isCorrect: false },
+    ],
+  },
 
 ];

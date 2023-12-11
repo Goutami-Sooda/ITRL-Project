@@ -86,6 +86,26 @@ def translate_error_message(request):
 
     return JsonResponse({'error': 'Invalid request method'}, status=405)
 
+@csrf_exempt
+def activate_model(request):
+    if request.method == 'POST':
+        # Process the model activation request
+        try:
+            #data = json.loads(request.body)
+            API_URL = "https://api-inference.huggingface.co/models/AshArya/ITRLTrained"
+            headers = {"Authorization": "Bearer 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"}
+            start = "print success"
+            payload = {"inputs": start}
+
+            # Perform model inference
+            requests.post(API_URL, headers=headers, json=payload)
+
+            return JsonResponse({'message': 'Model activated successfully'})
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=500)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=400)
+
 
 def options_view(request):
     response = HttpResponse()
