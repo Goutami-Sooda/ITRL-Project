@@ -1,4 +1,7 @@
-import { HStack, Button, Text, StackDivider, Link } from "@chakra-ui/react";
+import React from "react";
+import { HStack, Button, Text, StackDivider } from "@chakra-ui/react";
+import { Link as ChakraLink } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -10,15 +13,24 @@ const NavBar = () => {
       justifyContent="space-evenly"
       height="3vh"
       color="white"
+      bg="blue.600"
     >
-      <Link href="#">HOME</Link>
-      <Link href="#" isExternal>
-        TUTORIAL
-      </Link>
-      <Link href="#">START</Link>
-      <Link href="#" isExternal>
-        CONTACT
-      </Link>
+      {/* Chakra UI Link */}
+      <ChakraLink as={RouterLink} to="/">
+        ಮುಖಪುಟ    
+      </ChakraLink>
+
+      <ChakraLink as={RouterLink} to="/tutorials">
+        ಕಲಿಕೆ
+      </ChakraLink>
+
+      <ChakraLink as={RouterLink} to="/quiz">
+        ರಸಪ್ರಶ್ನೆ
+      </ChakraLink>
+
+      <ChakraLink href="#" isExternal>
+        ಸಂಪರ್ಕಿಸಿ
+      </ChakraLink>
     </HStack>
   );
 };

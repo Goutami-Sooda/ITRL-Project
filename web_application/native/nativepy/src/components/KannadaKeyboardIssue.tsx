@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { ChangeEvent } from "react";
 import {
   Box,
   Input,
@@ -14,10 +15,13 @@ interface KannadaKeyboardIssueProps {}
 const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   const [voiceInput, setVoiceInput] = useState<string>("");
   const [recognizedText, setRecognizedText] = useState<string[]>([]);
-  const [generatedText, setGeneratedText] = useState(''); //translated text display
-
+  const [generatedText, setGeneratedText] = useState(""); //translated text display
+  const [translatedTexts, setTranslatedTexts] = useState<string[]>([]); //collection of all algorithms
+  const [PyCodeList, setPyCodeList] = useState<string[]>([]); //collection of all python code lines
+  const [generatedPyCode, setGeneratedPyCode] = useState<string[]>([]);
+  const [showFirstSection, setShowFirstSection] = useState(true);
+  const recognitionRef = useRef<any>(null);
   let recognition: any;
-  var webkitSpeechRecognition: any;
 
   const kannadaLettersData = [
     "ಅ",
@@ -107,9 +111,8 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "್ಖ",
     
   ];
-
   const kannadaOthersData1 = [
-    "್ದ",
+    "್ಗ",
     "್ಘ",
     "್ಙ",
     "್ಚ",
@@ -122,9 +125,10 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "್ಡ",
     "್ಣ",
     "್ತ",
+    "್ಥ",
   ];
-
   const kannadaOthersData2 = [
+    "್ದ",
     "್ನ",
     "್ಪ",
     "್ಬ",
@@ -140,54 +144,63 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
   ];
 
   const handleKeyClick = (character: string) => {
-    setVoiceInput((prevInput) => {
-      const cursorPosition = prevInput.length; //can be modified to point exact cursor location
+    const inputField = document.getElementById(
+      "voiceInputField"
+    ) as HTMLInputElement;
+  
+    if (inputField) {
+      const start = inputField.selectionStart || 0;
+      const end = inputField.selectionEnd || 0;
+  
+      const currentText = inputField.value;
+  
       const newText =
-        prevInput.substring(0, cursorPosition) +
+        currentText.substring(0, start) +
         character +
-        prevInput.substring(cursorPosition);
-      return newText;
-    });
+        currentText.substring(end);
+  
+      inputField.value = newText;
+      const newCursorPosition = start + character.length;
+  
+      // Focus on the input field after updating its value
+      inputField.focus();
+      
+      inputField.setSelectionRange(newCursorPosition, newCursorPosition);
+  
+      setVoiceInput(newText);
+  
+      // Update recognizedText with the modified input only if it's from the Kannada keyboard
+      if (character !== "") {
+        setRecognizedText([newText]);
+      }
+    }
+  };  
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    // Update recognizedText with the modified input using the computer keyboard
+    setRecognizedText([e.target.value]);
+    setVoiceInput(e.target.value);
   };
 
   const startVoiceRecognition = () => {
     if ("webkitSpeechRecognition" in window) {
-      recognition = new webkitSpeechRecognition();
-      recognition.lang = "kn-IN";
+      recognitionRef.current = new webkitSpeechRecognition();
+      recognitionRef.current.lang = "kn-IN";
 
-      recognition.onresult = (event: any) => {
+      recognitionRef.current.onresult = (event: any) => {
         const transcript = event.results[0][0].transcript;
+        setRecognizedText((prevText) => [...prevText, transcript]);
         setVoiceInput(transcript);
       };
 
-      recognition.onerror = (event: any) => {
+      recognitionRef.current.onerror = (event: any) => {
         console.error("Speech recognition error:", event.error);
       };
 
-      recognition.start();
+      recognitionRef.current.start();
     } else {
       alert("Speech recognition not supported in your browser.");
     }
-  };
-
-  const startRecognition = (index: number): void => {
-    const recognition = new webkitSpeechRecognition();
-    recognition.lang = "kn-IN";
-
-    recognition.onresult = (event: any): void => {
-      const transcript: string = event.results[0][0].transcript;
-      setRecognizedText((prevText) => {
-        const newText = [...prevText];
-        newText[index] = transcript;
-        return newText;
-      });
-    };
-
-    recognition.onerror = (event: any) => {
-      console.error("Speech recognition error:", event.error);
-    };
-
-    recognition.start();
   };
 
   const translateAlgorithm = async () => {                 
@@ -202,12 +215,23 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
 
       const data = await response.json();
       //console.log('Translated text:', data.translatedText);
-      setGeneratedText(data.generatedText);
-      //console.log(data.translatedText); 
-    } 
-    
-    catch (error) {
-      console.error('Backend error:', error);
+      const pythonCode = data.generatedText;
+      if(pythonCode === null){
+        setGeneratedText("ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"); //try again
+      }
+      else{
+        setGeneratedText(pythonCode.toLowerCase());
+        setGeneratedPyCode([pythonCode.toLowerCase()]); 
+      }
+
+      const translatedText = recognizedText.join(" ");
+      setTranslatedTexts((prevTexts) => [...prevTexts, translatedText]);
+      setRecognizedText([]);
+      setVoiceInput("");
+
+      //console.log(data.translatedText);
+    } catch (error) {
+      console.error("Backend error:", error);
     }
   };
 
@@ -219,59 +243,20 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     };
   }, [recognition]);
 
-  return (
-    <Box textAlign="center" padding="4">
-      <Text fontSize="2xl" fontWeight="bold">
-      ರೆಕಾರ್ಡ್ ಅಥವಾ ಟೈಪ್: ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್
-      </Text>
-      <VStack spacing="4" align="center" className="container">
-        <HStack className="text-box">
-          <Input
-            type="text"
-            className="input-field"
-            id="voiceInputField"
-            value={voiceInput}
-            onChange={(e) => setVoiceInput(e.target.value)}
-            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
-          />
-          
-          <Button
-            className="record-button"
-            onClick={startVoiceRecognition}
-            colorScheme="teal"
-            style={{ width: '150px' }}
-          >
-            ರೆಕಾರ್ಡ್ 
-          </Button>
+  useEffect(() => {
+    setPyCodeList((prevTexts) => [...prevTexts, ...generatedPyCode]);
+  }, [generatedPyCode]);
 
-          <Button                           
-            className="submit-button"
-            onClick={translateAlgorithm}
-            colorScheme="teal"
-            style={{ width: '150px' }}
-          >
-            ಸಲ್ಲಿಸಿ 
-          </Button>
+  const handleSectionSwitch = () => {
+    setShowFirstSection((prevShowFirstSection) => !prevShowFirstSection);
+  };
 
-          <Input
-            type="text"
-            className="input-field"
-            id="translatedInputField"
-            value={generatedText === null ? "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ" : generatedText} //try again
-            onChange={(e) => setGeneratedText(e.target.value)}
-            readOnly
-          />
-
-
-        </HStack>
-        <VStack
-          spacing="2"
-          divider={<StackDivider borderColor="gray.200" />}
-          className="keyboard-container"
-          maxWidth="30vh"
-        >
-          <VStack className="keyboard-section" maxWidth="20vh">
-            <HStack>
+  const getKeyboardSection = () => {                          
+    if (showFirstSection) {
+      return (
+        <VStack className="keyboard-section" maxWidth="20vh">
+          {/* Render buttons for the first section */}
+          <HStack>
               {kannadaLettersData.map((character, index) => (
                 <Button
                   key={character}
@@ -303,7 +288,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -316,20 +301,26 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
                 </Button>
               ))}
             </HStack>
-            <HStack>
+        </VStack>
+      );
+    } else {
+      return (
+        <VStack className="keyboard-section" maxWidth="20vh">
+          {/* Render buttons for the second section */}
+          <HStack>
               {kannadaOthersData.map((character, index) => (
                 <Button
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -342,7 +333,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
@@ -355,16 +346,102 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
                   key={character}
                   className="key"
                   onClick={() => {
-                    handleKeyClick(character);
+                    handleKeyClick(character);                  
                   }}
                 >
                   {character}
                 </Button>
               ))}
             </HStack>
+        </VStack>
+      );
+    }
+  };
+
+  return (
+    <Box textAlign="center" padding="4">
+      <Text fontSize="2xl" fontWeight="bold">
+        ಕನ್ನಡ ಅಲ್ಗಾರಿದಮ್: ಬರೆಯಿರಿ ಅಥವಾ ಮಾತನಾಡಿ
+      </Text>
+      <VStack spacing="4" align="center" className="container">
+        <HStack className="text-box">
+          <Input
+            type="text"
+            className="input-field"
+            id="voiceInputField"
+            value={voiceInput}
+            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
+            onChange={handleInputChange}
+          />
+          <Button
+            className="record-button"
+            onClick={startVoiceRecognition}
+            colorScheme="teal"
+            style={{ width: "190px" }}
+          >
+            ಮಾತನಾಡಿ
+          </Button>
+
+          <Button
+            className="submit-button"
+            onClick={translateAlgorithm}
+            colorScheme="teal"
+            style={{ width: "145px" }}
+          >
+            ಸಲ್ಲಿಸಿ
+          </Button>
+
+          <Input
+            type="text"
+            className="input-field"
+            id="translatedInputField"
+            value={generatedText}
+            onChange={(e) => setGeneratedText(e.target.value)}
+            readOnly
+          />
+        </HStack>
+
+        <VStack
+          spacing="2"
+          divider={<StackDivider borderColor="gray.200" />}
+          className="keyboard-container"
+          maxWidth="30vh"
+        >
+           {getKeyboardSection()}
+
+            <HStack>
+              <Button onClick={handleSectionSwitch}>ವಿಭಾಗವನ್ನು ಬದಲಾಯಿಸಿ</Button>
+            </HStack>
+
+            <VStack>
+              <HStack>
+                <Box
+                  className="algorithms-field"
+                  id="collectedInputField"
+                  borderWidth="1px"
+                  borderRadius="lg"
+                  p="4"
+                  whiteSpace="pre-line"
+                  width="400px"
+                >
+                  <Text>{translatedTexts.join("\n")}</Text>
+                </Box>
+          
+                <Box
+                  className="pycode-field"
+                  id="collectedPycodeField"
+                  borderWidth="1px"
+                  borderRadius="lg"
+                  p="4"
+                  whiteSpace="pre-wrap"
+                  width="400px"
+                >
+                  <Text textAlign="left">{PyCodeList.join("\n").trim()}</Text>
+                </Box>
+              </HStack>  
+            </VStack>
           </VStack>
         </VStack>
-      </VStack>
     </Box>
   );
 };

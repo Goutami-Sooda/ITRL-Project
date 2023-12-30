@@ -1,6 +1,7 @@
 from django.http import HttpResponse 
 from django.http import JsonResponse 
-from translate import Translator
+#from translate import Translator
+from deep_translator import GoogleTranslator
 from django.views.decorators.csrf import csrf_exempt
 import json
 import requests
@@ -15,8 +16,10 @@ def translate_algorithm(request):
             #print(kannada_algorithm)
 
             # Perform translation
-            translator = Translator(from_lang="kn", to_lang="en")
-            translated_text = translator.translate(kannada_algorithm)
+            translated_text = GoogleTranslator(source='kn', target='en').translate(kannada_algorithm)
+
+            #translator = Translator(from_lang="kn", to_lang="en")
+            #translated_text = translator.translate(kannada_algorithm)
             #print(translated_text)
 
             # Convert to lowercase
@@ -25,13 +28,13 @@ def translate_algorithm(request):
             
 
             # Check if translation limit has been reached
-            if "MYMEMORY LIMIT HAS BEEN REACHED" in translated_text:
-                error_message= "Sorry for the inconvenience. Please try again after 24 hours."
-                return JsonResponse({'translatedText': error_message})
+            #if "MYMEMORY MYMEMORY WARNING" in translated_text:
+            #    error_message= "Sorry for the inconvenience. Please try again after 24 hours."
+            #    return JsonResponse({'translatedText': error_message})
 
-            elif "network error" in translated_text.lower():
+            if "network error" in translated_text.lower():
                 error_message = "Network error. Please check your internet connection."
-                return JsonResponse({'translatedText': error_message})
+                return JsonResponse({'generatedText': error_message})        
 
             
             #return JsonResponse({'translatedText': lowercase_text})
@@ -61,6 +64,48 @@ def model_inference(english_algorithm):
         return generated_text
             
     
+@csrf_exempt
+def translate_error_message(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            error_message = data.get('text', '') 
+            #print(error_message)
+
+            # Perform translation
+            translated_error = GoogleTranslator(source='en', target='kn').translate(error_message)
+
+            if "network error" in translated_error.lower():
+                error_info = "Network error. Please check your internet connection."
+                return JsonResponse({'translatedText': error_info})
+
+            return JsonResponse({'translatedText': translated_error})
+        
+        except json.JSONDecodeError as e:
+            return JsonResponse({'error': 'Invalid JSON format'}, status=400)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+@csrf_exempt
+def activate_model(request):
+    if request.method == 'POST':
+        # Process the model activation request
+        try:
+            #data = json.loads(request.body)
+            API_URL = "https://api-inference.huggingface.co/models/AshArya/ITRLTrained"
+            headers = {"Authorization": "Bearer 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"}
+            start = "print success"
+            payload = {"inputs": start}
+
+            # Perform model inference
+            requests.post(API_URL, headers=headers, json=payload)
+
+            return JsonResponse({'message': 'Model activated successfully'})
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=500)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=400)
+
 
 def options_view(request):
     response = HttpResponse()
