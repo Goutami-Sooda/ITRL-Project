@@ -11,11 +11,11 @@ import {
   AlertDialogBody,
   AlertDialogFooter,
 } from "@chakra-ui/react";
-import Header from "../components/Header";
-import NavBar from "../components/NavBar";
-import { questionsData as originalQuestionsData } from "./questions";
+import Header from "../../components/Header";
+import NavBar from "../../components/NavBar";
+import { questionsData as originalQuestionsData } from "../QuizQuestions/Quiz3";
 
-function Quiz() {
+function Quiz3() {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showScore, setShowScore] = useState<boolean>(false);
@@ -144,4 +144,5 @@ function Quiz() {
   );
 }
 
-export default Quiz;
+export default Quiz3;
+
