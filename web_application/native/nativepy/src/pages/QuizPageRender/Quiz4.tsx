@@ -12,7 +12,7 @@ import {
   AlertDialogFooter,
 } from "@chakra-ui/react";
 import Header from "../../components/Header";
-import NavBar from "../../components/NavBar";
+
 import { questionsData as originalQuestionsData } from "../QuizQuestions/Quiz4";
 
 function Quiz4() {
@@ -71,7 +71,7 @@ function Quiz4() {
   return (
     <Box>
       <Header></Header>
-      <NavBar></NavBar>
+      
       <Box textAlign="center" padding="4">
         {showScore ? (
           <Box>

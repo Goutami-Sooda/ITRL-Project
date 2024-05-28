@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Heading, Image, Text, Grid } from '@chakra-ui/react';
 import Header from "../components/Header";
-import NavBar from "../components/NavBar";
 
 interface LayoutProps {
     name?: string;
@@ -53,12 +52,12 @@ const About = () => {
         {
             name: 'AHANA PATIL',
             image: './src/assets/ahana.jpg',
-            description: 'Passionate about delving into the realms of knowledge and technology, I am a dedicated tech enthusiast with a keen interest in the dynamic field of Machine Learning. Continuously exploring innovative ideas and projects, I thrive on the challenge of pushing the boundaries of possibility in this ever-evolving landscape. My commitment to staying at the forefront of technological advancements fuels my drive to contribute to cutting-edge solutions and engage in hands-on experiences that broaden my understanding of the intricate intersections between science and innovation.'
+            description: 'A dedicated student pursuing B.E. in CSE at R.V. College of Engineering, I am a dedicated tech enthusiast with a keen interest in the dynamic field of Machine Learning. Continuously exploring innovative ideas and projects, I thrive on the challenge of pushing the boundaries of possibility in this ever-evolving landscape.'
         },
         {
             name: 'ARYA VINOD',
             image: './src/assets/AryaV.jpg',
-            description: 'A sophomore in the Computer Science and Engineering branch at RV College of Engineering.I am interested in the Cloud and Cybersecurity technologies and motivated to build projects that can truly aid the society.'
+            description: 'A motivated and enthusiastic student pursuing B.E. in CSE at R.V. College of Engineering,I enjoy learning new technologies. I am particularly interested to learn about and contribute to the field of Cloud and Cybersecurity. I am a trained Bharatanatyam dancer and love to swim and read murder mysteries!  '
         },
         {
             name: 'CHANDANA S',
@@ -117,7 +116,7 @@ const About = () => {
     return (
         <Box>
             <Header />
-            <NavBar />
+           
             <Box mt={8} ml={50}>
                 <Heading as="h1" size="xl" mb={4}>
                     About Us

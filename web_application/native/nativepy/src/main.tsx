@@ -49,7 +49,7 @@ const router = createBrowserRouter([
     element: <Quiz6></Quiz6>,
   },
   {
-    path: "/AboutUs",
+    path: "/about",
     element: <About></About>,
   },
   {
