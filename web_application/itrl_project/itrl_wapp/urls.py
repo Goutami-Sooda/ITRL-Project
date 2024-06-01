@@ -8,4 +8,6 @@ urlpatterns = [
     path('api/translateError/options/', views.options_view, name='options_view'),
     path('api/activate-model/', views.activate_model, name='activate_model'),
     path('api/activate-model/options/', views.options_view, name='options_view'),
+    path('api/translateAbout/', views.translate_about, name='translate_about'),
+    path('api/translateAbout/options/', views.options_view, name='options_view'),
 ]
