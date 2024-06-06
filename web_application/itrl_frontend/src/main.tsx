@@ -13,15 +13,16 @@ import Quiz5 from "./pages/QuizPageRender/Quiz5";
 import Quiz6 from "./pages/QuizPageRender/Quiz6";
 import Tutorials from "./pages/Tutorials";
 import About from "./pages/AboutUs";
+import Homepage from "./pages/Homepage";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Tutorials></Tutorials>,
+    element: <Homepage></Homepage>,
   },
   {
-    path: "/Home",
+    path: "/Tutorials",
     element: <Tutorials></Tutorials>,
   },
   {
