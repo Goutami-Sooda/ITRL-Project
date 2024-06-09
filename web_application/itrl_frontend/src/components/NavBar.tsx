@@ -16,7 +16,7 @@ const NavBar = () => {
     >
       <ChakraLink
         as={RouterLink}
-        to="/"
+        to="/Tutorials"
         _hover={{
           textDecoration: "none",
           bg: "blue.800",

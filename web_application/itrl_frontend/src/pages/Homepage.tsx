@@ -1,3 +1,4 @@
+import { Align } from "blockly/core/inputs";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -98,13 +99,13 @@ const Homepage: React.FC = () => {
           <div style={webAppNameStyle}>ಕಲಿಕೆmate</div>
           <div style={textContainerStyle}>
             <div style={subtitleStyle}>ಕನ್ನಡದಲ್ಲಿ ಕೋಡ್ ಮಾಡಲು ಕಲಿಯಿರಿ</div>
-            <div style={subtitleStyle}>ಕೋಡಿಂಗ್ ಶಿಕ್ಷಣಕ್ಕೆ ಹೊಸ ವಿಧಾನ</div>
+            <div style={subtitleStyle}>ಕೋಡಿಂಗ್ ಶಿಕ್ಷಣದ ಹೊಸ ವಿಧಾನ</div>
             <div style={descriptionStyle}>
               ಕಲಿಕೆ ಮೇಟ್ ಎನ್ನುವುದು ಸಂವಾದಾತ್ಮಕ ಕಲಿಕೆಯ ಸಾಧನವಾಗಿದ್ದು, ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕನ್ನಡದಲ್ಲಿ ಕೋಡಿಂಗ್ ಕಲಿಯಲು ಸಹಾಯ ಮಾಡಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ಇದು ಸ್ವಯಂ ಗತಿಯ ಮತ್ತು ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಪರಿಸರವಾಗಿದೆ. ಈ ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್‌ನ ಉದ್ದೇಶವು ವಿದ್ಯಾರ್ಥಿಗಳಲ್ಲಿ ಕೋಡಿಂಗ್ ಕೌಶಲ್ಯ ಮತ್ತು ವಿಶ್ಲೇಷಣಾತ್ಮಕ ಚಿಂತನೆಯನ್ನು ಬೆಳೆಸುವುದು.
               ಹ್ಯಾಪಿ ಕೋಡಿಂಗ್!
             </div>
             <button style={buttonStyle} onClick={() => navigate("/Tutorials")}>
-              ಲಾಗಿನ್ / ಸೈನ್ ಅಪ್
+              ಮುಂದುವರಿಸಿ
             </button>
           </div>
         </div>
