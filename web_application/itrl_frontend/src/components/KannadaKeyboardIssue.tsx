@@ -184,7 +184,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
 
   const startVoiceRecognition = () => {
     if ("webkitSpeechRecognition" in window) {
-      recognitionRef.current = new webkitSpeechRecognition();
+      recognitionRef.current = window["webkitSpeechRecognition"];
       recognitionRef.current.lang = "kn-IN";
 
       recognitionRef.current.onresult = (event: any) => {
