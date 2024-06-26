@@ -1,4 +1,4 @@
-### Interactive Tool in Regional Language to Inculcate Coding Skills in Rural Students (ITRL)
+## Interactive Tool in Regional Language to Inculcate Coding Skills in Rural Students (ITRL)
 
 ## About
 
@@ -22,7 +22,7 @@ With the many interactive features on this platform, students may test their kno
 
 
 
-## Code generation using NLP
+# Code generation using NLP
 
 Existing code-generation models don't meet this application's needs. We fine-tuned a pre-trained model on a custom dataset to ensure accurate results, focusing on the required input-output format.
 
@@ -37,7 +37,7 @@ Through fine-tuning Salesforce's CodeT5-base model, the NLP model processes natu
 
 # Embedded interpreter:
 
-A versatile online code editor and compiler that works great in a web environment is Trinket.io. With its intuitive interface, both novices and experts can experiment with a variety of computer languages, such as HTML, CSS, JavaScript, and Python. For our application, we set it up to run in Python. Developing, publishing, and embedding code in webpages or instructional materials is made simple for users of Trinket.io, an intuitive platform for collaborative coding projects. It served as a coding interface by being integrated into the online application (Figure 5). The user needs to copy and paste each generated Python code expression or snippet from the text box into the editor.
+A versatile online code editor and compiler that works great in a web environment is Trinket.io. With its intuitive interface, both novices and experts can experiment with a variety of computer languages, such as HTML, CSS, JavaScript, and Python. For our application, we set it up to run in Python. Developing, publishing, and embedding code in webpages or instructional materials is made simple for users of Trinket.io, an intuitive platform for collaborative coding projects. It served as a coding interface by being integrated into the online application. The user needs to copy and paste each generated Python code expression or snippet from the text box into the editor.
 
 # Frontend:
 
@@ -45,9 +45,9 @@ A versatile online code editor and compiler that works great in a web environmen
 
 # Deployment:
 
-## Conclusion:
+# Conclusion:
 
-## Acknowledgements:
+# Acknowledgements:
 
 
 
