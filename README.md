@@ -74,7 +74,7 @@ A versatile online code editor and compiler that works great in a web environmen
 
 ## [Reading Material](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
 
-## Youtube Resources:
+## Video Resources:
 
 [English Tutorial](https://drive.google.com/file/d/1MEPcQEjBUFLF_r47iJ4BAu7gUZnlONK7/view?usp=drivesdk)
 
