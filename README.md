@@ -9,7 +9,7 @@ This project is a web application to teach fundamental coding topics in Kannada,
 In the modern world, programming abilities—which include critical thinking and problem-solving—are essential. However, because internet materials are primarily written in English, students in remote locations frequently lack access to high-quality instructional resources, particularly in programming. They also encounter linguistic obstacles. In order to overcome language hurdles and give rural students fair access to programming, analytical thinking, and logical reasoning education, we suggest a web application that teaches programming in Kannada.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231355.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231355.png width=600 height=350>
 </p>
 
 # Key Features
@@ -18,33 +18,33 @@ With the many interactive features on this platform, students may test their kno
 1. Coding Platform: The primary feature is, of course, the coding platform, where students can dictate or type algorithmic statements in their mother tongue and have the matching code generated for them. Students can use the embedded interpreter on the right side of the interface to run their code once all of the program's statements have been completed.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=600 height=350>
 </p>
 
 
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=600 height=350>
 </p>
 
 2. Error detection: The embedded interpreter recognises any logical, syntactic, or other errors and may translate the error message into Kannada so that students can comprehend it.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=600 height=350>
 </p>
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=600 height=350>
 </p>
 
 3. The third element is an interactive quiz platform where students can solve problems to see how much they know before moving on to writing programmes. A sizable corpus of native-language Python content is also included with the platform for learners.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=600 height=350>
 </p>
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231657.png width=600 height=400>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231657.png width=600 height=350>
 </p>
 
 
@@ -71,6 +71,19 @@ A versatile online code editor and compiler that works great in a web environmen
 ## Backend:
 
 ## Deployment:
+
+## Youtube Resources:
+
+Kannada Tutorial
+
+<p align=center>
+<iframe src="https://drive.google.com/file/d/1E6apNuZzItaZi5UQcBL8KSFYHVqrmBX7/view?usp=sharing" width="600" height="350" allow="autoplay"></iframe>
+</p>
+
+English Tutorial
+<p align=center>
+<iframe src="https://drive.google.com/file/d/1MEPcQEjBUFLF_r47iJ4BAu7gUZnlONK7/view?usp=drivesdk" width="600" height="350" allow="autoplay"></iframe>
+</p>
 
 # Conclusion:
 
