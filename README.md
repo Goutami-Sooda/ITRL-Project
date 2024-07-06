@@ -9,7 +9,7 @@ This project is a web application to teach fundamental coding topics in Kannada,
 In the modern world, programming abilities—which include critical thinking and problem-solving—are essential. However, because internet materials are primarily written in English, students in remote locations frequently lack access to high-quality instructional resources, particularly in programming. They also encounter linguistic obstacles. In order to overcome language hurdles and give rural students fair access to programming, analytical thinking, and logical reasoning education, we suggest a web application that teaches programming in Kannada.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231355.png width=500 height=300>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231355.png width=800 height=500>
 </p>
 
 # Key Features
@@ -18,25 +18,32 @@ With the many interactive features on this platform, students may test their kno
 1. Coding Platform: The primary feature is, of course, the coding platform, where students can dictate or type algorithmic statements in their mother tongue and have the matching code generated for them. Students can use the embedded interpreter on the right side of the interface to run their code once all of the program's statements have been completed.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=500 height=300>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=800 height=500>
 </p>
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=500 height=300>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=800 height=500>
 </p>
 
-
-3. Error detection: The embedded interpreter recognises any logical, syntactic, or other errors and may translate the error message into Kannada so that students can comprehend it.
+2. Error detection: The embedded interpreter recognises any logical, syntactic, or other errors and may translate the error message into Kannada so that students can comprehend it.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=500 height=300>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=800 height=500>
 </p>
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=500 height=300>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=800 height=500>
 </p>
 
-4. The third element is an interactive quiz platform where students can solve problems to see how much they know before moving on to writing programmes. A sizable corpus of native-language Python content is also included with the platform for learners.
+3. The third element is an interactive quiz platform where students can solve problems to see how much they know before moving on to writing programmes. A sizable corpus of native-language Python content is also included with the platform for learners.
+
+<p align=center>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=800 height=500>
+</p>
+
+<p align=center>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231657.png width=800 height=500>
+</p>
 
 
 
@@ -51,11 +58,11 @@ In order to optimise the model, the dataset was carefully selected and customise
 
 ## Fine Tuning:
 
-Through fine-tuning Salesforce's CodeT5-base model, the NLP model processes natural language inputs to produce programming language outputs. The model uses PyTorch for training, TensorFlow for data processing, and Hugging Face's transformers to generate comprehensive code using Google's T5 encoder-decoder architecture. Eleven25 elements from the custom dataset—hosted on GitHub—were designated as training and 125 as testing. TensorFlow and Roberta Tokenizer were used for byte-level Byte-Pair Encoding during the preprocessing stage. Hugging Face's Trainer class was used for Google Colab training. After it was adjusted, the model was uploaded to the Hugging Face Hub so that it could be integrated with the website.
+Through fine-tuning [Salesforce's CodeT5-base](https://huggingface.co/Salesforce/codet5-large) model, the NLP model processes natural language inputs to produce programming language outputs. The model uses PyTorch for training, TensorFlow for data processing, and Hugging Face's transformers to generate comprehensive code using Google's T5 encoder-decoder architecture. Eleven25 elements from the custom dataset—hosted on GitHub—were designated as training and 125 as testing. TensorFlow and Roberta Tokenizer were used for byte-level Byte-Pair Encoding during the preprocessing stage. Hugging Face's Trainer class was used for Google Colab training. After it was adjusted, the model was uploaded to the Hugging Face Hub so that it could be integrated with the website.
 
 ## Embedded interpreter:
 
-A versatile online code editor and compiler that works great in a web environment is Trinket.io. With its intuitive interface, both novices and experts can experiment with a variety of computer languages, such as HTML, CSS, JavaScript, and Python. For our application, we set it up to run in Python. Developing, publishing, and embedding code in webpages or instructional materials is made simple for users of Trinket.io, an intuitive platform for collaborative coding projects. It served as a coding interface by being integrated into the online application. The user needs to copy and paste each generated Python code expression or snippet from the text box into the editor.
+A versatile online code editor and compiler that works great in a web environment is [Trinket.io](https://trinket.io/features/python3). With its intuitive interface, both novices and experts can experiment with a variety of computer languages, such as HTML, CSS, JavaScript, and Python. For our application, we set it up to run in Python. Developing, publishing, and embedding code in webpages or instructional materials is made simple for users of Trinket.io, an intuitive platform for collaborative coding projects. It served as a coding interface by being integrated into the online application. The user needs to copy and paste each generated Python code expression or snippet from the text box into the editor.
 
 ## Frontend:
 
