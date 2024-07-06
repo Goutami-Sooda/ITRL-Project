@@ -72,9 +72,7 @@ A versatile online code editor and compiler that works great in a web environmen
 
 ## Deployment:
 
-## Reading Material
-
-[Read more](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
+## R[eading Material](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
 
 ## Youtube Resources:
 
