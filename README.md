@@ -72,18 +72,14 @@ A versatile online code editor and compiler that works great in a web environmen
 
 ## Deployment:
 
+## Reading Material
+
+[Read more](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
+
 ## Youtube Resources:
 
-Kannada Tutorial
+[English Tutorial](https://drive.google.com/file/d/1MEPcQEjBUFLF_r47iJ4BAu7gUZnlONK7/view?usp=drivesdk)
 
-<p align=center>
-<iframe src="https://drive.google.com/file/d/1E6apNuZzItaZi5UQcBL8KSFYHVqrmBX7/view?usp=sharing" width="600" height="350" allow="autoplay"></iframe>
-</p>
-
-English Tutorial
-<p align=center>
-<iframe src="https://drive.google.com/file/d/1MEPcQEjBUFLF_r47iJ4BAu7gUZnlONK7/view?usp=drivesdk" width="600" height="350" allow="autoplay"></iframe>
-</p>
 
 # Conclusion:
 
