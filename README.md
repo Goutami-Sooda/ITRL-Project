@@ -9,7 +9,7 @@ This project is a web application to teach fundamental coding topics in Kannada,
 In the modern world, programming abilities—which include critical thinking and problem-solving—are essential. However, because internet materials are primarily written in English, students in remote locations frequently lack access to high-quality instructional resources, particularly in programming. They also encounter linguistic obstacles. In order to overcome language hurdles and give rural students fair access to programming, analytical thinking, and logical reasoning education, we suggest a web application that teaches programming in Kannada.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231355.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231355.png width=600 height=400>
 </p>
 
 # Key Features
@@ -18,31 +18,33 @@ With the many interactive features on this platform, students may test their kno
 1. Coding Platform: The primary feature is, of course, the coding platform, where students can dictate or type algorithmic statements in their mother tongue and have the matching code generated for them. Students can use the embedded interpreter on the right side of the interface to run their code once all of the program's statements have been completed.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=600 height=400>
 </p>
 
+
+
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=600 height=400>
 </p>
 
 2. Error detection: The embedded interpreter recognises any logical, syntactic, or other errors and may translate the error message into Kannada so that students can comprehend it.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=600 height=400>
 </p>
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=600 height=400>
 </p>
 
 3. The third element is an interactive quiz platform where students can solve problems to see how much they know before moving on to writing programmes. A sizable corpus of native-language Python content is also included with the platform for learners.
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=600 height=400>
 </p>
 
 <p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231657.png width=800 height=500>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231657.png width=600 height=400>
 </p>
 
 
@@ -72,7 +74,9 @@ A versatile online code editor and compiler that works great in a web environmen
 
 # Conclusion:
 
-# Acknowledgements:
+Possessing coding and logical thinking skills is a much-needed skill today. However, students hailing from rural areas often do not know English, which hinders them from developing these skills because of the lack of resources available in their regional language. This study proposes an interactive tool that aims to solve this issue by creating a web application in Kannada, a regional language of India. The aim was to build the coding and logical thinking skills of students who did not know the English language and, thus, could not utilize traditional resources. The application consists of features, such as custom-made tutorials, quizzes, algorithm testing, and code generation features, all of which are available in Kannada. The application leverages a code-generation NLP model to support algorithm-building and testing features. The proposed application has significant scope for improvement. Future improvements could include the extension of the application to be available in other regional languages apart from Kannada and in programming languages other than Python.
+
+
 
 
 
