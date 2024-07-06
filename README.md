@@ -8,6 +8,10 @@ This project is a web application to teach fundamental coding topics in Kannada,
 
 In the modern world, programming abilities—which include critical thinking and problem-solving—are essential. However, because internet materials are primarily written in English, students in remote locations frequently lack access to high-quality instructional resources, particularly in programming. They also encounter linguistic obstacles. In order to overcome language hurdles and give rural students fair access to programming, analytical thinking, and logical reasoning education, we suggest a web application that teaches programming in Kannada.
 
+<p align=center>
+<img src=images/Screenshot 2024-06-25 231355.png width=500 height=300>
+</p>
+
 # Key Features
 
 With the many interactive features on this platform, students may test their knowledge and experiment with different ideas.
