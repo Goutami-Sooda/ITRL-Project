@@ -109,7 +109,6 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     "ೌ",
     "್ಕ",
     "್ಖ",
-    
   ];
   const kannadaOthersData1 = [
     "್ಗ",
@@ -147,34 +146,34 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     const inputField = document.getElementById(
       "voiceInputField"
     ) as HTMLInputElement;
-  
+
     if (inputField) {
       const start = inputField.selectionStart || 0;
       const end = inputField.selectionEnd || 0;
-  
+
       const currentText = inputField.value;
-  
+
       const newText =
         currentText.substring(0, start) +
         character +
         currentText.substring(end);
-  
+
       inputField.value = newText;
       const newCursorPosition = start + character.length;
-  
+
       // Focus on the input field after updating its value
       inputField.focus();
-      
+
       inputField.setSelectionRange(newCursorPosition, newCursorPosition);
-  
+
       setVoiceInput(newText);
-  
+
       // Update recognizedText with the modified input only if it's from the Kannada keyboard
       if (character !== "") {
         setRecognizedText([newText]);
       }
     }
-  };  
+  };
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     // Update recognizedText with the modified input using the computer keyboard
@@ -203,25 +202,27 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     }
   };
 
-  const translateAlgorithm = async () => {                 
+  const translateAlgorithm = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:8080/api/translate/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ text: voiceInput }),
-      });
+      const response = await fetch(
+        "https://sirius03.pythonanywhere.com/api/translate/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ text: voiceInput }),
+        }
+      );
 
       const data = await response.json();
       //console.log('Translated text:', data.translatedText);
       const pythonCode = data.generatedText;
-      if(pythonCode === null){
+      if (pythonCode === null) {
         setGeneratedText("ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"); //try again
-      }
-      else{
+      } else {
         setGeneratedText(pythonCode.toLowerCase());
-        setGeneratedPyCode([pythonCode.toLowerCase()]); 
+        setGeneratedPyCode([pythonCode.toLowerCase()]);
       }
 
       const translatedText = recognizedText.join(" ");
@@ -251,63 +252,63 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
     setShowFirstSection((prevShowFirstSection) => !prevShowFirstSection);
   };
 
-  const getKeyboardSection = () => {                          
+  const getKeyboardSection = () => {
     if (showFirstSection) {
       return (
         <VStack className="keyboard-section" maxWidth="20vh">
           {/* Render buttons for the first section */}
           <HStack>
-              {kannadaLettersData.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
-            <HStack>
-              {kannadaLettersData1.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
-            <HStack>
-              {kannadaLettersData2.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);                  
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
-            <HStack>
-              {kannadaLettersData3.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);                  
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
+            {kannadaLettersData.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
+          <HStack>
+            {kannadaLettersData1.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
+          <HStack>
+            {kannadaLettersData2.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
+          <HStack>
+            {kannadaLettersData3.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
         </VStack>
       );
     } else {
@@ -315,44 +316,44 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
         <VStack className="keyboard-section" maxWidth="20vh">
           {/* Render buttons for the second section */}
           <HStack>
-              {kannadaOthersData.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);                  
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
-            <HStack>
-              {kannadaOthersData1.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);                  
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
-            <HStack>
-              {kannadaOthersData2.map((character, index) => (
-                <Button
-                  key={character}
-                  className="key"
-                  onClick={() => {
-                    handleKeyClick(character);                  
-                  }}
-                >
-                  {character}
-                </Button>
-              ))}
-            </HStack>
+            {kannadaOthersData.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
+          <HStack>
+            {kannadaOthersData1.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
+          <HStack>
+            {kannadaOthersData2.map((character, index) => (
+              <Button
+                key={character}
+                className="key"
+                onClick={() => {
+                  handleKeyClick(character);
+                }}
+              >
+                {character}
+              </Button>
+            ))}
+          </HStack>
         </VStack>
       );
     }
@@ -370,7 +371,7 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
             className="input-field"
             id="voiceInputField"
             value={voiceInput}
-            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ" 
+            placeholder="ಇಲ್ಲಿ ಬರೆಯಿರಿ"
             onChange={handleInputChange}
           />
           <Button
@@ -407,41 +408,41 @@ const KannadaKeyboardIssue: React.FC<KannadaKeyboardIssueProps> = () => {
           className="keyboard-container"
           maxWidth="30vh"
         >
-           {getKeyboardSection()}
+          {getKeyboardSection()}
 
+          <HStack>
+            <Button onClick={handleSectionSwitch}>ವಿಭಾಗವನ್ನು ಬದಲಾಯಿಸಿ</Button>
+          </HStack>
+
+          <VStack>
             <HStack>
-              <Button onClick={handleSectionSwitch}>ವಿಭಾಗವನ್ನು ಬದಲಾಯಿಸಿ</Button>
-            </HStack>
+              <Box
+                className="algorithms-field"
+                id="collectedInputField"
+                borderWidth="1px"
+                borderRadius="lg"
+                p="4"
+                whiteSpace="pre-line"
+                width="400px"
+              >
+                <Text>{translatedTexts.join("\n")}</Text>
+              </Box>
 
-            <VStack>
-              <HStack>
-                <Box
-                  className="algorithms-field"
-                  id="collectedInputField"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  p="4"
-                  whiteSpace="pre-line"
-                  width="400px"
-                >
-                  <Text>{translatedTexts.join("\n")}</Text>
-                </Box>
-          
-                <Box
-                  className="pycode-field"
-                  id="collectedPycodeField"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  p="4"
-                  whiteSpace="pre-wrap"
-                  width="400px"
-                >
-                  <Text textAlign="left">{PyCodeList.join("\n").trim()}</Text>
-                </Box>
-              </HStack>  
-            </VStack>
+              <Box
+                className="pycode-field"
+                id="collectedPycodeField"
+                borderWidth="1px"
+                borderRadius="lg"
+                p="4"
+                whiteSpace="pre-wrap"
+                width="400px"
+              >
+                <Text textAlign="left">{PyCodeList.join("\n").trim()}</Text>
+              </Box>
+            </HStack>
           </VStack>
         </VStack>
+      </VStack>
     </Box>
   );
 };
