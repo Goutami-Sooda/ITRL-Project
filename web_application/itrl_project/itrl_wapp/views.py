@@ -1,6 +1,5 @@
 from django.http import HttpResponse 
 from django.http import JsonResponse 
-#from translate import Translator
 from deep_translator import GoogleTranslator
 from django.views.decorators.csrf import csrf_exempt
 import json
@@ -17,27 +16,13 @@ def translate_algorithm(request):
 
             # Perform translation
             translated_text = GoogleTranslator(source='kn', target='en').translate(kannada_algorithm)
-
-            #translator = Translator(from_lang="kn", to_lang="en")
-            #translated_text = translator.translate(kannada_algorithm)
-            #print(translated_text)
-
-            # Convert to lowercase
             lowercase_text = translated_text.lower()
             #print(lowercase_text)
             
-
-            # Check if translation limit has been reached
-            #if "MYMEMORY MYMEMORY WARNING" in translated_text:
-            #    error_message= "Sorry for the inconvenience. Please try again after 24 hours."
-            #    return JsonResponse({'translatedText': error_message})
-
             if "network error" in translated_text.lower():
                 error_message = "Network error. Please check your internet connection."
                 return JsonResponse({'generatedText': error_message})        
-
             
-            #return JsonResponse({'translatedText': lowercase_text})
             python_code = model_inference(lowercase_text)
             return JsonResponse({'generatedText': python_code})
         
@@ -127,11 +112,3 @@ def activate_model(request):
             return JsonResponse({'error': str(e)}, status=500)
 
     return JsonResponse({'error': 'Invalid request method'}, status=400)
-
-
-def options_view(request):
-    response = HttpResponse()
-    response['Access-Control-Allow-Origin'] = 'http://localhost:5173/'  # Set this to the actual allowed origin in production
-    response['Access-Control-Allow-Methods'] = 'POST, OPTIONS'  # Add other allowed methods
-    response['Access-Control-Allow-Headers'] = 'Content-Type'  # Add other allowed headers
-    return response
