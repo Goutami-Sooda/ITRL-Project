@@ -68,9 +68,78 @@ A versatile online code editor and compiler that works great in a web environmen
 
 ## Frontend:
 
+The frontend of this project is built using React and Chakra UI, providing a modern, responsive, and accessible user interface. Chakra UI's comprehensive set of accessible components and design principles ensures a seamless user experience across different devices and screen sizes. The application features an interactive Kannada keyboard and a voice recognition system to facilitate input in Kannada, enhancing user engagement. Users can input text either by typing or speaking, with the application translating their input into Python code. This interactive interface promotes coding education in Kannada, making it accessible to native speakers. The use of Chakra UI allows for quick development and easy customization, ensuring the application remains user-friendly and visually appealing.
+
 ## Backend:
 
+The backend of this project is developed using Django, a high-level Python web framework that promotes rapid development and clean, pragmatic design. It handles several key functionalities including translating Kannada algorithms to English using the deep_translator library, converting translated text to Python code via a Hugging Face model, and providing error message translations. Secure handling of POST requests with CSRF exemption is implemented for endpoints requiring external API interactions. The backend includes a model activation function to ensure the Hugging Face model is ready for inference. All responses are managed through Django's JsonResponse to facilitate smooth communication with the frontend, which is built with React and Chakra UI. Additionally, the backend is configured to handle CORS to allow interaction with the frontend hosted on different origins during development.
+
 ## Deployment:
+
+### Frontend:[KalikeMate](https://kalikemate.vercel.app/)
+### Backend:[Backend](http://sirius03.pythonanywhere.com/)
+### API Endpoints
+
+1. **Translate Algorithm**
+   - **Endpoint:** `/api/translate/`
+   - **Method:** POST
+   - **Description:** Translates a given Kannada algorithm to English and converts the translated text to Python code.
+   - **Request Body:** 
+     ```json
+     {
+       "text": "<kannada_algorithm>"
+     }
+     ```
+
+2. **Translate Error Message**
+   - **Endpoint:** `/api/translateError/`
+   - **Method:** POST
+   - **Description:** Translates an error message from English to Kannada.
+   - **Request Body:** 
+     ```json
+     {
+       "text": "<error_message>"
+     }
+     ```
+
+3. **Activate Model**
+   - **Endpoint:** `/api/activate-model/`
+   - **Method:** POST
+   - **Description:** Activates the Hugging Face model for inference.
+   - **Request Body:** 
+     ```json
+     {}
+     ```
+
+4. **Translate About Text**
+   - **Endpoint:** `/api/translateAbout/`
+   - **Method:** POST
+   - **Description:** Translates text from Kannada to English.
+   - **Request Body:** 
+     ```json
+     {
+       "text": "<kannada_text>"
+     }
+     ```
+
+5. **CORS Preflight Requests**
+   - **Endpoint:** `/api/translate/options/`
+   - **Method:** OPTIONS
+   - **Description:** Handles preflight requests for CORS when accessing the `/api/translate/` endpoint.
+
+   - **Endpoint:** `/api/translateError/options/`
+   - **Method:** OPTIONS
+   - **Description:** Handles preflight requests for CORS when accessing the `/api/translateError/` endpoint.
+
+   - **Endpoint:** `/api/activate-model/options/`
+   - **Method:** OPTIONS
+   - **Description:** Handles preflight requests for CORS when accessing the `/api/activate-model/` endpoint.
+
+   - **Endpoint:** `/api/translateAbout/options/`
+   - **Method:** OPTIONS
+   - **Description:** Handles preflight requests for CORS when accessing the `/api/translateAbout/` endpoint.
+
+
 
 # [Reading Material](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
 
