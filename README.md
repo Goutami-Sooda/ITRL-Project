@@ -1,9 +1,5 @@
 # Interactive Tool in Regional Language to Inculcate Coding Skills in Rural Students (ITRL)
 
-# About
-
-This project is a web application to teach fundamental coding topics in Kannada, addressing the dearth of coding resources in regional languages. With a focus on pupils in rural Karnataka, the programme provides Kannada-language algorithm input together with specially designed lectures and exams. The programme translates Kannada methods to Python code using an NLP model that has been optimised using Salesforce's CodeT5, enabling learners to verify their reasoning in an embedded coding environment. An integrated, end-to-end solution for learning to code in Kannada is provided by the translation of outputs and mistakes from English to Kannada.
-
 # Intuition
 
 In the modern world, programming abilities—which include critical thinking and problem-solving—are essential. However, because internet materials are primarily written in English, students in remote locations frequently lack access to high-quality instructional resources, particularly in programming. They also encounter linguistic obstacles. In order to overcome language hurdles and give rural students fair access to programming, analytical thinking, and logical reasoning education, we suggest a web application that teaches programming in Kannada.
@@ -15,7 +11,14 @@ In the modern world, programming abilities—which include critical thinking and
 # Key Features
 
 With the many interactive features on this platform, students may test their knowledge and experiment with different ideas.
-1. Coding Platform: The primary feature is, of course, the coding platform, where students can dictate or type algorithmic statements in their mother tongue and have the matching code generated for them. Students can use the embedded interpreter on the right side of the interface to run their code once all of the program's statements have been completed.
+1. Learning Materials: A series of meticulously crafted tutorials have been developed, each focusing on essential coding concepts like variables, print statements, operators, data types, conditional statements, loops and error handling. These tutorials are created in Kannada enabling the user to understand the concepts in their regional language.
+[Drive Link](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
+
+<p align=center>
+<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=600 height=350>
+</p>
+
+2. Coding Platform: The primary feature is, of course, the coding platform, where students can dictate or type algorithmic statements in Kannada and have the matching Python code generated for them. Students can use the embedded interpreter on the right side of the interface to run their code once all of the program's statements have been completed.
 
 <p align=center>
 <img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233548.png width=600 height=350>
@@ -27,7 +30,7 @@ With the many interactive features on this platform, students may test their kno
 <img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233630.png width=600 height=350>
 </p>
 
-2. Error detection: The embedded interpreter recognises any logical, syntactic, or other errors and may translate the error message into Kannada so that students can comprehend it.
+3. Error detection: The embedded interpreter recognises any logical, syntactic, or other errors and may translate the error message into Kannada so that students can comprehend it.
 
 <p align=center>
 <img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20233709.png width=600 height=350>
@@ -37,11 +40,7 @@ With the many interactive features on this platform, students may test their kno
 <img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20234028.png width=600 height=350>
 </p>
 
-3. The third element is an interactive quiz platform where students can solve problems to see how much they know before moving on to writing programmes. A sizable corpus of native-language Python content is also included with the platform for learners.
-
-<p align=center>
-<img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231604.png width=600 height=350>
-</p>
+4. Interactive quiz: The fourth element is an interactive quiz platform where students can solve problems to see how much they know before moving on to writing programs. A sizable corpus of native-language Python content is also included with the platform for learners.
 
 <p align=center>
 <img src=https://github.com/Goutami-Sooda/ITRL-Project/blob/main/images/Screenshot%202024-06-25%20231657.png width=600 height=350>
@@ -60,7 +59,7 @@ In order to optimise the model, the dataset was carefully prepared by the team t
 
 ## Fine Tuning:
 
-Through fine-tuning [Salesforce's CodeT5-base](https://huggingface.co/Salesforce/codet5-large) model, the NLP model processes natural language inputs to produce programming language outputs. The model uses PyTorch for training, TensorFlow for data processing, and Hugging Face's transformers to generate comprehensive code using Google's T5 encoder-decoder architecture. Eleven25 elements from the custom dataset—hosted on GitHub—were designated as training and 125 as testing. TensorFlow and Roberta Tokenizer were used for byte-level Byte-Pair Encoding during the preprocessing stage. Hugging Face's Trainer class was used for Google Colab training. After it was adjusted, the model was uploaded to the Hugging Face Hub so that it could be integrated with the website.
+Through fine-tuning [Salesforce's CodeT5-base](https://huggingface.co/Salesforce/codet5-large) model, the NLP model processes natural language inputs to produce programming language outputs. The model uses PyTorch for training, TensorFlow for data processing, and Hugging Face's transformers to generate comprehensive code using Google's T5 encoder-decoder architecture. 1125 elements from the custom dataset—hosted on GitHub—were designated as training and 125 as testing. TensorFlow and Roberta Tokenizer were used for byte-level Byte-Pair Encoding during the preprocessing stage. Hugging Face's Trainer class was used for Google Colab training. After it was adjusted, the model was uploaded to the Hugging Face Hub so that it could be integrated with the website.
 
 ## Embedded interpreter:
 
@@ -76,8 +75,8 @@ The backend of this project is developed using Django, a high-level Python web f
 
 ## Deployment:
 
-### Frontend:[KalikeMate](https://kalikemate.vercel.app/)
-### Backend:[Backend](http://sirius03.pythonanywhere.com/)
+[KalikeMate](https://kalikemate.vercel.app/)
+
 ### API Endpoints
 
 1. **Translate Algorithm**
@@ -122,28 +121,8 @@ The backend of this project is developed using Django, a high-level Python web f
      }
      ```
 
-5. **CORS Preflight Requests**
-   - **Endpoint:** `/api/translate/options/`
-   - **Method:** OPTIONS
-   - **Description:** Handles preflight requests for CORS when accessing the `/api/translate/` endpoint.
 
-   - **Endpoint:** `/api/translateError/options/`
-   - **Method:** OPTIONS
-   - **Description:** Handles preflight requests for CORS when accessing the `/api/translateError/` endpoint.
-
-   - **Endpoint:** `/api/activate-model/options/`
-   - **Method:** OPTIONS
-   - **Description:** Handles preflight requests for CORS when accessing the `/api/activate-model/` endpoint.
-
-   - **Endpoint:** `/api/translateAbout/options/`
-   - **Method:** OPTIONS
-   - **Description:** Handles preflight requests for CORS when accessing the `/api/translateAbout/` endpoint.
-
-
-
-# [Reading Material](https://drive.google.com/drive/folders/1okYKhn8ewqYDQ_f1P-_DYWMdnaefMif1)
-
-# Video Resources:
+# Demo Video:
 
 [English Tutorial](https://drive.google.com/file/d/1MEPcQEjBUFLF_r47iJ4BAu7gUZnlONK7/view?usp=drivesdk)
 
