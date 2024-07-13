@@ -34,7 +34,7 @@ def translate_algorithm(request):
 
 def model_inference(english_algorithm):
     API_URL = "https://api-inference.huggingface.co/models/AshArya/ITRLTrained"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer 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"}
     payload = {"inputs": english_algorithm}
 
     # Perform model inference
@@ -100,7 +100,7 @@ def activate_model(request):
         try:
             #data = json.loads(request.body)
             API_URL = "https://api-inference.huggingface.co/models/AshArya/ITRLTrained"
-            headers = {"Authorization": "Bearer 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"}
+            headers = {"Authorization": "Bearer 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"}
             start = "print success"
             payload = {"inputs": start}
 
