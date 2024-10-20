@@ -1,0 +1,546 @@
+[
+    {
+        "text": "Print otherwise \"It is not an Armstrong number",
+        "code": "else\n    print(\"It is not an Armstrong number\")"
+    },
+    {
+        "text": "If not then print \"You have received F grade\" if N < 50 is true",
+        "code": "elif N<50:\nprint(\"You have received F grade\")"
+    },
+    {
+        "text": "Assign A B and C to a variable called sum",
+        "code": "sum=A+B+C"
+    },
+    {
+        "text": "Declare variable B and assign user input numeric value to N",
+        "code": "B = int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "Assign number two to variable A.",
+        "code": "A = 2"
+    },
+    {
+        "text": "Add three to A",
+        "code": "A=A+3"
+    },
+    {
+        "text": "Declare variable B and assign user input numeric value",
+        "code": "B = int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "Assign user input number as string to variable A.",
+        "code": "A = input(\" Enter A : \")"
+    },
+    {
+        "text": "If not then print \"You have received C grade\" if N >= 70 true",
+        "code": "elif N>= 70:\nprint(\"You have received C grade\")"
+    },
+    {
+        "text": "Assign user input to variable R",
+        "code": "R = input(\"Enter R : \")"
+    },
+    {
+        "text": "Declare variable N and assign user input numeric value",
+        "code": "N = int(input(\"Enter  N : \"))"
+    },
+    {
+        "text": "Add A and B and assign their sum to the result variable",
+        "code": "result = A + B"
+    },
+    {
+        "text": "If otherwise c >= a and c >= b . C variable is the largest of all",
+        "code": "elif (C >= A) and (C>= B):\n    largest = C"
+    },
+    {
+        "text": "If variable N is greater than zero, print it as 'positive number'",
+        "code": "if N > 0:\n    print(\"positive number\")"
+    },
+    {
+        "text": "Print Area",
+        "code": "print(area)"
+    },
+    {
+        "text": "Start for loop with J from zero to ten",
+        "code": "for J in range(0,10):"
+    },
+    {
+        "text": "Pi int radius int radius and assign the answer to the variable area",
+        "code": "area = pi* radius * radius"
+    },
+    {
+        "text": "Assign user input to variable T",
+        "code": "T = input(\"Enter T : \")"
+    },
+    {
+        "text": "If Variable A is equal to Variable B or less than B and  If Variable A is equal to or less than C Variable A is the smallest of all, Assign A variable to the smallest variable",
+        "code": "if (A <= B) and (A <= C):\n    smallest = A"
+    },
+    {
+        "text": "number //= 10",
+        "code": "number //= 10"
+    },
+    {
+        "text": "If not then print \"You have received this grade\" if N >= 50 is true",
+        "code": "elif N>= 50:\nprint(\"You have received E grade\")"
+    },
+    {
+        "text": "Execute while Loop with the condition that Variable J < 25 must be true",
+        "code": "while J < 25:"
+    },
+    {
+        "text": "If N>0 is true print 'positive number'",
+        "code": "if N > 0:\n    print(\"positive number\")"
+    },
+    {
+        "text": "If not, print it as 'positive' if variable N is greater than zero",
+        "code": "elif N > 0:\n    print(\"positive\")"
+    },
+    {
+        "text": "If a divisible by i",
+        "code": "if a%i==0:"
+    },
+    {
+        "text": "Print that the value of variable P is less than or equal to T",
+        "code": "print(P<=T)"
+    },
+    {
+        "text": "Miss A and B and put what is the difference to the variable",
+        "code": "difference = A - B"
+    },
+    {
+        "text": "If N is greater than ninety or ninety print that \"you have received A grade",
+        "code": "if N>= 90:\nprint(\"you have received A grade\")"
+    },
+    {
+        "text": "Print 'negative number' if variable N is less than zero",
+        "code": "if N < 0:\n    print(\"negative number\")"
+    },
+    {
+        "text": "Schedule user input for integer variable age",
+        "code": "age = int(input(\"Enter age : \"))"
+    },
+    {
+        "text": "Show the word 'hello world' on the screen",
+        "code": "print(\"Hello World\")"
+    },
+    {
+        "text": "If not then print 'negative number' if N<0",
+        "code": "elif N < 0:\n    print(\"negative number\")"
+    },
+    {
+        "text": "Create a variable B and assign the numeric value provided by the user.",
+        "code": "B = int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "Store \"hello\" to variable A.",
+        "code": "A=\"hello"
+    },
+    {
+        "text": "Print zero if variable N is zero",
+        "code": "if N == 0:\n    print(\"zero\")"
+    },
+    {
+        "text": "Collect 25 for variable  B.",
+        "code": "B = 25"
+    },
+    {
+        "text": "Collect the value of A null B inside the loop",
+        "code": "  A = B"
+    },
+    {
+        "text": "Assign string value 'Python' in a variable called Language",
+        "code": "language = \"Python"
+    },
+    {
+        "text": "Assign User Given Character to Variable A",
+        "code": "A=input(\"Enter A : \")"
+    },
+    {
+        "text": "If not then print that \"you have received C grade\" if N is seventy or more than seventy",
+        "code": "elif N>= 70:\nprint(\"you have received C grade\")"
+    },
+    {
+        "text": "Declare integer variable N and assign user input numeric value",
+        "code": "N = int(input(\"Enter N : \"))"
+    },
+    {
+        "text": "Or enforce a for loop,from one  to fourteen",
+        "code": "for i in range(1,14):"
+    },
+    {
+        "text": "Collect the number given by the user in variable B",
+        "code": "B = int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "If variable N is greater than zero, print it as 'positive number'",
+        "code": "if N > 0:\n    print(\"positive number\")"
+    },
+    {
+        "text": "Assign User Input Value in Variable name",
+        "code": "name = input(\"Enter name : \")"
+    },
+    {
+        "text": "Add A and B to the variable sum",
+        "code": "sum = A + B"
+    },
+    {
+        "text": "If not then print that \"you have obtained\" C grade if N >= 70 is true",
+        "code": "elif N>= 70:\nprint(\"you have obtained C grade\")"
+    },
+    {
+        "text": "Declare variable J and set it to zero",
+        "code": "J = 0"
+    },
+    {
+        "text": "Print 'positive number' if variable N is greater than zero",
+        "code": "if N > 0:\n    print(\"positive number\")"
+    },
+    {
+        "text": "Declare the result variable and store zero in it",
+        "code": "result = 0"
+    },
+    {
+        "text": "If variable N is smaller than zero, print it as a 'negative number'",
+        "code": "if N < 0:\n    print(\"negative number\")"
+    },
+    {
+        "text": "Assign zero to a variable called reverse_number",
+        "code": "reverse_number=0"
+    },
+    {
+        "text": "Update factorial as factorial *i",
+        "code": "factorial*=i"
+    },
+    {
+        "text": "Print \"hi\" inside loop",
+        "code": "  print(\"hi\")"
+    },
+    {
+        "text": "If not, attach one to the variable Y",
+        "code": "else:\n    Y+=1"
+    },
+    {
+        "text": "Declare the variable N and collect the user-given float in it",
+        "code": "N = float(input(\"Enter N : \"))"
+    },
+    {
+        "text": "Execute for loop with i from 0 to 4",
+        "code": "for i in range(0,4):"
+    },
+    {
+        "text": "Multiply 2 with radius Multiply with pi and collect the value in variable circumference",
+        "code": "circumference=2*pi*radius"
+    },
+    {
+        "text": "If N % 2 is zero, print \"N is an even number",
+        "code": "if N % 2 == 0:\n    print(\"N is an even number\")"
+    },
+    {
+        "text": "Assign number two to variable a",
+        "code": "a  = 2"
+    },
+    {
+        "text": "Print variable amount",
+        "code": "print(amount)"
+    },
+    {
+        "text": "reverse_number = reverse_number * 10 + number % 10",
+        "code": "reverse_number = reverse_number*10 + number%10"
+    },
+    {
+        "text": "Assign number ten to variable A",
+        "code": "A=10"
+    },
+    {
+        "text": "multiply a and b and store it in a variable called product",
+        "code": "Product = A * B"
+    },
+    {
+        "text": "Print one two three four five with tab space",
+        "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+    },
+    {
+        "text": "Assign User Giving Value to Variable C with decimal point",
+        "code": "C=float(input(\"Enter C : \"))"
+    },
+    {
+        "text": "If not then print that \"you have received E grade\" if N is fifty or more",
+        "code": "elif N>= 50:\nprint(\"you have received E grade\")"
+    },
+    {
+        "text": "Assign Celsius user input",
+        "code": "Celsius = float(input(\"Enter Celsius : \"))"
+    },
+    {
+        "text": "Start for loop with i from 0 to N",
+        "code": "for i in range (0,N):"
+    },
+    {
+        "text": "Assign number two to variable num_1",
+        "code": "num_1 = 2"
+    },
+    {
+        "text": "Print B",
+        "code": "print(B)"
+    },
+    {
+        "text": "Print X",
+        "code": "print(X)"
+    },
+    {
+        "text": "Set the value given by the user to variable S",
+        "code": "S=int(input(\"Enter S : \"))"
+    },
+    {
+        "text": "Declare Kelvin variable and add 273 to Fahrenheit and assign it to Kelvin variable",
+        "code": "Kelvin = Celsius + 273"
+    },
+    {
+        "text": "If not then print that \"you have received B grade\" if N >= 80 is true",
+        "code": "elif N>= 80:\nprint(\"you have received B grade\")"
+    },
+    {
+        "text": "Add a value of S **2 to the variable A",
+        "code": "A=S**2"
+    },
+    {
+        "text": "Print data type of N",
+        "code": "print(type(N))"
+    },
+    {
+        "text": "Collect the number given by the user in variable B",
+        "code": "B=int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "If not then print \"You have received B grade\" if N >= 80 is true",
+        "code": "elif N>= 80:\nprint(\"You have received B grade\")"
+    },
+    {
+        "text": "Otherwise print \"Invalid Input",
+        "code": "else:\nprint(\"Invalid Input\")"
+    },
+    {
+        "text": "Assign User Giving float Number to Variable A",
+        "code": "A = float(input(\"Enter A : \"))"
+    },
+    {
+        "text": "Assign the missing answer A and B to the variable variable Variance",
+        "code": "difference = A - B"
+    },
+    {
+        "text": "Print '1\\t 2\\t 3\\t 4\\t 5\\t'",
+        "code": "print(\" 1\\t 2\\t 3\\t 4\\t 5\\t \")"
+    },
+    {
+        "text": "Assign the sum past A and B to the variable difference",
+        "code": "difference = A - B"
+    },
+    {
+        "text": "If not, print 'positive' if variable N is greater than zero",
+        "code": "elif N > 0:\n    print(\"positive\")"
+    },
+    {
+        "text": "Store 'Python' in a variable called Language",
+        "code": "language = \"Python"
+    },
+    {
+        "text": "Collect the value that the user tells the float variable Celsius",
+        "code": "Celsius = float(input(\"Enter Celsius : \"))"
+    },
+    {
+        "text": "Collect the multiplied value of A and B in the variable Product",
+        "code": "Product = A * B"
+    },
+    {
+        "text": "Print Variable A",
+        "code": "print(A)"
+    },
+    {
+        "text": "If not, print it as a 'positive number' if variable N is greater than zero",
+        "code": "elif N > 0:\n    print(\"positive\")"
+    },
+    {
+        "text": "Execute for loop with i from 0 to N",
+        "code": "for i in range (0,N):"
+    },
+    {
+        "text": "If N is greater than ninety or ninety, print \"You have received A grade",
+        "code": "if N>= 90:\nprint(\"You have received A grade\")"
+    },
+    {
+        "text": "Now add the result and variable N within the width loop and collect their sum in the result",
+        "code": "  result += N"
+    },
+    {
+        "text": "Show difference now",
+        "code": "print(difference)"
+    },
+    {
+        "text": "Print variable difference",
+        "code": "print(difference)"
+    },
+    {
+        "text": "If not then print \"You have received this grade\" if N >= 50 is true",
+        "code": "elif N>= 50:\nprint(\"You have received E grade\")"
+    },
+    {
+        "text": "Assign user input number to variable number inside loop",
+        "code": "  number = int(input(\"Enter number : \"))"
+    },
+    {
+        "text": "Store for variable  B (A- 32).",
+        "code": "b=a-32"
+    },
+    {
+        "text": "Print Y",
+        "code": "print(Y)"
+    },
+    {
+        "text": "Assign zero to the variable i",
+        "code": "i=0"
+    },
+    {
+        "text": "Start for loop with J from one to 26",
+        "code": "for J in range(1,26):"
+    },
+    {
+        "text": "If variable N is greater than 1",
+        "code": "if N > 1:"
+    },
+    {
+        "text": "Declare the variable N and store the user's input float value in it",
+        "code": "N = float(input(\"Enter N : \"))"
+    },
+    {
+        "text": "Assign integer user input to variable B",
+        "code": "B = int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "If N is divisible by two and Reminder is zero, print \"N is an even number",
+        "code": "if N % 2 == 0:\n    print(\"N is an even number\")"
+    },
+    {
+        "text": "If not, print 'zero' if variable N is zero",
+        "code": "elif N == 0:\n    print(\"zero\")"
+    },
+    {
+        "text": "Declare variable A and assign user input numeric value",
+        "code": "A = int(input(\"Enter A : \"))"
+    },
+    {
+        "text": "Print Largest",
+        "code": "print(largest)"
+    },
+    {
+        "text": "Declare float variable radius and store user input value in it",
+        "code": "radius= float(input(\"Enter  radius : \")"
+    },
+    {
+        "text": "Print A",
+        "code": "print(A)"
+    },
+    {
+        "text": "If not, print 'Positive' if Variable N is greater than zero",
+        "code": "elif N > 0:\n    print(\"positive\")"
+    },
+    {
+        "text": "Start with a condition that while Loop I variable number must be less than one plus",
+        "code": "while i<N+1 :"
+    },
+    {
+        "text": "Print variable name",
+        "code": "print(name)"
+    },
+    {
+        "text": "Assign number twenty-four to variable a",
+        "code": "a=24"
+    },
+    {
+        "text": "Put result plus i to a variable called result inside loop",
+        "code": "  result += i"
+    },
+    {
+        "text": "Declare variable string and add user input to it",
+        "code": "string = input(\"Enter string : \")"
+    },
+    {
+        "text": "Collect 19235 for variable A.",
+        "code": "A=19235"
+    },
+    {
+        "text": "Otherwise variable B is the largest of all. Assign B variable to the\n largest variable",
+        "code": "else:\n    largest = B"
+    },
+    {
+        "text": "Print the largest variable",
+        "code": "print(largest)"
+    },
+    {
+        "text": "Print Variable B",
+        "code": "print(B)"
+    },
+    {
+        "text": "If not, print 'negative number' if variable N is less than zero",
+        "code": "elif N < 0:\n    print(\"negative number\")"
+    },
+    {
+        "text": "If not, print 'positive number' if variable N is greater than zero",
+        "code": "elif N > 0:\n    print(\"positive number\")"
+    },
+    {
+        "text": "Add A and B and store them in a variable called sum",
+        "code": "sum = A + B"
+    },
+    {
+        "text": "Add three to A and print",
+        "code": "A=A+3"
+    },
+    {
+        "text": "Add two hundred seventy-three to the Fahrenheit and assign it to the Kelvin variable",
+        "code": "Kelvin = Celsius + 273"
+    },
+    {
+        "text": "Print variable smallest",
+        "code": "print(smallest)"
+    },
+    {
+        "text": "Print variable A",
+        "code": "print(A)"
+    },
+    {
+        "text": "Assign user input number to variable B",
+        "code": "B = int(input(\"Enter B : \"))"
+    },
+    {
+        "text": "Assign User Giving Value to Variable T",
+        "code": "T = input(\"Enter T : \")"
+    },
+    {
+        "text": "Put number 14 to variable C",
+        "code": "C=14"
+    },
+    {
+        "text": "Collect decimal value 3.14 in variable no.1",
+        "code": "No.1. = 3.14"
+    },
+    {
+        "text": "Schedule ten for variable A",
+        "code": "A=10"
+    },
+    {
+        "text": "Print J inside loop",
+        "code": "  print(j)"
+    },
+    {
+        "text": "Declare a variable year and assign user input to it where year is int",
+        "code": "year = int(input(\"Enter year : \"))"
+    },
+    {
+        "text": "If not, then print 'N is not a prime number' if N is less than or equal to one",
+        "code": "else:\n    print(\"N is not a prime number\")"
+    },
+    {
+        "text": "Assign -101 to variable A.",
+        "code": "A = -101"
+    }
+]
